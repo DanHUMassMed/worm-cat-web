@@ -29,9 +29,9 @@ def get_wormcat_lib():
 
 # Call Wormcat once for each sheet (tab) in the spreadsheet
 def call_wormcat(name, gene_ids, output_dir, annotation_file, input_type):
-    file_nm = "{}.csv".format(name)
-    dir_nm = "{}".format(name)
-    title = dir_nm.replace('_', ' ')
+    file_nm = os.path.join(output_dir, "{}.csv".format(name))
+    dir_nm = os.path.join(output_dir, "{}".format(name))
+    title = str(name).replace('_', ' ')
     gene_ids = gene_ids.to_frame(name=input_type)
     gene_ids.to_csv(file_nm, index=False)
     executeR = ExecuteR()
@@ -43,8 +43,6 @@ def process_spreadsheet(xsl_file_nm, output_dir, annotation_file, redis_channel)
     gene_id_all = None
     input_type = None
     xl = pd.ExcelFile(xsl_file_nm)
-    current_working_dir = os.getcwd()
-    os.chdir(output_dir)
 
     if redis_channel:
         redis_message = {'name': 'SHEETS', 'value': len(xl.sheet_names)}
@@ -74,8 +72,6 @@ def process_spreadsheet(xsl_file_nm, output_dir, annotation_file, redis_channel)
     if redis_channel:
         redis_message = {'name': 'MESSAGE', 'value': 'Compiling Excel category summaries...'}
         redis_server.lpush(redis_channel, json.dumps(redis_message))
-
-    os.chdir(current_working_dir)
 
 
 def files_to_process(output_dir):

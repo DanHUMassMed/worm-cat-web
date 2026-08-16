@@ -1,11 +1,7 @@
-import flask
 from flask_wtf import FlaskForm
-from wtforms import StringField, SelectField, RadioField, TextAreaField, DecimalField, SubmitField, BooleanField, IntegerField, HiddenField, PasswordField
-from wtforms.validators import DataRequired, Regexp, Optional
+from wtforms import StringField, SelectField, TextAreaField, SubmitField, HiddenField
+from wtforms.validators import DataRequired
 
-from decimal import Decimal
-import re
-import string
 
 
 class WormCatForm(FlaskForm):
@@ -26,15 +22,7 @@ class WormCatForm(FlaskForm):
     input_type = SelectField('input_type', coerce=str, choices=input_type_choices)
 
     rgs = TextAreaField('rgs', validators=[DataRequired("Regulated Gene Expression list is required.")])
-    # submit = SubmitField('Submit')
 
-class AdminForm(FlaskForm):
-    pass
-
-class LoginForm(FlaskForm):
-    user_name = StringField('user_name', validators=[DataRequired("Username is required.")])
-    password = PasswordField('password', validators=[DataRequired("Password is required.")])
-    submit = SubmitField('Sign In')
 
 class BatchForm(FlaskForm):
     email = HiddenField('email')

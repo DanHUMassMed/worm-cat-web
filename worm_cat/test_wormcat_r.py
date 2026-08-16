@@ -8,7 +8,6 @@ Verifies:
 3. Generation of expected output artifacts (fisher cat1, cat2, cat3 csv files).
 """
 
-import os
 import sys
 import shutil
 import subprocess
@@ -69,16 +68,18 @@ def run_wormcat_r_test(input_file: Path, title: str = "test_rgs", annotation: st
 
     timestamp = datetime.now().strftime("%b-%d-%Y-%H_%M_%S")
     out_dir_name = f"test_run_{timestamp}"
-    
+
     # Ensure dynamic dir exists
     DYNAMIC_DIR.mkdir(parents=True, exist_ok=True)
+
+    final_output_path = DYNAMIC_DIR / out_dir_name
 
     cmd = [
         "Rscript",
         str(R_SCRIPT),
         "--file", str(input_file),
         "--title", title,
-        "--out_dir", out_dir_name,
+        "--out_dir", str(final_output_path),
         "--annotation_file", annotation,
         "--input_type", input_type,
     ]
@@ -87,7 +88,7 @@ def run_wormcat_r_test(input_file: Path, title: str = "test_rgs", annotation: st
     print(f"Working directory: {SCRIPT_DIR}\n")
 
     res = subprocess.run(cmd, cwd=SCRIPT_DIR, capture_output=True, text=True)
-    
+
     if res.stdout:
         print(f"--- R Output ---\n{res.stdout.strip()}\n----------------")
     if res.stderr:
