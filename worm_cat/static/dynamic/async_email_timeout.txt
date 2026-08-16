@@ -1,0 +1,6 @@
+None, ./static/dynamic/Feb-14-2026-18_50_56-WormCat_gene_lists_WormBaseID.xlsx, 87a50b82-8e05-425c-9192-17f840a19320
+xingyue-yang@camps.technion.ac.il, ./static/dynamic/Feb-14-2026-19_00_48-WormCat_gene_lists_WormBaseID.xlsx, None
+heinke.charlie@gmail.com, ./static/dynamic/Jun-29-2026-21_16_34-DE_Wormbase_IDs.xlsx, None
+None, ./static/dynamic/Jun-29-2026-21_17_16-DE_Wormbase_IDs.xlsx, cf5f30d8-02b8-41e3-a28c-04e6ef126a2a
+None, ./static/dynamic/Jun-29-2026-22_39_10-DE_Wormbase_IDs_remaining.xlsx, bcc52b79-1a79-4786-a27c-0b475e3682ea
+p.ebert@uq.edu.au, ./static/dynamic/Jul-24-2026-04_36_54-AN_orthologues_neurons.xlsx, None

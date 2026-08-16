@@ -1,0 +1,132 @@
+{% extends "layout.html" %}
+{% block body %}
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-153057757-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-153057757-1');
+    </script>
+    <style>
+        .progress_s {
+            width: 50%;
+            text-align: center;
+        }
+        .custom_button_width {
+            width: 200px !important;
+        }
+    </style>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+   <h2>WormCat Batch</h2>
+   <div class="container span2">
+      <div class="row">
+          {% for message in get_flashed_messages() %}
+                <p style="color: blue;">{{ message }}</p>
+          {% endfor %}
+          <form id="batch_run_form" name="batch_run_form" role="form" method="post">
+              {% if session.get('email') %}
+                  <input id="send-email-id" class="btn btn-sm btn-primary custom_button_width" type="submit" name="submit" value="Send Email">
+              {% else %}
+                  <input class="btn btn-sm btn-primary custom_button_width" type="submit" name="submit" value="Send Email" disabled>
+              {% endif %}
+          </form>
+          <br>
+              {% if session.get('email') %}
+                  <button id="start-bg-job" class="btn btn-sm btn-success custom_button_width">Let it Run</button>
+              {% else %}
+                  <button class="btn btn-sm btn-success custom_button_width" disabled>Let it Run</button>
+              {% endif %}
+      </div>
+   </div>
+   <div class="container">
+      <div class="row">
+              <div id="progress0"></div>
+              <div id="progress1"></div>
+              <div id="progress2"></div>
+      </div>
+
+   </div>
+
+    <script>
+        function start_long_task() {
+            $("#start-bg-job").attr("disabled", "disabled");
+            $("#send-email-id").attr("disabled", "disabled");
+
+            start_processing = $('<h2>Online Processing...</h2>');
+            $('#progress0').append(start_processing);
+
+            progress_bar = $('<div class="progress" style="width: 50%; margin: 50px;">' +
+                             '   <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%">' +
+                             '         <span class="progress-bar-label">0%</span>' +
+                             '   </div>' +
+                             '</div>');
+            $('#progress1').append(progress_bar);
+
+            div = $('<div class="progress_s" style="width: 50%; margin: 50px;">' +
+                '<div></div>' +
+                '<div></div>' +
+                '<div>&nbsp;</div>' +
+                '</div');
+            $('#progress2').append(div);
+
+            // send ajax POST request to start background job
+            $.ajax({
+                type: 'POST',
+                url: '/longtask',
+                success: function(data, status, request) {
+                    status_url = request.getResponseHeader('Location');
+                    update_progress(status_url, div[0], 1);
+                },
+                error: function() {
+                    alert('Unexpected error');
+                }
+            });
+        }
+
+        function update_progress(status_url, status_div, loop_limit) {
+            // send GET request to status URL
+            $.getJSON(status_url, function(data) {
+                // update UI
+                percent = parseInt(data['current'] * 100 / data['total']);
+
+                $('.progress-bar').css('width', percent+'%').attr('aria-valuenow', percent);
+		        $('.progress-bar-label').text(percent+'%');
+
+                $(status_div.childNodes[1]).text(data['status']);
+
+                if (data['state'] != 'PENDING' && data['state'] != 'PROGRESS') {
+                    if ('result' in data) {
+                        // show result
+                        $(status_div.childNodes[2]).html('<a href=' + data['result']+'> Download Results </a>');
+                    }
+                    else {
+                        // something unexpected happened
+                        $(status_div.childNodes[2]).text('Result: ' + data['state']);
+                    }
+                }
+                else {
+                    // 300 == Approximately 10 Minutes
+                    if(loop_limit === 300){
+                        $(status_div.childNodes[2]).text('Error: batch process has timed out.');
+                    }
+                    else{
+                        // rerun in 2 seconds
+                        setTimeout(function() {
+                            update_progress(status_url, status_div, ++loop_limit);
+                        }, 2000);
+                    }
+                }
+            });
+        }
+        $(function() {
+            $('#start-bg-job').click(start_long_task);
+        });
+    </script>
+
+
+{% endblock %}

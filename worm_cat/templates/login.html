@@ -1,0 +1,33 @@
+{% extends "layout.html" %}
+{% block body %}
+     <link href="../static/css/signin.css" rel="stylesheet">
+    <div class="container">
+      <form class="form-signin" method="post" name="login">
+          {% if error %}<p style="color: red;" class=error><strong>Error:</strong> {{ error }}</p>{% endif %}
+          {{ form.hidden_tag() }}
+
+        <label for="user_name" >User Name:</label> {{ form.user_name(id="user_name", class="form-control", size=20) }}
+        {% for error in form.user_name.errors %}
+            <span style="color: red;">[{{ error }}]</span><br/>
+        {% endfor %}
+
+        <label for="password" >Password:</label> {{ form.password(id="password", class="form-control", size=20) }}
+        {% for error in form.password.errors %}
+            <span style="color: red;">[{{ error }}]</span><br/>
+        {% endfor %}
+
+        {% with messages = get_flashed_messages() %}
+            {% if messages %}
+                <ul class=flashes>
+                    {% for message in messages %}
+                        <li>{{ message }}</li>
+                    {% endfor %}
+                </ul>
+            {% endif %}
+        {% endwith %}
+
+        {{ form.submit(class="btn btn-lg btn-primary btn-block") }}
+
+      </form>
+    </div>
+{% endblock %}

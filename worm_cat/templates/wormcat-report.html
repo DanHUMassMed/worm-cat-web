@@ -1,0 +1,177 @@
+{% extends "layout.html" %}
+{% block body %}
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-153057757-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-153057757-1');
+    </script>
+
+<style>
+        .table-wrapper-2 {
+        display: block;
+        max-height: 300px;
+        overflow-y: auto;
+        -ms-overflow-style: -ms-autohiding-scrollbar;
+    }
+
+
+
+</style>
+<script>
+
+// Popup window code
+function newPopup(url,name) {
+	popupWindow = window.open(
+		url,name,'height=400,width=500,left=10,top=10,resizable=yes,scrollbars=no,toolbar=yes,menubar=no,location=no,directories=no,status=yes')
+}
+</script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/dataTables.bootstrap.min.css">
+
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/dt-1.10.18/datatables.min.css"/>
+<link rel="stylesheet" href="../static/css/zoom.css">
+<link rel="stylesheet" href="../static/css/starburst.css">
+
+
+   <h2>WormCat Report</h2>
+   <div class="container span2">
+      <div class="row">
+          <div class="btn-group">
+          <a class="btn btn-sm btn-success btn-block" href="../static/download/{{ui_data.dir}}.zip">Download Report</a>
+           <a class="btn btn-sm btn-primary btn-block" href="JavaScript:newPopup('./sunburst?dir={{ ui_data.dir }}','{{ ui_data.dir }}');">Open Sunburst View</a>
+          </div>
+      </div>
+   </div>
+   <div class="container">
+      <div class="row">
+          <h3>Category One</h3>
+      </div>
+      <div class="row">
+		  <div class="col-md-3 col-sm-4 col-xs-6" style="position:relative;">
+
+              <img class="img-responsive zoom" height="455" width="500" src="../static/dynamic/{{ ui_data.dir }}/rgs_fisher_cat1_apv.svg"/>
+
+          </div>
+          <div class="card">
+            <div class="card-body">
+                <div class="table-wrapper-2">
+                    <!--Table-->
+                    <table id="table_cat1" class="table table-responsive-md table-striped table-bordered">
+
+                        <thead class="mdb-color lighten-4">
+                            <tr>
+                                <th class="th-lg">Category</th>
+                                <th class="th-lg">RGS</th>
+                                <th class="th-lg">AC</th>
+                                <th class="th-lg">PValue</th>
+                                <th class="th-lg">Bonferroni</th>
+
+                            </tr>
+                        </thead>
+                        <tbody>
+                        {% for report_line in ui_data.cat1_apv %}
+                          <tr>
+                            <th scope="row">{{ report_line['Category'] }}</th>
+                            <td>{{ report_line['RGS'] }}</td>
+                            <td>{{ report_line['AC'] }}</td>
+                            <td>{{ report_line['PValue'] }}</td>
+                            <td>{{ report_line['Bonferroni'] }}</td>
+                          </tr>
+                        {% endfor %}
+                        </tbody>
+                    </table>
+                    <!--Table-->
+                </div>
+            </div>
+          </div>
+      </div>
+      <div class="row">
+          <h3>Category Two</h3>
+      </div>
+
+       <div class="row">
+          <div class="col-md-3 col-sm-4 col-xs-6">
+
+              <img class="img-responsive zoom" height="455" width="500" src="../static/dynamic/{{ ui_data.dir }}/rgs_fisher_cat2_apv.svg" />
+
+          </div>
+          <div class="card">
+            <div class="card-body">
+                <div class="table-wrapper-2">
+                    <!--Table-->
+                    <table id="table_cat2" class="table table-responsive-md table-striped table-bordered">
+                        <thead class="mdb-color lighten-4">
+                            <tr>
+                                <th class="th-lg">Category</th>
+                                <th class="th-lg">RGS</th>
+                                <th class="th-lg">AC</th>
+                                <th class="th-lg">PValue</th>
+                                <th class="th-lg">Bonferroni</th>
+
+                            </tr>
+                        </thead>
+                        <tbody>
+                        {% for report_line in ui_data.cat2_apv %}
+                          <tr>
+                            <th scope="row">{{ report_line['Category'] }}</th>
+                            <td>{{ report_line['RGS'] }}</td>
+                            <td>{{ report_line['AC'] }}</td>
+                            <td>{{ report_line['PValue'] }}</td>
+                            <td>{{ report_line['Bonferroni'] }}</td>
+                          </tr>
+                        {% endfor %}
+                        </tbody>
+                    </table>
+                    <!--Table-->
+                </div>
+            </div>
+          </div>
+       </div>
+       <div class="row">
+          <h3>Category Three</h3>
+      </div>
+
+       <div class="row">
+          <div class="col-md-3 col-sm-4 col-xs-6">
+
+              <img class="img-responsive zoom" height="455" width="500" src="../static/dynamic/{{ ui_data.dir }}/rgs_fisher_cat3_apv.svg" />
+
+          </div>
+          <div class="card">
+            <div class="card-body">
+                <div class="table-wrapper-2">
+                    <!--Table-->
+                    <table id="table_cat3" class="table table-responsive-md table-striped table-bordered">
+                        <thead class="mdb-color lighten-4">
+                            <tr>
+                                <th class="th-lg">Category</th>
+                                <th class="th-lg">RGS</th>
+                                <th class="th-lg">AC</th>
+                                <th class="th-lg">PValue</th>
+                                <th class="th-lg">Bonferroni</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        {% for report_line in ui_data.cat3_apv %}
+                          <tr>
+                            <th scope="row">{{ report_line['Category'] }}</th>
+                            <td>{{ report_line['RGS'] }}</td>
+                            <td>{{ report_line['AC'] }}</td>
+                            <td>{{ report_line['PValue'] }}</td>
+                            <td>{{ report_line['Bonferroni'] }}</td>
+                          </tr>
+                        {% endfor %}
+                        </tbody>
+                    </table>
+                    <!--Table-->
+                </div>
+            </div>
+          </div>
+        </div>
+   </div>
+
+
+{% endblock %}

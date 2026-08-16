@@ -1,0 +1,42 @@
+{% extends "layout.html" %}
+{% block body %}
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-153057757-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-153057757-1');
+    </script>
+
+
+    <style>
+
+    </style>
+
+          <div class="container">
+               <div class="row">
+
+                    <h2>Oops something just went wrong!</h2>
+                    <p>We were not able to process your request with the data that was provided. <br/>
+                        <b>Please modify your selections and try again</b>.</p>
+
+               </div>
+
+               <div class="row">
+                   <p>Some common mistakes we see are that the ID's provided are comma-separated or that the
+                       ID's do not match the format of the input type. </p>
+                    <img src="../static/images/rookie_mistakes.png"  height="339" width="600" alt="">
+               </div>
+               <div class="row">
+                   <p>Correct data does not have commas and each ID is on a separate line with no spaces before or
+                       after the ID.</p>
+
+                    <img src="../static/images/like_a_pro.png"  height="339" width="600" alt="">
+               </div>
+          </div>
+
+
+
+
+{% endblock %}

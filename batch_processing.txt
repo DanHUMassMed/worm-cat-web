@@ -1,0 +1,22 @@
+To run the Batch process we need to have Redis and Celery running as Background tasks
+./run.sh
+
+celery worker -A worm_cat_app.celery --loglevel=debug --concurrency=4
+celery worker -A worm_cat_app.celery --loglevel=info
+
+Redis must be running
+./run-redis.sh
+
+requirements.txt
+flask
+celery
+wtfforms
+flask_wtf
+pandas
+gunicorn
+gevents
+werkzeug=-0.16.1
+redis
+redis-py
+xlrd
+xlsxwriter

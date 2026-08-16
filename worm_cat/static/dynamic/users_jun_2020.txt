@@ -1,0 +1,1586 @@
+May-14-2019-15_44_36, Daniel Higgins, daniel.higgins@yahoo.com, RGS
+Nov-16-2019-18_45_48, Amy Walker, amy.walker@umassmed.edu, RGS
+Nov-17-2019-11_01_12, Vladyslava Liudkovska, vlada.liud@gmail.com, DR_all_1
+Nov-17-2019-14_20_01, Tea, tea.kohlbrenner@uzh.ch, germline
+Nov-17-2019-14_22_06, Tea, tea.kohlbrenner@uzh.ch, germline
+Nov-17-2019-14_26_19, tea, tea.kohlbrenner@uzh.ch, germline
+Nov-18-2019-00_22_48, Peter Rodriguez, prodri29@health.fau.edu, f53b1.6
+Nov-18-2019-00_23_58, Peter Rodriguez, prodri29@health.fau.edu, swip-10
+Nov-18-2019-00_24_20, Peter Rodriguez, prodri29@health.fau.edu, swip
+Nov-18-2019-00_26_13, Peter Rodriguez, prodri29@health.fau.edu, swip
+Nov-18-2019-00_26_50, Peter Rodriguez, prodri29@health.fau.edu, swip
+Nov-18-2019-13_50_50, test, michael.paulini@wormbase.org, RGS
+Nov-18-2019-16_11_27, Vladyslava Liudkovska, vlada.liud@gmail.com, RGS
+Nov-18-2019-18_14_07, Brent Derry, brent.derry@sickkids.ca, RGS
+Nov-18-2019-20_16_48, Thad Deiss, tdeiss@cvm.tamu.edu, Set1
+Nov-18-2019-21_51_57, Moshe, itamai.et@gmail.com, RGS
+Nov-18-2019-21_56_52, Moshe, itamai.et@gmail.com, NRDE-3 targets
+Nov-18-2019-22_02_00, Moshe, itamai.et@gmail.com, RGS
+Nov-19-2019-11_43_50, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Nov-19-2019-14_44_06, csr-1 up, eric.cornes87@gmail.com, RGS
+Nov-19-2019-15_30_52, Nathan Harris, nathanharris@brandeis.edu, test
+Nov-19-2019-16_00_49, Nathan Harris, nathanharris@brandeis.edu, AFD_enriched
+Nov-19-2019-16_13_00, Nathan Harris, nathanharris@brandeis.edu, AFD_enriched
+Nov-19-2019-16_53_16, Nathan Harris, nathanharris@brandeis.edu, AFD_diffE
+Nov-19-2019-18_00_41, Nicholas Peterson, nicholas.peterson@umassmed.edu, R24 Down
+Nov-19-2019-18_22_47, Vladyslava Liudkovska, vlada.liud@gmail.com, RGS
+Nov-19-2019-18_34_06, Leah Houri Zeevi, le.houri@gmail.com, RGS
+Nov-19-2019-20_19_15, Thad Deiss, tdeiss@cvm.tamu.edu, Set1_P1_avg
+Nov-19-2019-20_21_51, Thad Deiss, tdeiss@cvm.tamu.edu, Set1_P10_avg
+Nov-19-2019-20_22_49, Thad Deiss, tdeiss@cvm.tamu.edu, Set1_P100_avg
+Nov-19-2019-21_29_45, Samantha Tse, samantha.tse@umassmed.edu, RNAi Screen
+Nov-19-2019-21_33_04, Samantha Tse, samantha.tse@umassmed.edu, RNAi Screen
+Nov-19-2019-21_41_56, Thad Deiss, tdeiss@cvm.tamu.edu, Set1_P1_vm
+Nov-19-2019-21_42_17, Thad Deiss, tdeiss@cvm.tamu.edu, Set1_P10_vm
+Nov-19-2019-21_42_35, Thad Deiss, tdeiss@cvm.tamu.edu, Set1_P100_vm
+Nov-19-2019-21_44_11, Thad Deiss, tdeiss@cvm.tamu.edu, Set1_P1_vm
+Nov-19-2019-21_44_48, Thad Deiss, tdeiss@cvm.tamu.edu, Set1_P1_ve
+Nov-19-2019-21_45_13, Thad Deiss, tdeiss@cvm.tamu.edu, Set1_P100_ve
+Nov-19-2019-21_45_50, Thad Deiss, tdeiss@cvm.tamu.edu, Set1_P10_ve
+Nov-19-2019-23_20_28, Nicholas Peterson, nicholas.peterson@umassmed.edu, R24 up
+Nov-20-2019-02_48_43, Heather Hundley, hahundle@indiana.edu, RGS
+Nov-20-2019-09_02_20, Luisa, cochella@imp.ac.at, RGS1
+Nov-20-2019-09_03_27, Luisa, cochella@imp.ac.at, RGS1
+Nov-20-2019-09_16_37, Luisa, cochella@imp.ac.at, PRGs_All
+Nov-20-2019-09_44_43, Luisa, cochella@imp.ac.at, PRGs_down
+Nov-20-2019-22_33_29, Amy Holdorf, amyholdorf@gmail.com, RGS
+Nov-21-2019-16_34_02, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Nov-21-2019-17_09_59, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Nov-21-2019-17_12_19, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Nov-21-2019-19_26_10, Amy Holdorf, amy.holdorf@umassmed.edu, Paraquat Down
+Nov-21-2019-21_24_40, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Nov-21-2019-21_33_48, Amy Holdorf, amy.holdorf@umassmed.edu, triple down
+Nov-21-2019-21_55_17, Amy Holdorf, amy.holdorf@umassmed.edu, Triple Up
+Nov-21-2019-21_59_31, Amy Holdorf, amy.holdorf@umassmed.edu, Triple Down
+Nov-22-2019-17_05_19, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Nov-25-2019-02_09_05, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Nov-26-2019-20_12_50, Rob Dowen, dowen@email.unc.edu, RGS
+Nov-27-2019-22_45_22, marty newman, martinnewman80@gmail.com, RGS
+Nov-28-2019-22_51_44, Martin Newman, martinnewman80@gmail.com, lin-29 DEG
+Nov-28-2019-22_59_29, Martin Newman, martinnewman80@gmail.com, TORC2_DEG
+Nov-28-2019-23_03_57, Martin Newman, martinnewman80@gmail.com, grd_DEG
+Nov-28-2019-23_04_58, Martin Newman, martinnewman80@gmail.com, TORC2_DEG
+Nov-28-2019-23_06_27, Martin Newman, martinnewman80@gmail.com, RICT-1_DEG
+Nov-28-2019-23_10_03, Martin Newman, martinnewman80@gmail.com, grd_DEG
+Nov-28-2019-23_39_13, Martin Newman, martinnewman80@gmail.com, LIN-29_vs_grd_DEG
+Nov-28-2019-23_41_35, Martin Newman, martinnewman80@gmail.com, RICT-1_vs_grd_DEG
+Nov-29-2019-00_59_53, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Nov-29-2019-01_03_04, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Nov-29-2019-01_16_31, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Nov-29-2019-01_18_04, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Nov-29-2019-14_46_35, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Nov-29-2019-14_51_51, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Nov-30-2019-02_58_24, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Nov-30-2019-03_02_41, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Nov-30-2019-03_06_30, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Nov-30-2019-03_18_55, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Nov-30-2019-03_24_42, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Nov-30-2019-03_27_10, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Nov-30-2019-16_06_46, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Dec-02-2019-22_13_19, itai toker, itaitoker@gmail.com, NeuroSTGs
+Dec-02-2019-22_30_42, itai toker, itaitoker@gmail.com, NeuroSTGs
+Dec-03-2019-14_17_16, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Dec-03-2019-14_20_01, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Dec-03-2019-14_22_08, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Dec-03-2019-14_23_12, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Dec-03-2019-20_35_28, Christofer Welsh, christofer.welsh@umassmed.edu, RGS
+Dec-03-2019-20_37_20, Christofer Welsh, christofer.welsh@umassmed.edu, RGS
+Dec-04-2019-17_12_38, Sneha Dutta, snehadutta@g.harvard.edu, CLIP_SFs
+Dec-04-2019-18_54_06, Xuhang, xuhang.li@umassmed.edu, RGS
+Dec-05-2019-14_13_13, Vladyslava Liudkovska, vlada.liud@gmail.com, DR_all
+Dec-05-2019-14_22_53, Vladyslava Liudkovska, vlada.liud@gmail.com, UR_all
+Dec-05-2019-14_25_16, Vladyslava Liudkovska, vlada.liud@gmail.com, DR_1.5
+Dec-05-2019-14_26_37, Vladyslava Liudkovska, vlada.liud@gmail.com, DR_15
+Dec-05-2019-14_27_17, Vladyslava Liudkovska, vlada.liud@gmail.com, Up_15
+Dec-05-2019-14_50_39, Vladyslava Liudkovska, vlada.liud@gmail.com, HB_DR_all
+Dec-05-2019-14_53_59, Vladyslava Liudkovska, vlada.liud@gmail.com, HB_UP_all
+Dec-05-2019-14_58_06, Vladyslava Liudkovska, vlada.liud@gmail.com, HB_DR15
+Dec-05-2019-15_15_15, Vladyslava Liudkovska, vlada.liud@gmail.com, DR_all
+Dec-05-2019-15_19_09, Vladyslava Liudkovska, vlada.liud@gmail.com, DR_15
+Dec-06-2019-03_22_40, Roger, roger.pocock@monash.edu, F43
+Dec-06-2019-03_23_32, Roger, roger.pocock@monash.edu, F43
+Dec-06-2019-03_28_32, Roger, roger.pocock@monash.edu, F43
+Dec-06-2019-03_29_41, Roger, roger.pocock@monash.edu, F43
+Dec-08-2019-14_59_14, Mehul, mehulmvora@gmail.com, RGS
+Dec-09-2019-03_05_58, Roger, roger.pocock@monash.edu, mir-1
+Dec-09-2019-03_07_51, Roger, roger.pocock@monash.edu, F43
+Dec-09-2019-03_09_29, Roger, roger.pocock@monash.edu, F43
+Dec-09-2019-03_45_08, test, zdu@genetics.ac.cn, RGS
+Dec-09-2019-03_50_43, down, zdu@genetics.ac.cn, RGS
+Dec-09-2019-03_56_56, ddd, zdu@genetics.ac.cn, RGS
+Dec-09-2019-05_44_02, Roger, roger.pocock@monash.edu, SMA-6
+Dec-09-2019-05_44_21, Roger, roger.pocock@monash.edu, SMA-3
+Dec-09-2019-05_49_50, Roger, roger.pocock@monash.edu, SMA-6
+Dec-09-2019-05_50_29, Roger, roger.pocock@monash.edu, SMA-3
+Dec-09-2019-06_40_16, ZZG, zzg@genetics.ac.cn, RGS
+Dec-09-2019-08_24_16, Jiajie, shao@em.uni-frankfurt.de, RGS
+Dec-09-2019-10_25_43, Aditya Sethi, adityasethi.28@gmail.com, Yeast two-hybrid screen
+Dec-09-2019-10_59_42, Vladyslava Liudkovska, vlada.liud@gmail.com, S1_DR_15
+Dec-09-2019-11_12_05, AK, akoutso@mpibpc.mpg.de, RGS
+Dec-09-2019-11_20_19, AK, akoutso@mpibpc.mpg.de, RGS
+Dec-09-2019-11_23_11, AK, akoutso@mpibpc.mpg.de, RGS
+Dec-09-2019-11_28_57, Vladyslava Liudkovska, vlada.liud@gmail.com, S1_DR_15
+Dec-09-2019-12_05_37, Vladyslava Liudkovska, vlada.liud@gmail.com, S1_UPall
+Dec-09-2019-12_11_33, Vladyslava Liudkovska, vlada.liud@gmail.com, S1_Up15
+Dec-09-2019-13_22_03, Vladyslava Liudkovska, vlada.liud@gmail.com, MS
+Dec-09-2019-13_24_20, Vladyslava Liudkovska, vlada.liud@gmail.com, Msup
+Dec-09-2019-15_24_12, Vladyslava Liudkovska, vlada.liud@gmail.com, S2_DRall
+Dec-09-2019-15_27_11, Vladyslava Liudkovska, vlada.liud@gmail.com, S2_DR15
+Dec-09-2019-15_29_51, Vladyslava Liudkovska, vlada.liud@gmail.com, S2_Upall
+Dec-09-2019-15_34_50, Vladyslava Liudkovska, vlada.liud@gmail.com, S2_UP15
+Dec-09-2019-17_34_55, Yuzhi, yuzhi.chen@kcl.ac.uk, RGS
+Dec-09-2019-18_34_25, Sena, ozseker@bcm.edu, RGS
+Dec-09-2019-18_36_19, Sena, ozseker@bcm.edu, RGS
+Dec-09-2019-18_39_42, Sena, ozseker@bcm.edu, RGS
+Dec-10-2019-00_44_36, Longxiao, xiaolong90523@163.com, RGS
+Dec-10-2019-12_08_37, Janos Barna, juankukac@yahoo.com, op1
+Dec-11-2019-08_34_05, sss, zdu@genetics.ac.cn, RGS
+Dec-11-2019-12_08_12, Vladyslava Liudkovska, vlada.liud@gmail.com, WT
+Dec-11-2019-12_09_25, Vladyslava Liudkovska, vlada.liud@gmail.com, RGS
+Dec-11-2019-12_13_09, Vladyslava Liudkovska, vlada.liud@gmail.com, RGS
+Dec-11-2019-12_14_17, Vladyslava Liudkovska, vlada.liud@gmail.com, RGS
+Dec-11-2019-12_41_39, Vladyslava Liudkovska, vlada.liud@gmail.com, RGS
+Dec-11-2019-17_16_40, Janos Barna, juankukac@yahoo.com, RGS
+Dec-11-2019-18_37_29, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Dec-11-2019-18_42_12, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Dec-11-2019-18_42_42, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Dec-11-2019-19_26_31, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Dec-11-2019-19_26_49, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Dec-11-2019-23_17_21, m, mehulmvora@gmail.com, RGS
+Dec-11-2019-23_18_37, m, mehulmvora@gmail.com, RGS
+Dec-12-2019-12_46_15, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Dec-12-2019-12_54_08, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Dec-12-2019-12_58_01, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Dec-12-2019-14_13_20, Vladyslava Liudkovska, vlada.liud@gmail.com, RGS
+Dec-12-2019-16_11_54, Mehul Vora, mehulmvora@gmail.com, sma-9
+Dec-12-2019-21_13_43, Cathy Savage-Dunn, cathy.savagedunn@qc.cuny.edu, SMA-2 SMA-4 RNAseq
+Dec-13-2019-03_43_39, test, zdu@genetics.ac.cn, RGS
+Dec-13-2019-03_47_25, test2, zdu@genetics.ac.cn, RGS
+Dec-13-2019-03_52_03, test2, zdu@genetics.ac.cn, RGS
+Dec-13-2019-03_53_11, test2, zdu@genetics.ac.cn, RGS
+Dec-13-2019-04_02_08, test, zdu@genetics.ac.cn, RGS
+Dec-13-2019-04_02_57, test, zdu@genetics.ac.cn, RGS
+Dec-13-2019-04_09_55, test, zdu@genetics.ac.cn, RGS
+Dec-13-2019-21_39_08, Kyle Foster, kyle.foster@umassmed.edu, DevRegGenes
+Dec-14-2019-21_03_08, vey, vey987@gmail.com, RGS
+Dec-16-2019-03_40_53, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Dec-16-2019-04_37_48, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Dec-16-2019-14_41_52, Vladyslava Liudkovska, vlada.liud@gmail.com, RGS
+Dec-16-2019-18_28_46, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Dec-16-2019-18_31_48, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Dec-16-2019-18_33_56, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Dec-16-2019-18_36_29, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Dec-16-2019-18_57_57, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Dec-17-2019-04_08_14, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Dec-17-2019-04_12_38, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Dec-17-2019-09_48_09, Yannick Hauser, yannick.hauser@fmi.ch, Test_b
+Dec-17-2019-22_58_52, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Dec-17-2019-23_37_27, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Dec-17-2019-23_41_48, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Dec-18-2019-16_20_01, Sujata Agarwal, sujatagarwal25@yahoo.in, RGS
+Dec-18-2019-16_33_45, Sujata Agarwal, sujatagarwal25@yahoo.in, RGS
+Dec-18-2019-16_34_24, Sujata Agarwal, sujatagarwal25@yahoo.in, RGS
+Dec-18-2019-20_38_52, Adwait Godbole, adwaitgodbole@gmail.com, sams-1 up basal
+Dec-18-2019-20_44_26, Adwait Godbole, adwaitgodbole@gmail.com, sams-1 up basal
+Dec-18-2019-20_45_25, Adwait Godbole, adwaitgodbole@gmail.com, sams-1 down basal
+Dec-18-2019-20_49_31, Adwait Godbole, adwaitgodbole@gmail.com, sams-1 down basal
+Dec-18-2019-21_06_58, Adwait Godbole, adwaitgodbole@gmail.com, sams-1 up heat
+Dec-18-2019-21_12_40, Adwait Godbole, adwaitgodbole@gmail.com, sams-1 down heat
+Dec-18-2019-21_16_42, Adwait Godbole, adwaitgodbole@gmail.com, EV up heat
+Dec-18-2019-21_17_32, Adwait Godbole, adwaitgodbole@gmail.com, EV down heat
+Dec-18-2019-21_19_58, Adwait Godbole, adwaitgodbole@gmail.com, sams-4 up heat
+Dec-18-2019-21_21_24, Adwait Godbole, adwaitgodbole@gmail.com, sams-4 down heat
+Dec-18-2019-21_24_10, Adwait Godbole, adwaitgodbole@gmail.com, sams-4 down heat
+Dec-18-2019-22_33_12, Adwait Godbole, adwaitgodbole@gmail.com, set-16 up heat
+Dec-18-2019-22_33_47, Adwait Godbole, adwaitgodbole@gmail.com, set-16 up heat
+Dec-18-2019-22_39_40, Adwait Godbole, adwaitgodbole@gmail.com, set-16 down  heat
+Dec-18-2019-22_40_59, Adwait Godbole, adwaitgodbole@gmail.com, set-16 down  heat
+Dec-18-2019-22_44_36, Adwait Godbole, adwaitgodbole@gmail.com, sams-4 down  heat
+Dec-18-2019-22_57_15, Adwait Godbole, adwaitgodbole@gmail.com, set-16 down  heat
+Dec-18-2019-23_02_17, Adwait Godbole, adwaitgodbole@gmail.com, set-2 down  heat
+Dec-19-2019-18_11_45, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Dec-19-2019-19_41_08, Sujata Agarwal, sujatagarwal25@yahoo.in, RGS
+Dec-19-2019-19_42_59, Sujata Agarwal, sujatagarwal25@yahoo.in, RGS
+Dec-19-2019-19_43_54, Sujata Agarwal, sujatagarwal25@yahoo.in, RGS
+Dec-19-2019-19_45_34, Sujata Agarwal, sujatagarwal25@yahoo.in, RGS
+Dec-19-2019-20_34_57, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Dec-19-2019-20_35_33, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Dec-19-2019-21_12_09, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Dec-22-2019-00_29_31, Roger Pocock, roger.pocock@monash.edu, RGS
+Dec-22-2019-00_34_29, Roger Pocock, roger.pocock@monash.edu, 2 hour
+Dec-22-2019-01_23_08, ddd, zdu@genetics.ac.cn, RGS
+Dec-22-2019-01_32_16, ddd, zdu@genetics.ac.cn, RGS
+Dec-22-2019-16_51_59, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Dec-22-2019-16_54_03, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Dec-24-2019-14_12_08, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Dec-24-2019-14_14_01, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Dec-26-2019-16_50_23, Sujata, sujatagarwal25@yahoo.in, RGS
+Dec-26-2019-16_55_08, Sujata, sujatagarwal25@yahoo.in, RGS
+Dec-26-2019-18_04_48, Daehan Lee, daehan.lee@northwestern.edu, test
+Dec-26-2019-18_06_56, Daehan Lee, daehan.lee@northwestern.edu, common
+Dec-26-2019-18_10_48, Daehan Lee, daehan.lee@northwestern.edu, arm
+Dec-26-2019-18_12_22, Daehan Lee, daehan.lee@northwestern.edu, all_div
+Dec-26-2019-18_13_45, Daehan Lee, daehan.lee@northwestern.edu, intermediate
+Dec-26-2019-18_14_17, Daehan Lee, daehan.lee@northwestern.edu, rare
+Dec-26-2019-18_19_15, Daehan Lee, daehan.lee@northwestern.edu, arm
+Dec-26-2019-19_06_19, Daehan Lee, daehan.lee@northwestern.edu, rare
+Dec-28-2019-12_39_52, Luisa, cochella@imp.ac.at, RGS
+Dec-28-2019-12_42_46, Luisa, cochella@imp.ac.at, RGS
+Jan-02-2020-20_31_13, Adwait Godbole, adwaitgodbole@gmail.com, EV heat down
+Jan-02-2020-20_33_07, Adwait Godbole, adwaitgodbole@gmail.com, sams-1 heat down
+Jan-02-2020-20_33_44, Adwait Godbole, adwaitgodbole@gmail.com, sams-1 heat down
+Jan-02-2020-20_35_29, Adwait Godbole, adwaitgodbole@gmail.com, sams-4 heat down
+Jan-03-2020-13_20_58, LongXiao, xiaolong90523@163.com, EMBRYONIC_EXP
+Jan-03-2020-13_24_58, LongXiao, xiaolong90523@163.com, EMBRYONIC_EXP
+Jan-03-2020-13_33_07, LongXiao, xiaolong90523@163.com, EMBRYONIC_EXP
+Jan-03-2020-13_44_05, LongXiao, xiaolong90523@163.com, EMBRYONIC_EXP
+Jan-03-2020-13_47_20, LongXiao, xiaolong90523@163.com, EMBRYONIC_EXP
+Jan-03-2020-13_48_35, LongXiao, xiaolong90523@163.com, EMBRYONIC_EXP
+Jan-03-2020-13_51_24, LongXiao, xiaolong90523@163.com, EMBRYONIC_EXP
+Jan-03-2020-14_56_36, Germano Cecere, germano.cecere@gmail.com, RGS
+Jan-03-2020-15_09_58, germano cecere, germano.cecere@gmail.com, dsRNA
+Jan-03-2020-16_02_50, germano cecere, germano.cecere@gmail.com, dsRNA
+Jan-03-2020-16_09_41, germano cecere, germano.cecere@gmail.com, dsRNA
+Jan-03-2020-16_10_36, germano cecere, germano.cecere@gmail.com, dsRNA small vesicles
+Jan-03-2020-16_11_28, germano cecere, germano.cecere@gmail.com, dsRNA big vesicles
+Jan-03-2020-16_50_23, Adwait Godbole, adwaitgodbole@gmail.com, sams-1 and sams-4 heat down common
+Jan-04-2020-15_58_03, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Jan-04-2020-16_02_26, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Jan-04-2020-16_22_40, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Jan-04-2020-16_48_59, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Jan-04-2020-19_16_35, xuhang, xuhang.li@umassmed.edu, RGS
+Jan-04-2020-19_21_25, xuhang, xuhang.li@umassmed.edu, RGS
+Jan-04-2020-19_23_16, xuhang, xuhang.li@umassmed.edu, RGS
+Jan-04-2020-19_24_38, xuhang, xuhang.li@umassmed.edu, RGS
+Jan-06-2020-16_01_11, Paige Rudich, paige.rudich@mail.mcgill.ca, clk-1 up
+Jan-06-2020-16_02_50, Paige Rudich, paige.rudich@mail.mcgill.ca, daf-2 up
+Jan-06-2020-16_11_00, Paige Rudich, paige.rudich@mail.mcgill.ca, eat-2 up
+Jan-06-2020-16_11_57, Paige Rudich, paige.rudich@mail.mcgill.ca, glp-1 up
+Jan-06-2020-16_15_19, Paige Rudich, paige.rudich@mail.mcgill.ca, ife-2 up
+Jan-06-2020-16_20_42, Paige Rudich, paige.rudich@mail.mcgill.ca, isp-1 up
+Jan-06-2020-16_21_57, Paige Rudich, paige.rudich@mcgill.mail.ca, nuo-6
+Jan-06-2020-16_34_42, Paige Rudich, paige.rudich@mail.mcgill.ca, osm-5 up
+Jan-06-2020-16_35_34, Paige Rudich, paige.rudich@mail.mcgill.ca, sod-2 up
+Jan-06-2020-16_37_27, Paige Rudich, paige.rudich@mail.mcgill.ca, clk-1 down
+Jan-06-2020-16_38_01, Paige Rudich, paige.rudich@mail.mcgill.ca, daf-2 down
+Jan-06-2020-16_39_02, Paige Rudich, paige.rudich@mail.mcgill.ca, eat-2 down
+Jan-06-2020-16_39_37, Paige Rudich, paige.rudich@mail.mcgill.ca, glp-1 down
+Jan-06-2020-16_41_25, Paige Rudich, paige.rudich@mail.mcgill.ca, isp-1 down
+Jan-06-2020-16_42_04, Paige Rudich, paige.rudich@mail.mcgill.ca, nuo-6 down
+Jan-06-2020-16_42_29, Paige Rudich, paige.rudich@mail.mcgill.ca, ife-2 down
+Jan-06-2020-16_42_56, Paige Rudich, paige.rudich@mail.mcgill.ca, osm-5 down
+Jan-06-2020-16_43_45, Paige Rudich, paige.rudich@mail.mcgill.ca, sod-2 down
+Jan-06-2020-16_46_01, Paige Rudich, paige.rudich@mail.mcgill.ca, overlapping upregulated
+Jan-07-2020-04_53_33, Xiaolong, xiaolong90523@163.com, RGS
+Jan-07-2020-04_55_19, Xiaolong, xiaolong90523@163.com, The target genes
+Jan-08-2020-20_04_55, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Jan-08-2020-20_06_04, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Jan-08-2020-23_47_01, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Jan-09-2020-18_16_00, Daehan Lee, daehan.lee@northwestern.edu, all_div
+Jan-09-2020-18_16_33, Daehan Lee, daehan.lee@northwestern.edu, common
+Jan-09-2020-18_17_10, Daehan Lee, daehan.lee@northwestern.edu, intermediate
+Jan-09-2020-18_17_48, Daehan Lee, daehan.lee@northwestern.edu, intermediate
+Jan-09-2020-18_18_34, Daehan Lee, daehan.lee@northwestern.edu, rare
+Jan-09-2020-18_53_07, Daehan Lee, daehan.lee@northwestern.edu, rare
+Jan-09-2020-18_53_34, Daehan Lee, daehan.lee@northwestern.edu, intermediate
+Jan-09-2020-18_54_00, Daehan Lee, daehan.lee@northwestern.edu, common
+Jan-09-2020-18_54_22, Daehan Lee, daehan.lee@northwestern.edu, all_div
+Jan-09-2020-21_41_57, Thad Deiss, tdeiss@cvm.tamu.edu, Pop1_dysVr
+Jan-09-2020-21_43_28, Thad Deiss, tdeiss@cvm.tamu.edu, Pop10_dysVr
+Jan-09-2020-21_45_02, Thad Deiss, tdeiss@cvm.tamu.edu, Pop100_dysVr
+Jan-10-2020-04_50_33, LongXiao, xiaolong90523@163.com, RGS
+Jan-10-2020-04_57_09, LongXiao, xiaolong90523@163.com, RGS
+Jan-10-2020-10_05_57, Meetali Singh, meetali.singh@pasteur.fr, RGS
+Jan-10-2020-10_08_25, Meetali Singh, meetali.singh@pasteur.fr, RGS
+Jan-10-2020-13_50_07, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Jan-10-2020-15_24_51, PW_2vs1, silvia.vogl@bfr.bund.de, RGS
+Jan-10-2020-15_32_23, PW_2vs1_2, silvia.vogl@bfr.bund.de, RGS
+Jan-10-2020-15_32_59, PW_2vs1_2, silvia.vogl@bfr.bund.de, RGS
+Jan-10-2020-15_34_14, Silvia Vogl, silvia.vogl@bfr.bund.de, RGS
+Jan-10-2020-18_27_14, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Jan-10-2020-18_29_01, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Jan-10-2020-20_55_39, Ahmed Elewa, elewaemail@gmail.com, top tensors
+Jan-10-2020-20_59_27, Ahmed Elewa, elewaemail@gmail.com, top tensors RNAi
+Jan-10-2020-21_03_15, Ahmed Elewa, elewaemail@gmail.com, top tensors RNAi
+Jan-14-2020-02_03_58, Roger, roger.pocock@monash.edu, RGS
+Jan-14-2020-02_26_23, Roger, roger.pocock@monash.edu, RGS
+Jan-14-2020-20_43_08, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Jan-15-2020-11_07_48, Aditya Sethi, adityasethi.28@gmail.com, RGS
+Jan-15-2020-11_12_48, Aditya Sethi, adityasethi.28@gmail.com, RGS
+Jan-15-2020-14_51_20, Aditya, adityasethi.28@gmail.com, Mutant 2-fold hits
+Jan-15-2020-16_10_09, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Jan-15-2020-16_14_53, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Jan-15-2020-16_16_29, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Jan-15-2020-16_19_30, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Jan-15-2020-16_23_34, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Jan-15-2020-16_33_35, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Jan-15-2020-16_38_45, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Jan-15-2020-17_01_26, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Jan-15-2020-17_04_17, Jacob Bowie, jacob.bowie@uconn.edu, Rah
+Jan-16-2020-02_49_04, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Jan-16-2020-15_20_54, Xuhang, Xuhang.li@umassmed.edu, RGS
+Jan-16-2020-15_28_52, Xuhang, Xuhang.li@umassmed.edu, RGS
+Jan-16-2020-15_32_44, Xuhang, Xuhang.li@umassmed.edu, RGS
+Jan-16-2020-15_39_44, Xuhang, Xuhang.li@umassmed.edu, RGS
+Jan-16-2020-15_44_50, Xuhang, Xuhang.li@umassmed.edu, RGS
+Jan-16-2020-15_50_07, Xuhang, Xuhang.li@umassmed.edu, RGS
+Jan-16-2020-15_50_36, Xuhang, Xuhang.li@umassmed.edu, RGS
+Jan-16-2020-15_54_05, Xuhang, Xuhang.li@umassmed.edu, RGS
+Jan-16-2020-15_57_21, Xuhang, Xuhang.li@umassmed.edu, RGS
+Jan-16-2020-16_01_50, Xuhang, Xuhang.li@umassmed.edu, RGS
+Jan-16-2020-16_05_36, Xuhang, Xuhang.li@umassmed.edu, RGS
+Jan-16-2020-16_08_01, Xuhang, Xuhang.li@umassmed.edu, RGS
+Jan-16-2020-20_46_34, bin yu, bin.yu@sickkids.ca, RGS
+Jan-17-2020-03_43_56, Phil Frankino, phillip_frankino@berkeley.edu, HuT
+Jan-17-2020-08_28_29, Jacob Bowie, jacob.bowie@uconn.edu, RGS
+Jan-17-2020-21_51_41, Phil Frankino, phillip_frankino@berkeley.edu, RGS
+Jan-17-2020-22_16_09, Anita Kumar, anita_kumar@brown.edu, X_Trans
+Jan-17-2020-22_29_33, Anita Kumar, anita_kumar@brown.edu, X_Trans_Down
+Jan-18-2020-00_36_23, Anita Kumar, anita_kumar@brown.edu, X_Trans_Down
+Jan-18-2020-03_59_31, Anita Kumar, anita_kumar@brown.edu, X_Trans_Up
+Jan-18-2020-21_31_39, Anita Kumar, anita_kumar@brown.edu, RGS
+Jan-18-2020-21_55_49, Anita Kumar, anita_kumar@brown.edu, Xpolyup
+Jan-18-2020-22_21_48, Anita Kumar, anita_kumar@brown.edu, Xdown
+Jan-19-2020-00_35_45, Phil Frankino, phillip_frankino@berkeley.edu, SKN1 binding
+Jan-19-2020-01_08_14, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Jan-19-2020-01_23_12, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Jan-19-2020-02_41_35, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Jan-19-2020-23_18_27, Rachel, rachel-webster@hotmail.ca, Kin-32
+Jan-19-2020-23_20_07, Rachel, rachel.webster68@gmail.com, RGS
+Jan-19-2020-23_23_31, Rachel, rachel-webster@hotmail.ca, Kin-32
+Jan-20-2020-15_04_15, Sam Krempel, sam.krempel@gmail.com, genes down-regulated in ccm-3
+Jan-20-2020-15_18_52, Sam Krempel, sam.krempel@gmail.com, genes down-regulated in ccm-3
+Jan-20-2020-15_21_22, Rachel, rachel.webster68@gmail.com, RGS
+Jan-20-2020-15_22_22, Sam Krempel, sam.krempel@gmail.com, genes down-regulated in ccm-3
+Jan-20-2020-16_25_36, Matthew Eroglu, matt.eroglu@mail.utoronto.ca, ripseq
+Jan-21-2020-00_02_25, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Jan-21-2020-00_13_05, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Jan-21-2020-00_14_29, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Jan-21-2020-16_20_55, Anita Kumar, anita_kumar@brown.edu, RGS
+Jan-21-2020-18_06_26, Anita Kumar, anita_kumar@brown.edu, X_poly_up
+Jan-21-2020-19_44_22, Phil Frankino, phillip_frankino@berkeley.edu, downreg T12
+Jan-22-2020-02_10_29, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Jan-22-2020-02_25_14, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Jan-22-2020-17_00_10, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Jan-23-2020-10_45_44, Common Genes, paige.rudich@mail.mcgill.ca, RGS
+Jan-23-2020-11_35_12, Paige Rudich, paige.rudich@mail.mcgill.ca, Downregulated Common Genes
+Jan-23-2020-16_52_29, Amy Walker, amy.walker@umassmed.edu, RGS
+Jan-23-2020-16_53_20, Amy Walker, amy.walker@umassmed.edu, RGS
+Jan-24-2020-15_58_37, Amy Walker, amy.walker@umassmed.edu, RGS
+Jan-26-2020-14_33_38, Anita Kumar, anita_kumar@brown.edu, X_RNA_Down
+Jan-26-2020-15_08_47, Anita Kumar, anita_kumar@brown.edu, X_RNA_Down
+Jan-26-2020-15_25_55, Anita Kumar, anita_kumar@brown.edu, X_RNA_Up
+Jan-26-2020-17_52_26, Amy Walker, amy.walker@umassmed.edu, RGS
+Jan-26-2020-17_54_56, Amy Walker, amy.walker@umassmed.edu, RGS
+Jan-26-2020-17_58_06, Amy Walker, amy.walker@umassmed.edu, RGS
+Jan-26-2020-18_00_19, Amy Walker, amy.walker@umassmed.edu, RGS
+Jan-26-2020-23_52_42, Anita Kumar, anita_kumar@brown.edu, X_Nuc_Depleted
+Jan-27-2020-15_37_15, Alex Bykov, alexander.bykov94@gmail.com, RGS
+Jan-28-2020-15_11_15, Anita Kumar, anita_kumar@brown.edu, X_Nuc_Enriched
+Jan-28-2020-15_19_51, Anita Kumar, anita_kumar@brown.edu, X_Cyt_Enriched
+Jan-28-2020-17_49_49, Stefan Zdraljevic, szdralje@gmail.com, common_genes
+Jan-28-2020-17_52_16, Stefan Zdraljevic, szdralje@gmail.com, common_genes
+Jan-28-2020-17_54_51, Stefan Zdraljevic, szdralje@gmail.com, common_genes
+Jan-28-2020-18_00_11, Stefan Zdraljevic, szdralje@gmail.com, RGS
+Jan-28-2020-18_10_25, Stefan Zdraljevic, szdralje@gmail.com, RGS
+Jan-30-2020-04_19_12, Shivani Nanda, shivani.nanda@umassmed.edu, RGS
+Jan-30-2020-04_55_30, Shivani Nanda, shivani.nanda@umassmed.edu, RGS
+Jan-30-2020-05_04_50, Shivani Nanda, shivani.nanda@umassmed.edu, RGS
+Jan-30-2020-05_18_35, Shivani Nanda, shivani.nanda@umassmed.edu, RGS
+Jan-30-2020-05_35_09, Shivani Nanda, shivani.nanda@umassmed.edu, RGS
+Jan-30-2020-05_37_33, Shivani Nanda, shivani.nanda@umassmed.edu, RGS
+Jan-30-2020-05_42_41, Shivani Nanda, shivani.nanda@umassmed.edu, RGS
+Jan-30-2020-06_04_14, Shivani Nanda, shivani.nanda@umassmed.edu, RGS
+Jan-30-2020-06_07_52, Shivani Nanda, shivani.nanda@umassmed.edu, RGS
+Jan-30-2020-06_35_15, Shivani Nanda, shivani.nanda@umassmed.edu, RGS
+Jan-30-2020-20_01_55, Paige Rudich, paige.rudich@mail.mcgill.ca, Downregulated Common Genes
+Feb-02-2020-13_18_25, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Feb-02-2020-13_19_58, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Feb-02-2020-13_22_37, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Feb-02-2020-13_42_35, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Feb-04-2020-10_39_41, Aleks, aleksandr.bykov@imp.ac.at, RGS
+Feb-04-2020-16_36_11, Shivani Nanda, angeleyes.71088@gmail.com, RGS
+Feb-05-2020-22_50_22, Anita Kumar, anita_kumar@brown.edu, p62 hits
+Feb-06-2020-18_12_52, Cha, charline.roy@univ-lyon1.fr, RGS
+Feb-06-2020-20_03_12, Arneet Saltzman, arneet.saltzman@utoronto.ca, test1
+Feb-06-2020-22_45_31, Manish chamoli, MChamolI@buckinstitute.org, RGS
+Feb-06-2020-22_47_37, Manish chamoli, MChamolI@buckinstitute.org, RGS
+Feb-06-2020-22_50_13, Manish chamoli, MChamolI@buckinstitute.org, BHB_UGS
+Feb-07-2020-09_50_34, Charline Roy, charline.roy@univ-lyon1.fr, L4D6inc_ab_th
+Feb-07-2020-10_03_45, Charline Roy, charline.roy@univ-lyon1.fr, inc_dec_ab_th
+Feb-07-2020-10_06_45, Charline Roy, charline.roy@univ-lyon1.fr, L4D6_dec_ab_th
+Feb-07-2020-10_36_29, Charline Roy, charline.roy@univ-lyon1.fr, no_inc_RGS
+Feb-07-2020-21_43_46, Kevin Stein, kcstein@stanford.edu, RGS
+Feb-07-2020-21_47_36, Kevin Stein, kcstein@stanford.edu, RGS
+Feb-07-2020-21_49_24, Kevin Stein, kcstein@stanford.edu, RGS
+Feb-07-2020-21_50_23, Kevin Stein, kcstein@stanford.edu, RGS
+Feb-07-2020-21_51_29, Kevin Stein, kcstein@stanford.edu, RGS
+Feb-07-2020-21_52_30, Kevin Stein, kcstein@stanford.edu, RGS
+Feb-07-2020-21_53_33, Kevin Stein, kcstein@stanford.edu, RGS
+Feb-10-2020-00_52_08, Xuhang Li, xuhang.li@umassmed.edu, RGS
+Feb-10-2020-01_24_16, Kate McCulloch, k1mcculloch@ucsd.edu, RGS
+Feb-10-2020-01_24_56, Kate McCulloch, k1mcculloch@ucsd.edu, RGS
+Feb-10-2020-02_39_06, Roger, roger.pocock@monash.edu, RGS
+Feb-10-2020-09_15_34, Charline Roy, charline.roy@univ-lyon1.fr, no_dec_ab_th
+Feb-10-2020-09_21_25, Charline Roy, charline.roy@univ-lyon1.fr, DEG_daf-2_ab_th
+Feb-10-2020-09_40_16, Charline Roy, charline.roy@univ-lyon1.fr, inc_inc_ab_th
+Feb-10-2020-09_52_04, Charline Roy, charline.roy@univ-lyon1.fr, inc_no_ab_th
+Feb-10-2020-10_05_10, Charline Roy, charline.roy@univ-lyon1.fr, dec_no_ab_th
+Feb-10-2020-10_10_53, Charline Roy, charline.roy@univ-lyon1.fr, dec_inc_ab_th
+Feb-10-2020-16_13_57, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Feb-10-2020-16_15_51, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Feb-10-2020-16_17_50, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Feb-10-2020-16_18_10, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Feb-11-2020-09_50_59, Charline Roy, charline.roy@univ-lyon1.fr, all_with_dec_ab_th
+Feb-11-2020-10_04_31, Charline Roy, charline.roy@univ-lyon1.fr, all_with_inc_ab_th
+Feb-11-2020-20_35_41, xuhang, xuhang.li@umassmed.edu, RGS
+Feb-11-2020-20_41_35, xuhang, xuhang.li@umassmed.edu, RGS
+Feb-11-2020-22_54_44, EricaLi-Leger, erica.lileger@gmail.com, test
+Feb-12-2020-00_08_23, Itamar Lev, itamai.et@gmail.com, RGS
+Feb-12-2020-01_01_40, Kevin Stein, kcstein@stanford.edu, RGS
+Feb-12-2020-01_02_41, Kevin Stein, kcstein@stanford.edu, RGS
+Feb-12-2020-01_04_16, Kevin Stein, kcstein@stanford.edu, RGS
+Feb-12-2020-01_05_20, Kevin Stein, kcstein@stanford.edu, RGS
+Feb-12-2020-15_42_32, Olivier, olivier.martin@crg.cat, RGS
+Feb-12-2020-15_43_26, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Feb-12-2020-15_44_22, Olivier, olivier.martin@crg.cat, RGS
+Feb-12-2020-15_45_06, Olivier, olivier.martin@crg.cat, RGS
+Feb-12-2020-15_45_16, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Feb-12-2020-15_45_33, Olivier, olivier.martin@crg.cat, RGS
+Feb-12-2020-15_46_36, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Feb-12-2020-15_46_43, Olivier, olivier.martin@crg.cat, RGS
+Feb-12-2020-15_48_03, Olivier, olivier.martin@crg.cat, RGS
+Feb-12-2020-15_48_45, Porsha, phowell@hsph.harvard.edu, day1_ev_N2_vs_eat2
+Feb-12-2020-15_54_11, Caroline Heintz, caheintz@hsph.harvard.edu, RGS
+Feb-12-2020-16_03_19, Caroline Heintz, caheintz@hsph.harvard.edu, WT AL day 3 vs day 15
+Feb-12-2020-16_09_57, Porsha, phowell@hsph.harvard.edu, intron_retention_AL_DRsfa-1
+Feb-12-2020-16_30_44, Anne Lanjuin, alanjuin@hsph.harvard.edu, test
+Feb-12-2020-16_35_44, Anne Lanjuin, alanjuin@hsph.harvard.edu, test 2
+Feb-12-2020-16_54_55, Anne Lanjuin, alanjuin@hsph.harvard.edu, test short list 1
+Feb-12-2020-17_00_55, Anne Lanjuin, alanjuin@hsph.harvard.edu, test short list 2
+Feb-12-2020-17_06_21, Anne Lanjuin, alanjuin@hsph.harvard.edu, test short list 2 looser
+Feb-12-2020-20_32_36, Adwait Godbole, adwaitgodbole@gmail.com, sams-1 basal down
+Feb-12-2020-20_34_26, Adwait Godbole, adwaitgodbole@gmail.com, sams-1 basal up
+Feb-12-2020-21_20_06, Laura Mathies, lauramathies@gmail.com, Intersection
+Feb-13-2020-03_50_38, lw, lwong@molbio.mgh.harvard.edu, RGS
+Feb-13-2020-04_23_49, lwong, lwong@molbio.mgh.harvard.edu, RGS
+Feb-13-2020-04_26_41, lwong, lwong@Molbio.mgh.harvard.edu, RGS
+Feb-13-2020-04_48_45, Biswajit Ghosh, biswa2019@nii.ac.in, mono_total_DESeq2_Wormcat
+Feb-13-2020-05_04_55, Biswajit Ghosh, biswa2019@nii.ac.in, poly_total_DESeq2_Wormcat
+Feb-13-2020-05_14_25, Biswajit Ghosh, biswa2019@nii.ac.in, poly_total_DESeq2_Wormcat
+Feb-13-2020-05_22_28, Biswajit Ghosh, biswa2019@nii.ac.in, mono_total_DESeq2_Wormcat
+Feb-13-2020-05_34_47, Biswajit Ghosh, biswa2019@nii.ac.in, mono_poly
+Feb-13-2020-06_11_44, Sudeshna Datta, sudeshna.datta@nii.ac.in, daf2b02_daf2c_down
+Feb-13-2020-06_43_49, Sudeshna Datta, sudeshna.datta@nii.ac.in, RGS
+Feb-13-2020-13_04_51, Biswajit Ghosh, biswa2019@nii.ac.in, mono_total_DESeq2_Wormcat
+Feb-13-2020-16_03_01, lw, lwong@Molbio.mgh.harvard.edu, N2_vs_N2UN_ribo_up
+Feb-13-2020-16_16_35, Georgina Gómez, gina.gomez@unifr.ch, Muscle
+Feb-13-2020-16_22_50, Georgina Gómez, gina.gomez@unifr.ch, XXX-cells
+Feb-13-2020-16_29_35, Georgina Gómez, gina.gomez@unifr.ch, Intestine
+Feb-13-2020-16_45_06, Biswajit Ghosh, biswa2019@nii.ac.in, RGS
+Feb-13-2020-16_58_14, Sudeshna Datta, sudeshna.datta@nii.ac.in, RGS
+Feb-13-2020-17_44_45, lw, lwong@Molbio.mgh.harvard.edu, N2_vs_N2UN_ribo_dn
+Feb-13-2020-17_48_08, lw, lwong@molbio.mgh.harvard.edu, zip2_vs_N2_ribo_up
+Feb-13-2020-17_49_47, lw, nanadawong@hotmail.com, RGS
+Feb-13-2020-17_50_59, lw, nanadawong@hotmail.com, zip2_vs_N2_ribo_dn
+Feb-13-2020-17_53_30, lw, nanadawong@hotmail.com, N2_vs_N2UN_ribo_up
+Feb-13-2020-17_59_46, lw, nanadawong@hotmail.com, N2_vs_N2UN_ribo_dn
+Feb-13-2020-18_04_10, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Feb-13-2020-19_37_44, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Feb-13-2020-19_55_39, Alex Abrams, alexander.abrams@yale.edu, RGS
+Feb-13-2020-20_15_39, Anita Kumar, anita_kumar@brown.edu, X_poly_down
+Feb-13-2020-20_17_46, Anita Kumar, anita_kumar@brown.edu, x_poly_down
+Feb-13-2020-21_02_31, Tai Montgomery, tai.montogmery@colostate.edu, RGS
+Feb-13-2020-21_08_52, Tai Montgomery, tai.montogmery@colostate.edu, RGS
+Feb-13-2020-21_57_10, Roger, roger.pocock@monash.edu, RGS
+Feb-13-2020-22_00_02, Roger, roger.pocock@monash.edu, RGS
+Feb-13-2020-22_03_57, Roger, roger.pocock@monash.edu, RGS
+Feb-13-2020-23_02_14, Roger, roger.pocock@monash.edu, RGS
+Feb-14-2020-00_20_33, Lauren, lnbooth@stanford.edu, RGS-3-set common
+Feb-14-2020-00_22_21, Lauren, lnbooth@stanford.edu, RGS-2-set common
+Feb-14-2020-00_23_54, Lauren, lnbooth@stanford.edu, RGS-7.1
+Feb-14-2020-00_31_25, Lauren, lnbooth@stanford.edu, RGS-7.5
+Feb-14-2020-00_34_36, Lauren, lnbooth@stanford.edu, RGS-7.5
+Feb-14-2020-06_15_11, Biswajit Ghosh, biswa2019@nii.ac.in, mono_vs_total
+Feb-14-2020-13_31_14, Biswajit Ghosh, biswa2019@nii.ac.in, mono_vs_total
+Feb-14-2020-14_55_14, Biswajit Ghosh, biswa2019@nii.ac.in, poly
+Feb-14-2020-16_16_45, Biswajit Ghosh, biswa2019@nii.ac.in, RGS
+Feb-14-2020-18_41_31, Lauren, lnbooth@stanford.edu, RGS
+Feb-14-2020-19_12_48, Lauren, lnbooth@stanford.edu, RGS
+Feb-14-2020-19_18_38, Lauren, lnbooth@stanford.edu, RGS
+Feb-14-2020-19_21_47, Lauren, lnbooth@stanford.edu, RGS
+Feb-14-2020-23_14_49, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Feb-14-2020-23_15_11, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Feb-15-2020-01_49_57, raz, razbarz@gmail.com, RGS
+Feb-15-2020-01_51_31, raz, razbarz@gmail.com, RGS 
+Feb-16-2020-23_55_02, Karolina K, kkodin@crimson.ua.edu, test
+Feb-17-2020-13_11_15, Luisa, cochella@imp.ac.at, RGS
+Feb-17-2020-16_23_38, Leah Radeke, lradeke2@unl.edu, CPSR
+Feb-17-2020-20_30_30, Meetali Singh, meetalichauhan@gmail.com, RGS
+Feb-17-2020-20_46_42, Meetali Singh, meetalichauhan@gmail.com, RGS
+Feb-17-2020-22_32_41, Anita Kumar, anita_kumar@brown.edu, x_total_down
+Feb-17-2020-23_32_05, Roger, roger.pocock@monash.edu, RGS
+Feb-18-2020-19_30_48, Lauren, lnbooth@stanford.edu, RGS
+Feb-18-2020-21_10_38, Anita Kumar, anita_kumar@brown.edu, Cyt-enriched down
+Feb-18-2020-21_53_37, Anita Kumar, anita_kumar@brown.edu, Cyt-enriched up
+Feb-18-2020-22_02_34, Anita Kumar, anita_kumar@brown.edu, Nuc-enriched down
+Feb-18-2020-22_09_48, Anita Kumar, anita_kumar@brown.edu, Nuc-enriched up
+Feb-19-2020-16_35_11, Sara Hopkins, shopkins6@huskers.unl.edu, Loss of daf-2 requiring CPSR
+Feb-19-2020-16_39_20, Sara Hopkins, shopkins6@huskers.unl.edu, daf-2 requiring CPSR
+Feb-20-2020-04_21_45, HH, hsiaofen.han@gmail.com, RGS
+Feb-20-2020-06_07_37, HH, hsiaofen.han@gmail.com, RGS
+Feb-20-2020-06_21_53, HH, hsiaofen.han@gmail.com, RGS
+Feb-20-2020-11_15_58, O, olivier.martin@crg.cat, RGS
+Feb-20-2020-11_45_42, O, olivier.martin@crg.cat, RGS
+Feb-20-2020-15_30_58, Olivier, olivier.martin@crg.cat, RGS
+Feb-20-2020-23_31_58, Namasthée, namasthee.harris-gauthier@mail.mcgill.ca, isp-1 UP
+Feb-21-2020-03_34_06, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Feb-21-2020-03_37_23, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Feb-21-2020-13_47_47, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Feb-21-2020-14_25_47, Kazuto Kawamura, kkawamura13@gmail.com, ardup
+Feb-21-2020-14_43_50, Kazuto Kawamura, kkawamura13@gmail.com, RGS
+Feb-21-2020-15_07_36, Kazuto Kawamura, kkawamura13@gmail.com, RGS
+Feb-21-2020-15_10_42, Kazuto Kawamura, kkawamura13@gmail.com, RGS
+Feb-21-2020-15_12_23, Kazuto Kawamura, kkawamura13@gmail.com, RGS
+Feb-21-2020-15_35_50, Olivier, olivier.martin@crg.cat, RGS
+Feb-21-2020-15_39_21, Olivier, olivier.martin@crg.cat, RGS
+Feb-21-2020-15_40_56, Olivier, olivier.martin@crg.cat, RGS
+Feb-21-2020-15_41_04, Olivier, olivier.martin@crg.cat, RGS
+Feb-21-2020-18_46_56, Nandhitha, nandhitha.umanaresh@umassmed.edu, RGS
+Feb-21-2020-18_57_46, Nandhitha, nandhitha.umanaresh@umassmed.edu, Downregulated genes Starvation recovery
+Feb-22-2020-19_08_53, Nick Peterson, ndpeterson89@gmail.com, RGS
+Feb-22-2020-19_10_00, Nick Peterson, ndpeterson89@gmail.com, RGS
+Feb-23-2020-17_03_38, Kazuto Kawamura, kkawamura13@gmail.com, RGS
+Feb-24-2020-04_15_21, Anita Kumar, anita_kumar@brown.edu, X_down_1log2FC
+Feb-24-2020-04_18_26, Anita Kumar, anita_kumar@brown.edu, X_down_0.5log2FC
+Feb-24-2020-04_20_30, Anita Kumar, anita_kumar@brown.edu, X_down_0.6log2FC
+Feb-24-2020-04_31_28, Anita Kumar, anita_kumar@brown.edu, X_down_0.6log2FC
+Feb-24-2020-09_59_43, Kazuto Kawamura, kkawamura13@gmail.com, RGS
+Feb-24-2020-17_03_41, Kazuto Kawamura, kkawamura13@gmail.com, RGS
+Feb-24-2020-21_42_11, Nandhitha, nandhitha.umanaresh@umassmed.edu, Upregulated genes starved-recovery 1 hour
+Feb-24-2020-22_00_37, Nandhitha, nandhitha.umanaresh@umassmed.edu, RGS
+Feb-24-2020-22_01_05, Nandhitha, nandhitha.umanaresh@umassmed.edu, Downregulated genes Starvation recovery 1 hour
+Feb-24-2020-23_53_30, Sujata, sujatagarwal25@yahoo.in, RGS
+Feb-25-2020-17_05_06, Gabrielle Giese, gabrielle.giese@umassmed.edu, RGS
+Feb-25-2020-17_06_55, Gabrielle Giese, gabrielle.giese@umassmed.edu, RGS
+Feb-25-2020-19_27_56, test, weckhors@bcm.edu, RGS
+Feb-25-2020-19_30_38, test, weckhors@bcm.edu, RGS
+Feb-25-2020-20_01_55, Jessica Weckhorst, weckhors@bcm.edu, RGS
+Feb-25-2020-20_36_37, Jessica Weckhorst, weckhors@bcm.edu, RGS
+Feb-25-2020-20_49_18, Jessica Weckhorst, weckhors@bcm.edu, PQM1targets_1>2
+Feb-25-2020-20_51_28, Jessica Weckhorst, weckhors@bcm.edu, DAF16targets_3>1
+Feb-26-2020-01_28_09, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Feb-26-2020-15_16_24, Jessica Weckhorst, weckhors@bcm.edu, RGS
+Feb-26-2020-19_35_59, Jessica Weckhorst, weckhors@bcm.edu, RGS
+Feb-27-2020-05_46_18, Cung Nawl Thawng, cungtefalam@gmail.com, RGS
+Feb-27-2020-05_53_48, Cung Nawl Thawng, cungtefalam@gmail.com, RGS
+Feb-27-2020-06_06_38, Cung Nawl Thawng, cungtefalam@gmail.com, RGS
+Feb-27-2020-06_21_53, Cung Nawl Thawng, cungtefalam@gmail.com, RGS
+Feb-27-2020-06_30_34, Cung Nawl Thawng, cungtefalam@gmail.com, RGS
+Feb-27-2020-06_43_11, Cung Nawl Thawng, cungtefalam@gmail.com, RGS
+Feb-27-2020-06_53_57, Cung Nawl Thawng, cungtefalam@gmail.com, RGS
+Feb-27-2020-07_01_06, Cung Nawl Thawng, cungtefalam@gmail.com, RGS
+Feb-27-2020-14_11_00, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Feb-27-2020-14_13_38, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Feb-27-2020-14_20_31, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Feb-27-2020-14_22_10, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Feb-27-2020-14_23_25, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Feb-28-2020-02_38_06, Sara Hopkins, shopkins6@huskers.unl.edu, daf-2 requiring CPSR
+Feb-28-2020-16_19_36, test, pieter.vandewalle@kuleuven.be, RGS
+Feb-28-2020-16_26_30, test, pieter.vandewalle@kuleuven.be, RGS
+Feb-28-2020-17_44_50, Olivier, olivier.martin@crg.cat, RGS
+Feb-28-2020-18_12_05, Cung Nawl Thawng, cungtefalam@gmail.com, RGS
+Feb-28-2020-18_24_09, Cung Nawl Thawng, cungtefalam@gmail.com, RGS
+Feb-29-2020-00_12_13, Anita Kumar, anita_kumar@brown.edu, X_down_nuc-enr
+Mar-01-2020-00_12_57, Alex de Lencastre, adelencastre@qu.edu, RGS
+Mar-01-2020-00_26_06, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Mar-01-2020-00_27_37, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Mar-01-2020-17_04_38, MARIA EUGENIA GOYA, eugenia.goya@ed.ac.uk, Up genes
+Mar-03-2020-03_11_25, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Mar-03-2020-03_13_14, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Mar-03-2020-03_20_41, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Mar-03-2020-03_34_03, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Mar-03-2020-03_35_34, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Mar-03-2020-03_37_46, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Mar-03-2020-04_03_39, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Mar-03-2020-04_04_25, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Mar-03-2020-04_05_35, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Mar-03-2020-04_13_20, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Mar-03-2020-04_13_47, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Mar-03-2020-06_14_47, Shivani Nanda, shivani.nanda@umassmed.edu, RGS
+Mar-03-2020-06_18_48, Shivani Nanda, shivani.nanda@umassmed.edu, RGS
+Mar-03-2020-06_21_35, Shivani Nanda, shivani.nanda@umassmed.edu, RGS
+Mar-03-2020-06_25_30, Shivani Nanda, shivani.nanda@umassmed.edu, RGS
+Mar-03-2020-06_28_09, Shivani Nanda, shivani.nanda@umassmed.edu, RGS
+Mar-03-2020-06_31_01, Shivani Nanda, shivani.nanda@umassmed.edu, RGS
+Mar-03-2020-06_33_14, Shivani Nanda, shivani.nanda@umassmed.edu, RGS
+Mar-03-2020-06_38_27, Shivani Nanda, shivani.nanda@umassmed.edu, RGS
+Mar-03-2020-06_48_39, Shivani Nanda, shivani.nanda@umassmed.edu, RGS
+Mar-04-2020-10_30_02, Adi, adityasethi.28@gmail.com, RGS
+Mar-04-2020-17_51_44, Jessica Weckhorst, weckhors@bcm.edu, RGS
+Mar-04-2020-19_34_14, Daehan Lee, phman1121@gmail.com, arms_nondiv
+Mar-04-2020-20_35_59, Avijit Mallick, mallia1@mcmaster.ca, RGS
+Mar-05-2020-17_54_20, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Mar-05-2020-17_55_13, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Mar-05-2020-18_04_36, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Mar-05-2020-20_51_00, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Mar-05-2020-20_51_47, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Mar-05-2020-21_16_47, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Mar-06-2020-11_46_15, Paula, paranaz@unav.es, RSV 
+Mar-06-2020-16_07_54, Jessica Weckhorst, weckhors@bcm.edu, RGS
+Mar-06-2020-16_22_09, Jessica Weckhorst, weckhors@bcm.edu, RGS
+Mar-06-2020-16_25_12, Jessica Weckhorst, weckhors@bcm.edu, RGS
+Mar-06-2020-16_29_04, Jessica Weckhorst, weckhors@bcm.edu, RGS
+Mar-06-2020-16_36_01, Jessica Weckhorst, weckhors@bcm.edu, RGS
+Mar-06-2020-16_44_04, Jessica Weckhorst, weckhors@bcm.edu, RGS
+Mar-06-2020-16_52_34, Jessica Weckhorst, weckhors@bcm.edu, RGS
+Mar-06-2020-19_34_06, Jessica Weckhorst, weckhors@bcm.edu, RGS
+Mar-06-2020-19_46_22, Jessica Weckhorst, weckhors@bcm.edu, RGS
+Mar-06-2020-21_25_44, Jessica Weckhorst, weckhors@bcm.edu, RGS
+Mar-07-2020-13_28_35, Gill, rock.n.love@hotmail.de, MPI_Down_log2fold
+Mar-07-2020-13_31_04, Gill, rock.n.love@hotmail.de, MPI_Down_log2fold
+Mar-07-2020-13_32_09, Gill, rock.n.love@hotmail.de, MPI_Down_log2fold
+Mar-08-2020-05_08_26, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Mar-08-2020-18_54_02, Xuhang, xuhang.li@umassmed.edu, RGS
+Mar-08-2020-20_01_23, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Mar-08-2020-20_51_35, Debbie Thurtle-Schmidt, dethurtleschmidt@davidson.edu, wt vs mutant
+Mar-08-2020-20_52_32, Debbie Thurtle-Schmidt, dethurtleschmidt@davidson.edu, wt vs mutant
+Mar-08-2020-20_55_17, Debbie Thurtle-Schmidt, dethurtleschmidt@davidson.edu, wt vs mutant
+Mar-08-2020-20_58_31, Debbie Thurtle-Schmidt, dethurtleschmidt@davidson.edu, wt vs mutant
+Mar-08-2020-22_10_23, xuhang, xuhang.li@umassmed.edu, RGS
+Mar-08-2020-23_01_48, xuhang, xuhang.li@umassmed.edu, RGS
+Mar-09-2020-00_31_01, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Mar-09-2020-02_14_39, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Mar-09-2020-11_35_25, aaa, adityasethi.28@gmail.com, RGS
+Mar-09-2020-19_23_25, xuhang, xuhang.li@umassmed.edu, RGS
+Mar-09-2020-21_32_12, Jessica Weckhorst, weckhors@bcm.edu, RGS
+Mar-10-2020-09_34_23, Aditya Sethi, adityasethi.28@gmail.com, RGS
+Mar-10-2020-09_43_39, Aditya Sethi, adityasethi.28@gmail.com, RGS
+Mar-10-2020-14_31_37, Sujata, sujatagarwal25@yahoo.in, RGS
+Mar-10-2020-14_59_34, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Mar-10-2020-15_09_28, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Mar-10-2020-15_13_04, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Mar-10-2020-15_19_28, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Mar-10-2020-15_20_02, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Mar-10-2020-17_28_04, Kyle Foster, kyle.foster@umassmed.edu, olrn-1DiffUpDown
+Mar-10-2020-17_34_46, Kyle Foster, kyle.foster@umassmed.edu, olrn-1DiffUpDown
+Mar-10-2020-17_58_54, Stefan Zdraljevic, szdralje@gmail.com, RGS
+Mar-10-2020-20_10_25, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Mar-10-2020-20_11_09, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Mar-11-2020-14_06_40, ku217, dethurtleschmidt@davidson.edu, RGS
+Mar-11-2020-14_13_30, ku217, dethurtleschmidt@davidson.edu, RGS
+Mar-11-2020-15_26_56, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Mar-11-2020-15_28_08, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Mar-11-2020-22_40_41, Stefan Zdraljevic, szdralje@gmail.com, RGS
+Mar-11-2020-22_42_33, Stefan Zdraljevic, szdralje@gmail.com, RGS
+Mar-11-2020-22_46_07, Stefan Zdraljevic, szdralje@gmail.com, RGS
+Mar-11-2020-22_46_49, Stefan Zdraljevic, szdralje@gmail.com, RGS
+Mar-11-2020-22_48_06, Stefan Zdraljevic, szdralje@gmail.com, RGS
+Mar-11-2020-22_52_54, Stefan Zdraljevic, szdralje@gmail.com, RGS
+Mar-11-2020-22_56_32, Stefan Zdraljevic, szdralje@gmail.com, RGS
+Mar-12-2020-21_40_27, Daehan Lee, daehan.lee@northwestern.edu, all_div
+Mar-12-2020-21_41_15, Daehan Lee, daehan.lee@northwestern.edu, non_div_arm
+Mar-13-2020-15_54_16, Alexandra Willis, alexandrarosewillis@gmail.com, RGS
+Mar-13-2020-15_57_05, Alexandra Willis, alexandrarosewillis@gmail.com, RGS
+Mar-13-2020-15_57_56, Alexandra Willis, alexandrarosewillis@gmail.com, RGS
+Mar-13-2020-19_31_00, Sujata, sujatagarwal25@yahoo.in, RGS
+Mar-13-2020-19_37_05, Sujata, sujatagarwal25@yahoo.in, RGS
+Mar-13-2020-19_38_32, Sujata, sujatagarwal25@yahoo.in, RGS
+Mar-14-2020-05_39_08, Biswajit Ghosh, biswa2019@nii.ac.in, RGS
+Mar-14-2020-05_44_38, Biswajit Ghosh, biswa2019@nii.ac.in, mono_vs_total_reanalysis
+Mar-14-2020-13_23_41, UMANSHI RAUTELA, umanshi@nii.ac.in, RGS
+Mar-14-2020-13_25_31, UMANSHI RAUTELA, umanshi@nii.ac.in, RGS
+Mar-14-2020-20_18_25, UMANSHI RAUTELA, umanshi@nii.ac.in, RGS
+Mar-17-2020-03_22_11, Cao Wei, wei.cao@monash.edu, Splicing 2h
+Mar-18-2020-13_31_45, Charline Roy, charline.roy@univ-lyon1.fr, DEG_D6_WT-vs-e1370
+Mar-18-2020-14_28_24, Charline Roy, charline.roy@univ-lyon1.fr, DEG_D6_WT-vs-e1370_ab_th
+Mar-18-2020-16_28_31, atikah, atikahabdulgani@gmail.com, RGS
+Mar-18-2020-16_37_44, atikah, atikahabdulgani@gmail.com, RGS
+Mar-18-2020-18_15_10, UMANSHI RAUTELA, umanshi@nii.ac.in, RGS
+Mar-18-2020-18_19_11, UMANSHI RAUTELA, umanshi@nii.ac.in, RGS
+Mar-18-2020-18_24_12, UMANSHI RAUTELA, umanshi@nii.ac.in, RGS
+Mar-18-2020-18_28_24, UMANSHI RAUTELA, umanshi@nii.ac.in, RGS
+Mar-18-2020-18_41_17, UMANSHI RAUTELA, umanshi@nii.ac.in, RGS
+Mar-18-2020-19_19_52, UMANSHI RAUTELA, umanshi@nii.ac.in, RGS
+Mar-19-2020-08_07_01, UMANSHI RAUTELA, umanshi@nii.ac.in, RGS
+Mar-19-2020-13_39_20, UMANSHI RAUTELA, umanshi@nii.ac.in, RGS
+Mar-19-2020-13_44_19, UMANSHI RAUTELA, umanshi@nii.ac.in, RGS
+Mar-19-2020-13_53_47, UMANSHI RAUTELA, umanshi@nii.ac.in, RGS
+Mar-19-2020-14_22_56, atikah, atikahabdulgani@gmail.com, RGS
+Mar-19-2020-14_25_23, atikah, atikahabdulgani@gmail.com, RGS
+Mar-19-2020-20_07_13, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Mar-19-2020-22_04_51, Xuhang, xuhang.li@umassmed.edu, RGS
+Mar-19-2020-22_06_53, Xuhang, xuhang.li@umassmed.edu, RGS
+Mar-19-2020-22_08_04, Xuhang, xuhang.li@umassmed.edu, RGS
+Mar-19-2020-22_09_30, Xuhang, xuhang.li@umassmed.edu, RGS
+Mar-19-2020-22_10_35, Xuhang, xuhang.li@umassmed.edu, RGS
+Mar-19-2020-22_11_29, Xuhang, xuhang.li@umassmed.edu, RGS
+Mar-19-2020-22_12_29, Xuhang, xuhang.li@umassmed.edu, RGS
+Mar-19-2020-22_14_50, Xuhang, xuhang.li@umassmed.edu, RGS
+Mar-19-2020-22_16_17, Xuhang, xuhang.li@umassmed.edu, RGS
+Mar-19-2020-22_17_20, Xuhang, xuhang.li@umassmed.edu, RGS
+Mar-19-2020-22_40_50, Xuhang, xuhang.li@umassmed.edu, RGS
+Mar-19-2020-22_45_32, Xuhang, xuhang.li@umassmed.edu, RGS
+Mar-19-2020-22_48_35, Xuhang, xuhang.li@umassmed.edu, RGS
+Mar-19-2020-22_50_59, Xuhang, xuhang.li@umassmed.edu, RGS
+Mar-19-2020-23_21_03, Xuhang, xuhang.li@umassmed.edu, RGS
+Mar-20-2020-12_41_40, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Mar-20-2020-13_54_47, UMANSHI RAUTELA, umanshi@nii.ac.in, RGS
+Mar-20-2020-13_58_29, UMANSHI RAUTELA, umanshi@nii.ac.in, RGS
+Mar-21-2020-17_08_55, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Mar-21-2020-18_08_20, Nathan Harris, nathanharris@brandeis.edu, RGS
+Mar-21-2020-18_44_47, Nathan Harris, nathanharris@brandeis.edu, RGS
+Mar-21-2020-18_47_00, Nathan Harris, nathanharris@brandeis.edu, RGS
+Mar-21-2020-18_47_33, Nathan Harris, nathanharris@brandeis.edu, RGS
+Mar-22-2020-20_48_34, atikah, atikahabdulgani@gmail.com, RGS
+Mar-22-2020-20_50_38, atikah, atikahabdulgani@gmail.com, RGS
+Mar-22-2020-21_00_01, atikah, atikahabdulgani@gmail.com, RGS
+Mar-22-2020-21_01_37, atikah, atikahabdulgani@gmail.com, RGS
+Mar-22-2020-21_02_51, atikah, atikahabdulgani@gmail.com, RGS
+Mar-22-2020-21_06_03, atikah, atikahabdulgani@gmail.com, RGS
+Mar-22-2020-21_11_59, atikah, atikahabdulgani@gmail.com, RGS
+Mar-22-2020-21_15_44, atikah, atikahabdulgani@gmail.com, RGS
+Mar-22-2020-21_19_10, atikah, atikahabdulgani@gmail.com, RGS
+Mar-22-2020-21_22_20, atikah, atikahabdulgani@gmail.com, RGS
+Mar-22-2020-21_28_14, atikah, atikahabdulgani@gmail.com, RGS
+Mar-22-2020-21_30_37, atikah, atikahabdulgani@gmail.com, RGS
+Mar-22-2020-21_33_13, atikah, atikahabdulgani@gmail.com, RGS
+Mar-22-2020-21_38_59, atikah, atikahabdulgani@gmail.com, RGS
+Mar-22-2020-21_42_22, atikah, atikahabdulgani@gmail.com, RGS
+Mar-23-2020-04_45_15, Tara, tara_thakurta@brown.edu, RGS
+Mar-23-2020-04_55_34, Tara, tara_thakurta@brown.edu, RGS
+Mar-23-2020-04_58_27, Tara , tara_thakurta@brown.edu, Downregulated Transcriptomic Results
+Mar-23-2020-05_35_40, Tara, tara_thakurta@brown.edu, RGS
+Mar-23-2020-05_38_22, Tara, tara_thakurta@brown.edu, RGS
+Mar-23-2020-05_39_48, Tara, tara_thakurta@brown.edu, RGS
+Mar-23-2020-05_42_39, Tara, tara_thakurta@brown.edu, RGS
+Mar-23-2020-05_45_30, Tara, tara_thakurta@brown.edu, RGS
+Mar-23-2020-05_46_44, Tara, tara_thakurta@brown.edu, RGS
+Mar-23-2020-22_21_37, Roger, roger.pocock@monash.edu, RGS
+Mar-24-2020-02_25_55, ahmet, yavuz, RGS
+Mar-24-2020-02_28_23, ahmet, yavuz, RGS
+Mar-24-2020-12_01_36, Cao Wei, wei.cao@monash.edu, non-coding RNAs
+Mar-24-2020-13_26_16, Hannah Smith, hjsmith@g.harvard.edu, Cluster 4
+Mar-24-2020-13_32_13, Hannah Smith, hjsmith@g.harvard.edu, Cluster 3
+Mar-24-2020-14_43_26, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Mar-24-2020-14_45_19, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Mar-24-2020-14_48_50, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Mar-24-2020-19_34_10, Tara, tara_thakurta@brown.edu, RGS
+Mar-24-2020-19_37_30, Tara, tara_thakurta@brown.edu, RGS
+Mar-25-2020-08_03_41, Chung-Chih Liu, liu7525@gmail.com, SSR
+Mar-25-2020-08_09_57, Chung-Chih Liu, liu7525@gmail.com, SSR
+Mar-25-2020-16_34_20, Chung-Chih Liu, liu7525@gmail.com, SSR
+Mar-26-2020-10_05_43, Alina Teuscher, alina-teuscher@ethz.ch, RNAi screen
+Mar-26-2020-10_14_28, Alina Teuscher, alina-teuscher@ethz.ch, RNAi 2
+Mar-26-2020-11_16_05, Alina Teuscher, alina-teuscher@ethz.ch, high confident
+Mar-26-2020-15_03_01, Martina Rudgalvyte, martina.rudgalvyte@gmail.com, RGS
+Mar-26-2020-23_37_23, xinxing zhang, xinxingz@umich.edu, RGS
+Mar-27-2020-16_10_43, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Mar-27-2020-17_20_17, Alina Teuscher, alina-teuscher@ethz.ch, RGS
+Mar-27-2020-17_28_57, Alina Teuscher, alina-teuscher@ethz.ch, RGS
+Mar-27-2020-17_32_06, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Mar-27-2020-18_00_43, Alina Teuscher, alina-teuscher@ethz.ch, RGS
+Mar-27-2020-18_01_16, Alina Teuscher, alina-teuscher@ethz.ch, RGS
+Mar-27-2020-18_15_49, Chung-Chih Liu, liu7525@gmail.com, SSR
+Mar-27-2020-22_43_03, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Mar-28-2020-03_08_51, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Mar-28-2020-03_10_48, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Mar-28-2020-03_13_38, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Mar-28-2020-17_06_09, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Mar-28-2020-17_07_55, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Mar-29-2020-20_11_33, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Mar-30-2020-14_44_33, Nathan Harris, nathanharris@brandeis.edu, AFD
+Mar-30-2020-15_00_10, Nathan Harris, nathanharris@brandeis.edu, AFD_down
+Mar-30-2020-16_19_37, all csr targets, meetalichauhan@gmail.com, RGS
+Mar-30-2020-16_26_18,  csr targets 150 rpm, meetalichauhan@gmail.com, RGS
+Mar-30-2020-16_27_54,  csr interactors, meetalichauhan@gmail.com, RGS
+Mar-30-2020-17_33_35,  csr i150, meetalichauhan@gmail.com, RGS
+Mar-30-2020-17_35_00,  csr interactors, meetalichauhan@gmail.com, RGS
+Mar-30-2020-17_36_12, csr 150, meetalichauhan@gmail.com, RGS
+Mar-30-2020-18_46_07, atikah, atikahabdulganimansyur@gmail.com, RGS
+Mar-30-2020-20_22_11, Avijit Mallick, avijitsunshine@gmail.com, RGS
+Mar-30-2020-20_23_49, Avijit Mallick, avijitsunshine@gmail.com, RGS
+Mar-30-2020-20_24_48, n, niki2112@gmail.com, RGS
+Mar-30-2020-20_26_17, n, niki2112@gmail.com, RGS
+Mar-30-2020-23_54_30, AK, anita_kumar@brown.edu, RGS
+Mar-31-2020-00_14_53, AK, anita_kumar@brown.edu, RGS
+Mar-31-2020-11_54_57, Aditya, adityasethi.28@gmail.com, RGS
+Mar-31-2020-11_58_41, Aditya, adityasethi.28@gmail.com, RGS
+Mar-31-2020-12_07_34, Aditya, adityasethi.28@gmail.com, RGS
+Mar-31-2020-12_35_35, Aditya, adityasethi.28@gmail.com, RGS
+Mar-31-2020-12_46_48, Aditya, adityasethi.28@gmail.com, RGS
+Mar-31-2020-12_51_19, Aditya Sethi, adityasethi.28@gmail.com, RGS
+Mar-31-2020-16_05_24, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Mar-31-2020-16_06_32, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Mar-31-2020-17_46_46, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Mar-31-2020-17_47_53, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Mar-31-2020-18_23_57, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Apr-01-2020-01_14_52, Jacob Bowie, jacob.bowie@uconn.edu, KNOCKDOWN
+Apr-01-2020-09_52_48, interactors, meetalichauhan@gmail.com, RGS
+Apr-01-2020-19_00_25, Phil Frankino, phillip_frankino@berkeley.edu, RGS
+Apr-01-2020-19_06_51, Phil Frankino, phillip_frankino@berkeley.edu, RGS
+Apr-02-2020-06_21_08, Manish Chamoli, MChamoli@buckinstitute.org, ChamoliM 
+Apr-02-2020-06_26_09, Manish Chamoli, MChamoli@buckinstitute.org, ChamoliM 
+Apr-02-2020-18_31_08, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Apr-02-2020-18_38_18, AK, anita_kumar@brown.edu, RGS
+Apr-03-2020-05_14_58, Shivani, Nanda, RGS
+Apr-03-2020-05_21_14, Shivani, Nanda, RGS
+Apr-03-2020-07_49_28, UMANSHI RAUTELA, umanshi@nii.ac.in, RGS
+Apr-03-2020-15_36_33, UMANSHI RAUTELA, umanshi@nii.ac.in, RGS
+Apr-03-2020-20_57_22, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Apr-04-2020-04_39_45, Chung-Chih Liu, liu7525@gmail.com, SSR
+Apr-04-2020-07_44_56, Chung-Chih Liu, liu7525@gmail.com, RGS
+Apr-04-2020-08_14_55, Chung-Chih Liu, liu7525@gmail.com, SSR
+Apr-04-2020-18_05_37, Chung-Chih Liu, liu7525@gmail.com, SSR
+Apr-04-2020-20_29_16, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Apr-04-2020-20_30_22, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Apr-04-2020-21_51_41, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Apr-04-2020-23_30_47, Sara Hopkins, shopkins6@huskers.unl.edu, RGS
+Apr-05-2020-22_19_31, Martin Newman, newman80@email.unc.edu, grd_rict1_UP
+Apr-05-2020-22_22_00, marty newman, newman80@email.unc.edu, grd_rict1_DN
+Apr-06-2020-02_32_07, Chung-Chih Liu, liu7525@gmail.com, SSR
+Apr-06-2020-06_23_56, Farees ud din mufti, muftifarees@gmail.com, RGS
+Apr-06-2020-06_26_12, Farees ud din mufti, muftifarees@gmail.com, ego-1
+Apr-06-2020-10_04_24, p, olivier.martin@crg.cat, RGS
+Apr-06-2020-10_13_36, Meetali Singh, meetalichauhan@gmail.com, RGS
+Apr-06-2020-15_29_21, n, niki2112@gmail.com, RGS
+Apr-06-2020-17_03_20, Daniel, dmartimarti@gmail.com, OP50
+Apr-06-2020-17_39_53, Dasni, dmartimarti@gmail.com, N2_down
+Apr-06-2020-17_40_59, Daniel Martinez, dmartimarti@gmail.com, N2_up
+Apr-06-2020-17_41_40, Daniel Martinez, dmartimarti@gmail.com, OGRF_down
+Apr-06-2020-17_43_45, Daniel Martínez Martínez, dmartimarti@gmail.com, OGRF_up
+Apr-06-2020-17_44_41, Daniel Martínez Martínez, dmartimarti@gmail.com, OP50_down
+Apr-06-2020-17_45_15, Daniel Martínez Martínez, dmartimarti@gmail.com, OP50_up
+Apr-06-2020-17_45_47, Daniel Martínez Martínez, dmartimarti@gmail.com, skpo_down
+Apr-06-2020-17_46_10, Daniel Martinez, dmartimarti@gmail.com, skpo_up
+Apr-06-2020-17_47_39, Daniel Martinez, dmartimarti@gmail.com, skpo_up
+Apr-06-2020-21_21_23, Lauren Booth, lnbooth@stanford.edu, RGS
+Apr-06-2020-21_24_09, Lauren Booth, lnbooth@stanford.edu, RGS
+Apr-06-2020-21_28_01, Lauren Booth, lnbooth@stanford.edu, RGS
+Apr-06-2020-21_42_00, Lauren Booth, lnbooth@stanford.edu, RGS
+Apr-06-2020-23_09_06, Lauren Booth, lnbooth@stanford.edu, RGS
+Apr-06-2020-23_23_07, Adwait Godbole, adwaitgodbole@gmail.com, sams-1 heat up
+Apr-06-2020-23_24_43, Adwait Godbole, adwaitgodbole@gmail.com, sams-1 heat up
+Apr-07-2020-00_00_43, Adwait Godbole, adwaitgodbole@gmail.com, sams-1 basal up
+Apr-07-2020-00_03_33, Adwait Godbole, adwaitgodbole@gmail.com, sams-1 up basal
+Apr-07-2020-00_04_41, Adwait Godbole, adwaitgodbole@gmail.com, sams-1 up basal
+Apr-07-2020-00_06_04, Adwait Godbole, adwaitgodbole@gmail.com, sams-1 up basal
+Apr-07-2020-00_08_21, Adwait Godbole, adwaitgodbole@gmail.com, sams-1 down basal
+Apr-07-2020-11_10_04, Daniel Martinez, dmartimarti@gmail.com, N2_down
+Apr-07-2020-11_10_35, Daniel Martinez, dmartimarti@gmail.com, N2_up
+Apr-07-2020-11_11_07, Daniel Martinez, dmartimarti@gmail.com, OGRF_down
+Apr-07-2020-11_11_19, Daniel Martinez, dmartimarti@gmail.com, OGRF_up
+Apr-07-2020-11_11_58, Daniel Martinez, dmartimarti@gmail.com, OP50_up
+Apr-07-2020-11_12_00, Daniel Martinez, dmartimarti@gmail.com, OP50_down
+Apr-07-2020-11_12_40, Daniel Martinez, dmartimarti@gmail.com, skpo_down
+Apr-07-2020-11_12_50, Daniel Martinez, dmartimarti@gmail.com, skpo_up
+Apr-07-2020-15_42_59, Daniel Martinez, dmartimarti@gmail.com, OGRF_up
+Apr-07-2020-15_48_59, Daniel Martinez, dmartimarti@gmail.com, N2_down
+Apr-07-2020-17_26_35, Charline Roy, charline.roy@univ-lyon1.fr, D6_mut_vs_WT_neg
+Apr-07-2020-17_38_40, Charline Roy, charline.roy@univ-lyon1.fr, D6_mut_vs_WT_pos
+Apr-07-2020-18_17_18, Martin Newman, newman80@email.unc.edu, RGS
+Apr-07-2020-18_19_11, Martin Newman, newman80@email.unc.edu, RGS
+Apr-07-2020-19_59_06, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Apr-08-2020-16_17_37, Charline Roy, charline.roy@univ-lyon1.fr, D6_mut_vs_WT_TRUE_neg
+Apr-08-2020-16_32_53, Charline Roy, charline.roy@univ-lyon1.fr, D6_mut_vs_WT_TRUE_pos
+Apr-08-2020-18_19_33, Tara, 16TTHAKURTA@CASTILLEJA.ORG, RGS
+Apr-09-2020-09_51_49, Daniel Martinez, dmartimarti@gmail.com, skpo_up
+Apr-09-2020-09_52_03, Daniel Martinez, dmartimarti@gmail.com, skpo_down
+Apr-09-2020-21_12_15, Lauren Booth, lnbooth@stanford.edu, WT+fer6-UP
+Apr-09-2020-21_13_38, Lauren Booth, lnbooth@stanford.edu, WTm-only-UP
+Apr-09-2020-21_16_18, Lauren Booth, lnbooth@stanford.edu, fer-6-any-UP
+Apr-09-2020-21_17_37, Lauren Booth, lnbooth@stanford.edu, RGS
+Apr-09-2020-21_22_25, Lauren Booth, lnbooth@stanford.edu, RGS
+Apr-09-2020-21_29_22, Lauren Booth, lnbooth@stanford.edu, RGS
+Apr-09-2020-22_43_16, Lauren Booth, lnbooth@stanford.edu, RGS
+Apr-09-2020-23_04_44, AK, anita_kumar@brown.edu, RGS
+Apr-10-2020-01_17_47, Charline Roy, charline.roy@univ-lyon1.fr, down
+Apr-10-2020-01_20_22, Charline Roy, charline.roy@univ-lyon1.fr, up
+Apr-10-2020-04_11_21, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Apr-10-2020-04_15_36, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Apr-10-2020-04_16_34, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Apr-10-2020-04_33_22, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Apr-10-2020-04_41_39, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Apr-10-2020-04_42_22, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Apr-10-2020-10_46_52, Rebecca McIntyre, r.l.mcintyre@amsterdamumc.nl, unadj0.01_UP
+Apr-10-2020-10_49_32, Rebecca McIntyre, r.l.mcintyre@amsterdamumc.nl, unadj0.01_DOWN
+Apr-10-2020-12_22_53, Shivani, shivani.nanda@umassmed.edu, RGS
+Apr-10-2020-12_29_04, Shivani, shivani.nanda@umassmed.edu, RGS
+Apr-10-2020-12_32_34, Shivani, shivani.nanda@umassmed.edu, RGS
+Apr-10-2020-12_38_48, Shivani, shivani.nanda@umassmed.edu, RGS
+Apr-10-2020-12_44_35, Shivani, shivani.nanda@umassmed.edu, RGS
+Apr-10-2020-12_49_10, Shivani, shivani.nanda@umassmed.edu, RGS
+Apr-10-2020-13_19_55, Shivani, shivani.nanda@umassmed.edu, RGS
+Apr-10-2020-13_28_38, Shivani, shivani.nanda@umassmed.edu, nhr-66
+Apr-10-2020-15_20_02, Shivani, shivani.nanda@umassmed.edu, nhr-76
+Apr-10-2020-15_24_32, Shivani, shivani.nanda@umassmed.edu, nhr-76
+Apr-10-2020-15_31_36, Shivani, shivani.nanda@umassmed.edu, nhr-76
+Apr-10-2020-15_40_23, Shivani, shivani.nanda@umassmed.edu, tbx-39
+Apr-10-2020-16_00_35, Shivani, shivani.nanda@umassmed.edu, nhr-68
+Apr-10-2020-19_38_13, svn, owigh@Oihwoeig.com, RGS
+Apr-10-2020-22_42_46, Lauren Booth, lnbooth@stanford.edu, Common-UP
+Apr-10-2020-22_48_36, Lauren Booth, lnbooth@stanford.edu, Common-DOWN
+Apr-10-2020-22_50_37, Lauren Booth, lnbooth@stanford.edu, WTspecific-DOWN
+Apr-10-2020-22_51_58, Lauren Booth, lnbooth@stanford.edu, WTspecific-UP
+Apr-13-2020-02_07_20, Tara Thakurta, tara_thakurta@brown.edu, RGS
+Apr-13-2020-02_09_08, Tara Thakurta, tara_thakurta@brown.edu, RGS
+Apr-13-2020-09_48_54, Meetali Singh, meetalichauhan@gmail.com, RGS
+Apr-13-2020-10_05_52, Meetali Singh, meetalichauhan@gmail.com, RGS
+Apr-13-2020-16_51_23, Meetali Singh, meetalichauhan@gmail.com, RGS
+Apr-13-2020-16_53_17, Meetali Singh, meetalichauhan@gmail.com, RGS
+Apr-13-2020-16_54_27, Meetali Singh, meetalichauhan@gmail.com, interactors
+Apr-13-2020-16_55_04, Meetali Singh, meetalichauhan@gmail.com, targets
+Apr-13-2020-17_17_10, Shivani, shivani.nanda@umassmed.edu, RGS
+Apr-13-2020-22_40_57, Lauren Booth, lnbooth@stanford.edu, MCP-UP
+Apr-13-2020-22_41_50, Lauren Booth, lnbooth@stanford.edu, MCP-DOWN
+Apr-13-2020-22_42_57, Lauren Booth, lnbooth@stanford.edu, RGS
+Apr-13-2020-22_44_28, Lauren Booth, lnbooth@stanford.edu, RGS
+Apr-13-2020-23_31_29, Martin Newman, newman80@email.unc.edu, intersection DN
+Apr-13-2020-23_34_38, Martin Newman, newman80@email.unc.edu, intersection UP
+Apr-14-2020-02_59_29, Chung-Chih Liu, liu7525@gmail.com, RGS
+Apr-14-2020-06_44_28, Chung-Chih Liu, liu7525@gmail.com, RGS
+Apr-14-2020-07_40_29, Chung-Chih Liu, liu7525@gmail.com, RGS
+Apr-14-2020-13_59_47, Zhe CAO, zhecaobio@gmail.com, WT vs cfa
+Apr-14-2020-14_05_03, Zhe CAO, zhecaobio@gmail.com, WT vs cfa
+Apr-14-2020-14_16_55, Zhe CAO, zhecaobio@gmail.com, WT vs cfa
+Apr-14-2020-15_54_43, t deiss , tdeiss19@gmail.com, Vm_p1hip10-p1hip100
+Apr-14-2020-17_11_27, Chung-Chih Liu, liu7525@gmail.com, RGS
+Apr-14-2020-18_10_19, Amy Walker, amy_walker@mac.com, RGS
+Apr-14-2020-18_22_10, Amy Walker, amy_walker@mac.com, RGS
+Apr-14-2020-18_29_52, Adwait Godbole, adwaitgodbole@gmail.com, sams-1
+Apr-14-2020-18_30_24, Adwait Godbole, adwaitgodbole@gmail.com, N2 DR up
+Apr-14-2020-18_32_09, Adwait Godbole, adwaitgodbole@gmail.com, N2 DR down
+Apr-14-2020-18_36_09, Adwait Godbole, adwaitgodbole@gmail.com, N2 DR up
+Apr-14-2020-18_37_06, Adwait Godbole, adwaitgodbole@gmail.com, N2 DR up
+Apr-14-2020-19_40_37, Lauren Klabonski, lklabonski@gmail.com, RGS
+Apr-14-2020-20_47_35, Adwait Godbole, adwaitgodbole@gmail.com, N2 DR up
+Apr-14-2020-22_24_06, Chung-Chih Liu, liu7525@gmail.com, RGS
+Apr-15-2020-03_49_57, Chung-Chih Liu, liu7525@gmail.com, RGS
+Apr-15-2020-04_24_05, Chung-Chih Liu, liu7525@gmail.com, RGS
+Apr-15-2020-05_17_48, Chung-Chih Liu, liu7525@gmail.com, RGS
+Apr-15-2020-06_55_28, Chung-Chih Liu, liu7525@gmail.com, RGS
+Apr-15-2020-08_03_31, Chung-Chih Liu , liu7525@gmail.com, RGS
+Apr-15-2020-12_05_09, Shivani, shivani.nanda@umassmed.edu, RGS
+Apr-15-2020-12_06_10, Shivani, shivani.nanda@umassmed.edu, RGS
+Apr-15-2020-12_22_23, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Apr-15-2020-12_27_43, Shivani, shivani.nanda@umassmed.edu, RGS
+Apr-15-2020-16_21_40, Amy Walker, amy_walker@mac.com, RGS
+Apr-15-2020-16_27_29, Amy Walker, amy_walker@mac.com, RGS
+Apr-15-2020-16_36_32, Amy Walker, amy_walker@mac.com, RGS
+Apr-15-2020-16_51_48, Shivani, shivani.nanda@umassmed.edu, RGS
+Apr-15-2020-20_06_36, Chung-Chih Liu, liu7525@gmail.com, RGS
+Apr-15-2020-20_39_26, Chung-Chih Liu, liu7525@gmail.com, RGS
+Apr-16-2020-07_44_01, Zhe CAO, zhecaobio@gmail.com, RGS
+Apr-16-2020-07_47_19, Zhe CAO, zhecaobio@gmail.com, upregulated
+Apr-16-2020-12_29_07, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Apr-16-2020-12_30_14, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+Apr-16-2020-16_19_43, SUJATA AGARWAL, sujataagarwal@my.unt.edu, RGS
+Apr-16-2020-19_52_31, Phil Frankino, phillip_frankino@berkeley.edu, Glia HSF unique
+Apr-16-2020-19_57_43, Phil Frankino, phillip_frankino@berkeley.edu, Glia HSF unique
+Apr-16-2020-21_29_54, buck, bucks@bcm.edu, RGS
+Apr-17-2020-00_00_42, Brandon Ely, b.ely927@gmail.com, RGS
+Apr-17-2020-20_25_08, Mary Ellenbecker, mary.ellenbecker@mso.umt.edu, Upregulated in Pf4; Downregulated in WT 2 fold
+Apr-17-2020-20_36_38, Mary Ellenbecker, mary.ellenbecker@mso.umt.edu, deltaPf4 upregulated; wt downregulated 2fold
+Apr-17-2020-20_47_03, Mary Ellenbecker, mary.ellenbecker@mso.umt.edu, RGS
+Apr-17-2020-20_48_47, Mary Ellenbecker, mary.ellenbecker@mso.umt.edu, RGS
+Apr-17-2020-21_36_11, Mary , m, RGS
+Apr-17-2020-21_39_28, Mary Ellenbecker, mary.ellenbecker@mso.umt.edu, RGS
+Apr-17-2020-21_43_41, Mary Ellenbecker, mary.ellenbecker@mso.umt.edu, RGS
+Apr-18-2020-03_11_12, Adwait Godbole, adwaitgodbole@gmail.com, eat-2 UP
+Apr-18-2020-03_14_10, Adwait Godbole, adwaitgodbole@gmail.com, eat-2 down
+Apr-18-2020-03_16_45, Adwait Godbole, adwaitgodbole@gmail.com, eat-2 down
+Apr-18-2020-03_46_18, Adwait Godbole, adwaitgodbole@gmail.com, eat-2 up 1.5 fold cutoff
+Apr-18-2020-04_12_57, Adwait Godbole, adwaitgodbole@gmail.com, rapamycin up
+Apr-18-2020-04_15_15, Adwait Godbole, adwaitgodbole@gmail.com, rapamycin down
+Apr-18-2020-04_16_09, Adwait Godbole, adwaitgodbole@gmail.com, rapamycin down
+Apr-18-2020-16_46_31, UMANSHI RAUTELA, umanshi@nii.ac.in, RGS
+Apr-20-2020-16_45_17, Chung-Chih Liu, liu7525@gmail.com, RGS
+Apr-20-2020-21_02_51, Lauren Booth, lnbooth@stanford.edu, RGS
+Apr-20-2020-21_03_55, Lauren Booth, lnbooth@stanford.edu, RGS-3way-UP
+Apr-20-2020-21_30_14, Lauren Booth, lnbooth@stanford.edu, 2-way-DOWN
+Apr-20-2020-21_33_08, Lauren Booth, lnbooth@stanford.edu, 2-way-UP
+Apr-20-2020-22_12_01, Chung-Chih Liu, liu7525@gmail.com, RGS
+Apr-21-2020-05_02_12, Chung-Chih Liu, liu7525@gmail.com, RGS
+Apr-21-2020-15_56_51, Silvia Vogl, silvia.vogl@bfr.bund.de, RGS
+Apr-21-2020-17_22_05, Mary Ellenbecker, mary.ellenbecker@mso.umt.edu, RGS
+Apr-21-2020-18_45_00, Mary Ellenbecker, mary.ellenbecker@mso.umt.edu, RGS
+Apr-21-2020-19_26_06, Mary Ellenbecker, mary.ellenbecker@mso.umt.edu, RGS
+Apr-22-2020-00_02_35, ben, bedin@hotmail.com, RGS
+Apr-22-2020-00_12_58, rn, emmv@fmrk.com, RGS
+Apr-22-2020-00_14_33, victoria, victoriaggteruel@gmail.com, male L4
+Apr-22-2020-00_39_14, ef, aa@cc.com, RGS
+Apr-22-2020-00_40_09, ef, aa@cc.com, RGS
+Apr-22-2020-00_41_14, ef, aa@cc.com, RGS
+Apr-22-2020-00_45_39, fs, fem.com, RGS
+Apr-22-2020-00_48_02, fs, fem.com, RGS
+Apr-22-2020-01_07_19, rn, emmv@fmrk.com, RGS
+Apr-22-2020-01_38_18, rn, emmv@fmrk.com, RGS
+Apr-22-2020-01_41_02, rn, emmv@fmrk.com, RGS
+Apr-22-2020-01_43_04, rn, emmv@fmrk.com, RGS
+Apr-22-2020-03_34_07, rtrtw, rwtwr@gfg.com, RGS
+Apr-22-2020-03_34_35, rtrtw, rwtwr@gfg.com, RGS
+Apr-22-2020-03_35_51, rtrtw, rwtwr@gfg.com, RGS
+Apr-22-2020-03_38_07, rtrtw, rwtwr@gfg.com, RGS
+Apr-22-2020-03_38_53, rtrtw, rwtwr@gfg.com, RGS
+Apr-22-2020-03_39_17, rtrtw, rwtwr@gfg.com, RGS
+Apr-22-2020-03_40_06, rtrtw, rwtwr@gfg.com, RGS
+Apr-22-2020-03_52_27, rtrtw, rwtwr@gfg.com, RGS
+Apr-22-2020-03_54_56, rtrtw, rwtwr@gfg.com, RGS
+Apr-22-2020-14_38_47, Silvia Vogl, silvia.vogl@bfr.bund.de, RGS
+Apr-22-2020-15_05_24, Silvia Vogl, sil, RGS
+Apr-22-2020-15_09_19, Silvia Vogl, silvia.vogl@bfr.bund.de, RGS
+Apr-22-2020-22_10_20, Eillen Tecle, etecle@ucsd.edu, pnp-1 all genes
+Apr-22-2020-23_06_43, Eillen Tecle, etecle@ucsd.edu, pnp-1 up only
+Apr-23-2020-01_17_11, adfd, fdfs@gfdfa.com, RGS
+Apr-23-2020-01_42_24, Eillen Tecle, etecle@ucsd.edu, 80 IPR genes
+Apr-23-2020-02_34_28, vfsg, gfg@gt.com, RGS
+Apr-23-2020-15_59_24, Amy Walker, amy_walker@mac.com, RGS
+Apr-23-2020-16_00_52, Amy Walker, amy_walker@mac.com, RGS
+Apr-23-2020-18_26_35, Mary Ellenbecker, mary.ellenbecker@mso.umt.edu, RGS
+Apr-23-2020-18_37_57, Mary Ellenbecker, mary.ellenbecker@mso.umt.edu, RGS
+Apr-23-2020-20_25_46, Lauren Booth, lnbooth@stanford.edu, RGS-male-UP
+Apr-23-2020-20_28_12, Lauren Booth, lnbooth@stanford.edu, RGS-hermaphrodite-UP
+Apr-23-2020-21_46_46, Lauren Booth, lnbooth@stanford.edu, 3.1-UP
+Apr-23-2020-21_48_10, Lauren Booth, lnbooth@stanford.edu, 3.1-DOWN
+Apr-23-2020-21_48_53, Lauren Booth, lnbooth@stanford.edu, 7.1-UP
+Apr-23-2020-21_49_55, Lauren Booth, lnbooth@stanford.edu, 7.1-DOWN
+Apr-23-2020-21_51_06, Lauren Booth, lnbooth@stanford.edu, 7.5-UP
+Apr-23-2020-21_52_57, Lauren Booth, lnbooth@stanford.edu, 7.5-DOWN
+Apr-23-2020-23_53_12, Eillen Tecle, etecle@ucsd.edu, RGS
+Apr-24-2020-01_38_39, Eillen , etecle@ucsd.edu, RGS
+Apr-24-2020-01_41_05, Eillen, etecle@ucsd.edu, RGS
+Apr-24-2020-01_51_51, Eillen, etecle@ucsd.edu, RGS
+Apr-24-2020-01_54_21, Eillen, etecle@ucsd.edu, RGS
+Apr-24-2020-19_05_11, Daniel Martinez, dmartimarti@gmail.com, OP50_down
+Apr-24-2020-19_05_55, Daniel Martinez, dmartimarti@gmail.com, OP50_up
+Apr-24-2020-19_06_58, Daniel Martinez, dmartimarti@gmail.com, MG_up
+Apr-24-2020-19_07_38, Daniel Martinez, dmartimarti@gmail.com, MG_down
+Apr-24-2020-19_11_59, Daniel Martinez Martinez, dmartimarti@gmail.com, MG_down
+Apr-24-2020-19_12_21, Daniel Martinez, dmartimarti@gmail.com, MG_up
+Apr-26-2020-00_57_05, Adwait Godbole, adwaitgodbole@gmail.com, RGS
+Apr-26-2020-01_00_52, Adwait Godbole, adwaitgodbole@gmail.com, RGS
+Apr-26-2020-15_48_44, Adwait Godbole, adwaitgodbole@gmail.com, N2 25C up
+Apr-26-2020-15_56_48, Adwait Godbole, adwaitgodbole@gmail.com, N2 25C down
+Apr-26-2020-15_57_49, Nick Burton, nob20@cam.ac.uk, RGS
+Apr-26-2020-16_14_34, Benson Otarigho, OTARIGHO@OHSU.EDU, RGS
+Apr-26-2020-16_18_37, Benson Otarigho, OTARIGHO@OHSU.EDU, RGS
+Apr-26-2020-16_22_22, Benson Otarigho, OTARIGHO@OHSU.EDU, RGS
+Apr-26-2020-17_09_23, Lesley MacNeil, macneil@mcmaster.ca, Enterobacter
+Apr-26-2020-17_58_46, Lesley MacNeil, macneil@mcmaster.ca, RGS
+Apr-27-2020-07_31_13, weizhou, zhouweihkd@163.com, RGS
+Apr-27-2020-15_45_15, George Lemieux, george.lemieux3@gmail.com, 1-reg_0.05
+Apr-27-2020-15_52_11, Isa Ozdemir, isa.ozdemir@unige.ch, RGS
+Apr-28-2020-14_43_36, Charline Roy, charline.roy@univ-lyon1.fr, all class I targets
+Apr-28-2020-14_46_03, Charline Roy, charline.roy@univ-lyon1.fr, detect i
+Apr-28-2020-14_47_24, Charline Roy, charline.roy@univ-lyon1.fr, not detect i
+Apr-28-2020-14_59_40, adi, adityasethi.28@gmail.com, RGS
+Apr-28-2020-19_20_21, Lesley, macneil@mcmaster.ca, RGS
+Apr-28-2020-20_29_17, Mary Ellenbecker, mary.ellenbecker@mso.umt.edu, RGS
+Apr-28-2020-21_00_18, Lauren Booth, lnbooth@stanford.edu, All-WTmale-UP
+Apr-28-2020-21_01_48, Lauren Booth, lnbooth@stanford.edu, All-WTmale-DOWN
+Apr-28-2020-21_17_31, Lauren Booth, lnbooth@stanford.edu, 3.1-UP-no-male-genes
+Apr-28-2020-21_19_20, Lauren Booth, lnbooth@stanford.edu, 3-1-DOWN-no-male-genes
+Apr-28-2020-21_20_08, Lauren Booth, lnbooth@stanford.edu, 3-1-UP-no-male-genes
+Apr-28-2020-21_21_35, Lauren Booth, lnbooth@stanford.edu, 7-1-DOWN-no-male-genes
+Apr-28-2020-21_24_35, Lauren Booth, lnbooth@stanford.edu, 7-1-UP-no-male-genes
+Apr-28-2020-21_26_06, Lauren Booth, lnbooth@stanford.edu, 7-5-DOWN-no-male-genes
+Apr-28-2020-21_27_20, Lauren Booth, lnbooth@stanford.edu, 7-5-UP-no-male-genes
+Apr-29-2020-10_33_05, UMANSHI RAUTELA, umanshi@nii.ac.in, RGS
+Apr-29-2020-23_40_38, Anita, anita_kumar@brown.edu, RGS
+Apr-30-2020-10_26_06, Nick, nburton7@gmail.com, RGS
+Apr-30-2020-10_31_42, Nick, nburton7@gmail.com, RGS
+Apr-30-2020-12_05_32, UMANSHI RAUTELA, umanshi@nii.ac.in, RGS
+Apr-30-2020-14_06_21, UMANSHI RAUTELA, umanshi@nii.ac.in, RGS
+Apr-30-2020-14_52_04, UMANSHI RAUTELA, umanshi@nii.ac.in, RGS
+Apr-30-2020-18_32_18, Tanara V P, tperes@ic.ac.uk, RGS
+Apr-30-2020-18_52_10, Tanara P, tperes@ic.ac.uk, RGS
+Apr-30-2020-18_59_38, Tanara B, tperes@ic.ac.uk, RGS
+Apr-30-2020-22_28_40, Eillen Tecle, etecle@ucsd.edu, pnp-1(jy121) UP
+Apr-30-2020-22_29_55, Daniel Martinez Martinez, dmartimarti@gmail.com, N2_up
+Apr-30-2020-22_30_55, Eillen, etecle@ucsd.edu, pnp-1(jy90) UP
+Apr-30-2020-22_35_29, Daniel Martinez Martinez, dmartimarti@gmail.com, N2_up
+Apr-30-2020-22_38_06, Daniel Martinez Martinez, dmartimarti@gmail.com, N2_up
+May-01-2020-08_56_43, Arnaud Hubstenberger, ahubstenberg@unice.fr, top 200 +
+May-01-2020-09_07_45, Arnaud Hubstenberger, ahubsten@yahoo.fr, top 500
+May-01-2020-09_12_18, Arnaud Hubstenberger, ahubsten@yahoo.fr, depleted 500
+May-01-2020-09_15_51, Arnaud Hubstenberger, ahubsten@yahoo.fr, top 1000
+May-01-2020-11_54_40, Arnaud Hubstenberger, ahubsten@yahoo.fr, RGS
+May-01-2020-11_55_17, Arnaud Hubstenberger, ahubsten@yahoo.fr, p<0,01 FC>0
+May-01-2020-11_56_56, Arnaud Hubstenberger, ahubsten@yahoo.fr, p<0,01 FC>0
+May-01-2020-12_39_11, atikah, atikahabdulgani@gmail.com, RGS
+May-01-2020-12_41_27, atikah, atikahabdulgani@gmail.com, RGS
+May-01-2020-14_29_33, Daniel Martinez, dmartimarti@gmail.com, N2_down
+May-01-2020-14_29_50, Daniel Martinez, dmartimarti@gmail.com, N2_up
+May-01-2020-14_30_37, Daniel Martinez, dmartimarti@gmail.com, skpo_up
+May-01-2020-14_30_49, Daniel Martinez, dmartimarti@gmail.com, skpo_down
+May-01-2020-14_31_57, Daniel Martinez, dmartimarti@gmail.com, OGRF_up
+May-01-2020-14_32_22, Daniel Martinez, dmartimarti@gmail.com, OGRF_down
+May-01-2020-14_33_57, Daniel Martinez Martinez, dmartimarti@gmail.com, OP50_up
+May-01-2020-14_34_09, Daniel Martinez Martinez, dmartimarti@gmail.com, OP50_down
+May-01-2020-19_03_27, Eillen, etecle@ucsd.edu, pals-22(jy3) ALL
+May-01-2020-19_08_10, Eillen , Tecle, pals-22(jy3) UP
+May-01-2020-19_10_22, Eillen, etecle@ucsd.edu, BTZ UP
+May-01-2020-19_12_00, Eillen, etecle@ucsd.edu, 80 IPR genes
+May-01-2020-20_52_36, dfaf, 2dr@fea.com, RGS
+May-02-2020-22_32_48, Patricija van Oosten-Hawle, patricija.hawle@gmail.com, RGS
+May-03-2020-01_26_57, HOU, Marquis_22@163.com, RGS
+May-03-2020-01_40_39, HOU, Marquis_22@163.com, RGS
+May-03-2020-10_38_09, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+May-03-2020-10_39_33, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+May-03-2020-17_57_21, supinder, supinderkr@gmail.com, RGS
+May-03-2020-18_10_57, supinder, supinderkr@gmail.com, RGS
+May-04-2020-20_03_30, Lesley MacNeil, macneil@mcmaster.ca, RGS
+May-04-2020-23_18_20, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+May-04-2020-23_19_07, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+May-04-2020-23_42_11, Katerina Podshivalova, kpodshivalova@gmail.com, isp-1 DE genes
+May-04-2020-23_57_05, Lesley MacNeil, macneil@mcmaster.ca, RGS
+May-04-2020-23_58_51, Katerina Podshivalova, kpodshivalova@gmail.com, isp-1 DE genes
+May-05-2020-00_00_01, Lesley MacNeil, macneil@mcmaster.ca, RGS
+May-05-2020-00_01_37, Lesley MacNeil, macneil@mcmaster.ca, RGS
+May-05-2020-00_05_11, Lesley MacNeil, macneil@mcmaster.ca, RGS
+May-05-2020-00_09_28, Lesley MacNeil, macneil@mcmaster.ca, RGS
+May-05-2020-00_24_23, Lesley MacNeil, macneil@mcmaster.ca, RGS
+May-05-2020-00_26_58, Lesley MacNeil, macneil@mcmaster.ca, RGS
+May-05-2020-00_46_06, Anita, anita_kumar@brown.edu, RGS
+May-05-2020-16_47_46, Lesley, macneil@mcmaster.ca, RGS
+May-05-2020-16_53_15, Lesley, macneil@mcmaster.ca, RGS
+May-05-2020-17_06_50, Lesley, macneil@mcmaster.ca, RGS
+May-05-2020-17_12_59, Lesley, macneil@mcmaster.ca, RGS
+May-05-2020-17_14_51, Lesley, macneil@mcmaster.ca, RGS
+May-05-2020-17_43_40, Lesley, macneil@mcmaster.ca, RGS
+May-05-2020-17_46_49, Lesley, macneil@mcmaster.ca, RGS
+May-05-2020-17_51_17, Lesley, macneil@mcmaster.ca, RGS
+May-05-2020-17_58_24, Lesley, macneil@mcmaster.ca, RGS
+May-05-2020-18_00_43, Lesley, macneil@mcmaster.ca, RGS
+May-05-2020-18_08_18, Lesley, macneil@mcmaster.ca, RGS
+May-05-2020-18_13_26, Lesley, macneil@mcmaster.ca, RGS
+May-05-2020-19_42_58, UMANSHI RAUTELA, umanshi@nii.ac.in, RGS
+May-05-2020-20_43_09, Lesley, macneil@mcmaster.ca, RGS
+May-05-2020-20_52_37, Lesley, macneil@mcmaster.ca, RGS
+May-05-2020-20_54_46, Lesley, macneil@mcmaster.ca, RGS
+May-05-2020-20_58_17, Lesley, macneil@mcmaster.ca, RGS
+May-05-2020-21_02_01, Lesley, macneil@mcmaster.ca, RGS
+May-05-2020-21_03_27, Lesley, macneil@mcmaster.ca, RGS
+May-05-2020-21_09_05, Lesley, macneil@mcmaster.ca, RGS
+May-05-2020-21_10_56, Lesley, macneil@mcmaster.ca, RGS
+May-06-2020-16_18_58, Lauren Booth, lnbooth@stanford.edu, UP-pheromone
+May-06-2020-16_22_11, Lauren Booth, lnbooth@stanford.edu, DOWN-pheromone
+May-06-2020-20_06_29, Peren Coskun, peren.coskun@umassmed.edu, mex-5
+May-06-2020-20_06_40, Francis Amrit Raj Gandhi Das, francisamrit@pitt.edu, RGS
+May-06-2020-20_07_19, Peren Coskun, peren.coskun@umassmed.edu, mex-5
+May-06-2020-20_32_36, Kim Pho, phokb@mcmaster.ca, 1A05 - UP
+May-06-2020-22_37_06, Kim Pho, phokb@mcmaster.ca, 1A05 - UP and repd
+May-06-2020-22_59_30, Kim Pho, phokb@mcmaster.ca, 1A05 - UP and repd
+May-06-2020-23_00_28, Kim Pho, phokb@mcmaster.ca, 1A05 - DOWN and repd
+May-06-2020-23_01_49, Kim Pho, phokb@mcmaster.ca, 1B06 - UP and repd
+May-06-2020-23_03_26, Kim Pho, phokb@mcmaster.ca, 1B06 - DOWN and repd
+May-06-2020-23_04_54, Kim Pho, phokb@mcmaster.ca, B1 - UP and repd
+May-06-2020-23_06_40, Kim Pho, phokb@mcmaster.ca, B1 - DOWN and repd
+May-07-2020-04_27_51, Sneha Dutta, snehadutta@g.harvard.edu, Uniqueowngenes
+May-07-2020-04_30_15, Sneha Dutta, snehadutta@g.harvard.edu, Uniqueowngenes
+May-07-2020-04_32_27, Sneha Dutta, snehadutta@g.harvard.edu, Cluster1
+May-07-2020-04_33_04, Sneha Dutta, snehadutta@g.harvard.edu, Cluster1
+May-07-2020-16_28_07, Francis Amrit Raj Gandhi Das, francisamrit@pitt.edu, RGS
+May-07-2020-21_58_51, Ita, itamai.et@gmail.com, RGS
+May-08-2020-03_31_48, Lesley MacNeil, macneil@mcmaster.ca, RGS
+May-08-2020-11_04_12, BISWAJIT GHOSH, biswaheart@gmail.com, RGS
+May-08-2020-11_35_26, BISWAJIT GHOSH, biswaheart@gmail.com, RGS
+May-08-2020-11_38_09, BISWAJIT GHOSH, biswaheart@gmail.com, RGS
+May-08-2020-13_55_45, Biswajit Ghosh, biswaheart@gmail.com, RGS
+May-08-2020-17_00_01, Sara Hopkins, shopkins6@huskers.unl.edu, RGS
+May-08-2020-17_05_56, Sara Hopkins, shopkins6@huskers.unl.edu, daf2
+May-08-2020-20_20_40, Zhaofa, zhaofaxu@northwestern.edu, RGS
+May-08-2020-20_24_30, z, zhaofaxu@northwestern.edu, RGS
+May-08-2020-20_31_42, z, zhaofaxu@northwestern.edu, RGS
+May-09-2020-12_16_25, Catia Mendes, catia.a.carvalho5@gmail.com, RNA-seq
+May-10-2020-04_56_42, Lesley, MacNeil, RGS
+May-10-2020-04_59_11, Lesley, MacNeil, RGS
+May-10-2020-06_40_41, Roger Pocock, roger.pocock@monash.edu, RGS
+May-10-2020-11_11_40, Elza Heidenreich, eamon@healingsolutions.com, cross-platform
+May-10-2020-11_34_11, Daniel Higgins, daniel.higgins@yahoo.com, cross-platform
+May-10-2020-11_36_16, Daniel Higgins, daniel.higgins@yahoo.com, RGS
+May-10-2020-11_38_51, Mr. Dolly Stark, whetstine.r@icloud.com, payment
+May-10-2020-11_41_11, Nick, nob20@cam.ac.uk, RGS
+May-10-2020-15_30_51, Ms. Jazmyn Mraz, sallieseidel@yahoo.com, New York
+May-10-2020-16_40_54, Amy Walker, amy_walker@mac.com, RGS
+May-10-2020-16_46_46, Amy Walker, amy_walker@mac.com, RGS
+May-10-2020-17_02_36, Amy Walker, amy_walker@mac.com, RGS
+May-10-2020-17_09_25, Amy Walker, amy_walker@mac.com, RGS
+May-11-2020-12_40_25, UMANSHI RAUTELA, umanshi@nii.ac.in, RGS
+May-11-2020-13_29_46, UMANSHI RAUTELA, umanshi@nii.ac.in, RGS
+May-11-2020-14_56_52, Kazuto Kawamura, kk365@cornell.edu, RGS
+May-11-2020-14_57_08, Kazuto Kawamura, kk365@cornell.edu, RGS
+May-11-2020-14_57_32, Kazuto Kawamura, kk365@cornell.edu, RGS
+May-11-2020-16_47_42, Buck Samuel, bucks@bcm.edu, E1vE3-UP
+May-11-2020-16_49_31, Buck Samuel, bucks@bcm.edu, E1vE3-UP
+May-11-2020-17_52_34, Elizabeth, esdean@umich.edu, RGS
+May-11-2020-17_54_59, Buck Samuel, bucks@bcm.edu, E1vE2-UP
+May-11-2020-17_55_48, MARIA EUGENIA GOYA, eugenia.goya@ed.ac.uk, RGS
+May-11-2020-17_56_30, Buck Samuel, bucks@bcm.edu, E1vE2-DOWN
+May-11-2020-17_58_40, Buck Samuel, bucks@bcm.edu, E1vE2-DOWN
+May-11-2020-18_02_46, MARIA EUGENIA GOYA, eugenia.goya@ed.ac.uk, RGS
+May-11-2020-21_56_45, MARIA EUGENIA GOYA, eugenia.goya@ed.ac.uk, RGS
+May-11-2020-23_39_11, Roger Pocock, roger.pocock@monash.edu, RGS
+May-12-2020-00_01_23, Daniel Higgins, daniel.higgins@yahoo.com, RGS
+May-12-2020-00_09_16, Daniel Higgins, daniel.higgins@yahoo.com, RGS
+May-12-2020-00_10_14, Daniel Higgins, daniel.higgins@yahoo.com, RGS
+May-12-2020-00_16_59, Daniel Higgins, daniel.higgins@yahoo.com, RGS
+May-12-2020-01_29_33, Amaresh, amareshbhargav@gmail.com, RGS
+May-12-2020-01_31_30, Amaresh, amareshbhargav@gmail.com, RGS
+May-12-2020-01_33_13, Amaresh, amareshbhargav@gmail.com, RGS
+May-12-2020-06_42_18, Yifei, zhouyifei2013@sibcb.ac.cn, RGS
+May-12-2020-06_43_25, Yifei, zhouyifei2013@sibcb.ac.cn, RGS
+May-12-2020-06_43_35, Yifei, zhouyifei2013@sibcb.ac.cn, RGS
+May-12-2020-06_46_43, Yifei, zhouyifei2013@sibcb.ac.cn, RGS
+May-12-2020-06_49_06, Yifei, zhouyifei2013@sibcb.ac.cn, RGS
+May-12-2020-06_52_45, Yifei, zhouyifei2013@sibcb.ac.cn, RGS
+May-12-2020-06_58_45, Yifei, zhouyifei2013@sibcb.ac.cn, RGS
+May-12-2020-08_54_56, MARIA EUGENIA GOYA, eugenia.goya@ed.ac.uk, RGS
+May-12-2020-10_48_39, ESD, esdean@umich.edu, RGS
+May-12-2020-10_49_13, ESD, esdean@umich.edu, RGS
+May-12-2020-11_25_11, Elizabeth Dean, esdean@umich.edu, fmo2_wormcat
+May-12-2020-11_34_04, Elizabeth Dean, esdean@umich.edu, c9_wormcat
+May-12-2020-17_12_30, Mary Ellenbecker, mary.ellenbecker@mso.umt.edu, RGS
+May-12-2020-17_18_36, Mary Ellenbecker, mary.ellenbecker@mso.umt.edu, RGS
+May-12-2020-17_21_43, Mary, mary.ellenbecker@mso.umt.edu, RGS
+May-12-2020-17_32_49, Mary, mary.ellenbecker@mso.umt.edu, RGS
+May-12-2020-19_41_51, ajay, ajaybhat02@gmail.com, RGS
+May-12-2020-19_55_45, a, a@gmail.com, RGS
+May-12-2020-19_57_04, a, a@gmail.com, RGS
+May-12-2020-19_57_48, ajay, ajaybhat02@gmail.com, RGS
+May-12-2020-20_08_13, a, a@gmail.com, RGS
+May-12-2020-23_38_15, a, a@gmail.com, RGS
+May-13-2020-08_56_23, Yifei, zhouyifei2013@sibcb.ac.cn, RGS
+May-13-2020-08_57_48, Yifei, zhouyifei2013@sibcb.ac.cn, down
+May-13-2020-11_31_23, David, david.meyer@uni-koeln.de, test
+May-13-2020-11_45_53, Yifei, zhouyifei2013@sibcb.ac.cn, up
+May-13-2020-11_56_56, Yifei, zhouyifei2013@sibcb.ac.cn, down
+May-13-2020-12_07_09, Yifei, zhouyifei2013@sibcb.ac.cn, up
+May-13-2020-12_14_21, Yifei, zhouyifei2013@sibcb.ac.cn, up-top50
+May-13-2020-12_15_47, Yifei, zhouyifei2013@sibcb.ac.cn, up-top50
+May-13-2020-19_12_19, SUPI, supinderkr@gmail.com, RGS
+May-13-2020-19_17_09, supi, supinderkr@gmail.com, RGS
+May-13-2020-19_18_00, Christofer Welsh, christofer.welsh@umassmed.edu, RGS
+May-13-2020-19_56_49, Christofer Welsh, christofer.welsh@umassmed.edu, RGS
+May-13-2020-21_23_44, A, a@gmail.com, FMO-2 OE
+May-13-2020-21_25_28, a, A@gmail.com, RGS
+May-13-2020-21_26_32, a, a@gmail.com, FMO-2OE
+May-13-2020-21_27_40, a, a@gmail.com, FMO-2OE
+May-14-2020-10_45_01, UMANSHI RAUTELA, umanshi@nii.ac.in, RGS
+May-14-2020-13_37_10, Christina Bergemann, cmbergemann@gmail.com, RGS
+May-14-2020-13_47_12, Christina Bergemann, cmbergemann@gmail.com, RGS
+May-14-2020-14_56_03, Anita Kumar, anita_kumar@brown.edu, RGS
+May-14-2020-15_45_26, Anita Kumar, anita_kumar@brown.edu, RGS
+May-14-2020-15_47_46, Anita Kumar, anita_kumar@brown.edu, RGS
+May-14-2020-15_49_04, Anita Kumar, anita_kumar@brown.edu, RGS
+May-14-2020-15_50_38, Anita Kumar, anita_kumar@brown.edu, daf-2 downreg
+May-14-2020-15_53_15, Anita Kumar, anita_kumar@brown.edu, isp-1 downreg
+May-14-2020-15_54_19, Anita Kumar, anita_kumar@brown.edu, clk-1 downreg
+May-14-2020-15_55_31, Anita Kumar, anita_kumar@brown.edu, nuo-6 downreg
+May-14-2020-15_56_38, Anita Kumar, anita_kumar@brown.edu, sod-2 downreg
+May-14-2020-15_57_35, Anita Kumar, anita_kumar@brown.edu, xpo-1 downreg
+May-14-2020-16_21_21, Anita Kumar, anita_kumar@brown.edu, eat-2 downreg
+May-14-2020-17_02_15, Paige Rudich, paige.d.rudich@gmail.com, Eat-2 upregulated
+May-14-2020-17_03_18, Christina Bergemann, cmbergemann@gmail.com, RGS
+May-14-2020-17_03_48, Paige Rudich, paige.d.rudich@gmail.com, eat-2 downregulated
+May-14-2020-17_07_10, Christina Bergemann, cmbergemann@gmail.com, RGS
+May-14-2020-17_11_47, Christina Bergemann, cmbergemann@gmail.com, RGS
+May-14-2020-17_13_02, Christina Bergemann, cmbergemann@gmail.com, RGS
+May-14-2020-17_13_24, Kim Pho, phokb@mcmaster.ca, 1A05 all genes
+May-14-2020-17_14_21, Christofer Welsh, christofer.welsh@umassmed.edu, Deng
+May-14-2020-17_15_40, Christina Bergemann, cmbergemann@gmail.com, RGS
+May-14-2020-17_43_47, Christina Bergemann, cmbergemann@gmail.com, RGS
+May-14-2020-19_41_56, Jordan Ward, jward2@ucsc.edu, nhr-23 reg
+May-14-2020-19_44_11, Jordan Ward, jward2@ucsc.edu, spe-44 reg
+May-14-2020-19_51_00, Jordan Ward, jward2@ucsc.edu, spe-44+nhr-23 reg
+May-14-2020-20_25_05, Kim Pho, phokb@mcmaster.ca, RGS
+May-14-2020-20_25_30, Georgette Bradtke, gamesc@smcewells.com, Metical
+May-14-2020-21_11_03, Sarah Emerson, sarah.emerson@yale.edu, RGS 400 s1
+May-14-2020-21_11_25, Sarah Emerson, sarah.emerson@yale.edu, RGS 400 s1
+May-14-2020-21_13_43, Sarah Emerson, sarah.emerson@yale.edu, RGS 400 s1
+May-15-2020-00_14_44, Anita Kumar, anita_kumar@brown.edu, glp-1 downreg
+May-15-2020-04_22_50, Angelina Grimes MD, jillianmiller788@yahoo.com, Ouguiya
+May-15-2020-13_14_06, zhuo, zdu@genetics.ac.cn, RGS
+May-15-2020-14_52_47, zhuo, zdu@genetics.ac.cn, RGS
+May-15-2020-14_54_00, zhuo, zdu@genetics.ac.cn, RGS
+May-15-2020-15_10_55, zhuo, zdu@genetics.ac.cn, RGS
+May-15-2020-15_26_11, Kou Yahui, 282295807@qq.com, RGS
+May-15-2020-15_40_18, Kou Yahui, 282295807@qq.com, RGS
+May-15-2020-23_58_15, zhuo, zhuodu@gmail.com, RGS
+May-15-2020-23_59_12, zhuo, zhuodu@gmail.com, RGS
+May-16-2020-00_00_15, zhuo, zhuodu@gmail.com, RGS
+May-16-2020-00_07_15, zhuo, zhuodu@gmail.com, RGS
+May-16-2020-00_11_05, zhuo, zhuodu@gmail.com, RGS
+May-16-2020-00_54_41, Patrick Allard, pallard@ucla.edu, RGS
+May-16-2020-00_58_50, Patrick Allard, pallard@ucla.edu, RGS
+May-16-2020-04_32_05, Patrick Allard, pallard@ucla.edu, RGS
+May-16-2020-04_32_34, Patrick Allard, pallard@ucla.edu, RGS
+May-16-2020-08_11_40, Eric Jones, eric@talkwithwebvisitor.com, RGS
+May-16-2020-09_45_11, UMANSHI RAUTELA, umanshi@nii.ac.in, RGS
+May-16-2020-13_02_33, UMANSHI RAUTELA, umanshi@nii.ac.in, RGS
+May-16-2020-13_38_09, UMANSHI RAUTELA, umanshi@nii.ac.in, RGS
+May-16-2020-13_41_44, UMANSHI RAUTELA, umanshi@nii.ac.in, RGS
+May-16-2020-17_00_13, Xuhang, Li, RGS
+May-16-2020-19_40_39, UMANSHI RAUTELA, umanshi@nii.ac.in, RGS
+May-16-2020-20_50_46, UMANSHI RAUTELA, umanshi@nii.ac.in, RGS
+May-17-2020-00_10_53, xuhang, li, RGS
+May-17-2020-00_11_03, xuhang, li, RGS
+May-17-2020-00_11_51, xuhang, li, RGS
+May-17-2020-00_12_39, xuhang, li, RGS
+May-17-2020-00_13_04, xuhang, li, RGS
+May-17-2020-00_14_05, xuhang, li, RGS
+May-17-2020-00_14_58, xuhang, li, RGS
+May-17-2020-00_19_16, xuhang, li, RGS
+May-17-2020-00_19_45, xuhang, li, RGS
+May-17-2020-00_20_19, xuhang, li, RGS
+May-17-2020-00_22_29, xuhang, li, RGS
+May-17-2020-00_22_55, xuhang, li, RGS
+May-17-2020-00_23_38, xuhang, li, RGS
+May-17-2020-00_45_17, Elyssa Beahan, ojuky82@yahoo.com, Sleek Wooden Pants
+May-17-2020-04_44_09, xxx, zhangyincong2014@sibcb.ac.cn, RGS
+May-17-2020-04_59_09, xxx, zhangyincong2014@sibcb.ac.cn, RGS
+May-17-2020-05_00_21, xxx, zhangyincong2014@sibcb.ac.cn, RGS
+May-17-2020-05_02_49, xxx, zhangyincong2014@sibcb.ac.cn, RGS
+May-17-2020-05_05_29, xxx, zhangyincong2014@sibcb.ac.cn, RGS
+May-17-2020-05_16_56, xxx, zhangyincong2014@sibcb.ac.cn, RGS
+May-17-2020-05_36_40, xxx, zhangyincong2014@sibcb.ac.cn, RGS
+May-17-2020-18_06_33, Buck Samuel, bucks@bcm.edu, RGS
+May-17-2020-18_06_48, Buck Samuel, bucks@bcm.edu, RGS
+May-17-2020-18_24_15, Xuhang, Li, RGS
+May-17-2020-18_26_40, Xuhang, Li, RGS
+May-17-2020-18_28_02, Xuhang, Li, RGS
+May-17-2020-18_29_38, Xuhang, Li, RGS
+May-17-2020-18_31_17, Xuhang, Li, RGS
+May-17-2020-18_32_44, Xuhang, Li, RGS
+May-18-2020-06_53_08, Arles Urrutia, arles.urrutia@mayor.cl, RGS
+May-18-2020-06_59_18, Arles Urrutia, arles.urrutia@mayor.cl, RGS
+May-18-2020-06_59_55, Arles Urrutia, arles.urrutia@mayor.cl, RGS
+May-18-2020-09_27_17, kouyahui, 282295807@qq.com, RGS
+May-18-2020-09_28_28, kouyahui, 282295807@qq.com, RGS
+May-18-2020-11_17_32, Daniel Higgins, daniel.higgins@yahoo.com, RGS
+May-18-2020-11_27_57, Daniel Higgins, daniel.higgins@yahoo.com, RGS
+May-18-2020-11_54_35, kouyahui, 282295807@qq.com, RGS
+May-18-2020-18_12_24, Lauren Booth, LNBooth@stanford.edu, RGS
+May-18-2020-18_23_04, Christofer Welsh, christofer.welsh@umassmed.edu, RGS
+May-18-2020-18_24_29, Christofer Welsh, christofer.welsh@umassmed.edu, RGS
+May-18-2020-18_24_59, Christofer Welsh, christofer.welsh@umassmed.edu, RGS
+May-18-2020-18_25_32, Christofer Welsh, christofer.welsh@umassmed.edu, RGS
+May-18-2020-19_12_23, Adwait Godbole, adwaitgodbole@gmail.com, glycine supp down
+May-18-2020-19_30_40, Kazuto Kawamura, kk365@cornell.edu, RGS
+May-18-2020-19_31_30, Kazuto Kawamura, kk365@cornell.edu, RGS
+May-18-2020-19_37_16, Kazuto Kawamura, kk365@cornell.edu, RGS
+May-19-2020-02_16_48, xxx, zhangyincong2014@sibcb.ac.cn, RGS
+May-19-2020-02_36_38, xxx, zhangyincong2014@sibcb.ac.cn, RGS
+May-19-2020-02_43_04, xxx, zhangyincong2014@sibcb.ac.cn, RGS
+May-19-2020-02_44_30, xxx, zhangyincong2014@sibcb.ac.cn, RGS
+May-19-2020-03_14_02, Arles Urrutia, arles.urrutia@mayor.cl, RGS
+May-19-2020-03_24_26, Arles Urrutia, arles.urrutia@mayor.cl, RGS
+May-19-2020-04_32_23, Xueqing Wang, wangxueqing2015@sibcb.ac.cn, c down mi
+May-19-2020-05_37_02, Bethany Predovic, cbuchanan10@hotmail.co.uk, Bedfordshire
+May-19-2020-06_21_30, Katelyn Adam, katelynadam1@gmail.com, RGS
+May-19-2020-06_34_55, Katelyn Adam, katelynadam1@gmail.com, RGS <10
+May-19-2020-06_49_28, Katelyn Adam, katelynadam1@gmail.com, RGS <20
+May-19-2020-07_16_45, Kazuto Kawamura, kk365@cornell.edu, RGS
+May-19-2020-07_19_15, Kazuto Kawamura, kk365@cornell.edu, RGS
+May-19-2020-07_22_14, Kazuto Kawamura, kk365@cornell.edu, RGS
+May-19-2020-07_31_26, zhuodu, zdu@genetics.ac.cn, RGS
+May-19-2020-07_42_16, Kazuto Kawamura, kk365@cornell.edu, RGS
+May-19-2020-07_43_27, Kazuto Kawamura, kk365@cornell.edu, RGS
+May-19-2020-07_44_55, Kazuto Kawamura, kk365@cornell.edu, RGS
+May-19-2020-07_49_48, Felicia Lind, ojuky82@yahoo.com, Gorgeous Granite Chips
+May-19-2020-08_39_40, UMANSHI RAUTELA, umanshi@nii.ac.in, RGS
+May-19-2020-09_04_38, Marijke van Wijk, marijke.vanwijk@wur.nl, transband ChrI:2.0-2.5Mb
+May-19-2020-09_05_34, Marijke van Wijk, marijke.vanwijk@wur.nl, transband ChrI:2.0-2.5Mb
+May-19-2020-09_06_08, Marijke van Wijk, marijke.vanwijk@wur.nl, transband ChrI:9.5-10.0Mb
+May-19-2020-09_06_41, Marijke van Wijk, marijke.vanwijk@wur.nl, transband ChrI:9.5-10.0Mb
+May-19-2020-09_07_17, Marijke van Wijk, marijke.vanwijk@wur.nl, transband ChrII:4.5-5.0Mb
+May-19-2020-09_12_03, Marijke van Wijk, marijke.vanwijk@wur.nl, transband ChrII:4.5-5.0Mb
+May-19-2020-09_12_55, Marijke van Wijk, marijke.vanwijk@wur.nl, transband ChrIV:1.0-1.5Mb
+May-19-2020-12_53_17, Sonia Ravanelli, sravanel@uni-koeln.de, test
+May-19-2020-12_59_50, Alejandra Zarate Potes, a.zarate-potes@lancaster.ac.uk, RGS
+May-19-2020-14_18_41, Tulio Campos, tuliocampos@gmail.com, RGS
+May-19-2020-15_22_46, xuhang, li, RGS
+May-19-2020-15_27_45, xuhang, li, RGS
+May-19-2020-15_30_20, xuhang, li, RGS
+May-19-2020-15_32_18, xuhang, li, RGS
+May-19-2020-15_34_31, xuhang, li, RGS
+May-19-2020-15_42_37, Jessica Weckhorst, weckhors@bcm.edu, RGS
+May-19-2020-15_45_46, Sonia Ravanelli, sravanel@uni-koeln.de, CommonProtRna
+May-19-2020-15_45_53, Sonia Ravanelli, sravanel@uni-koeln.de, CommonProtRna
+May-19-2020-15_46_54, Sonia Ravanelli, sravanel@uni-koeln.de, CommonProtRna
+May-19-2020-15_55_07, Sonia Ravanelli, sravanel@uni-koeln.de, RnaSuppressed
+May-19-2020-16_03_39, xuhang, li, RGS
+May-19-2020-16_04_57, xuhang, li, RGS
+May-19-2020-16_06_14, xuhang, li, RGS
+May-19-2020-16_06_48, Jessica Weckhorst, weckhors@bcm.edu, RGS
+May-19-2020-16_07_30, xuhang, li, RGS
+May-19-2020-16_08_55, xuhang, li, RGS
+May-19-2020-16_11_33, xuhang, li, RGS
+May-19-2020-16_13_04, xuhang, li, RGS
+May-19-2020-18_49_13, Katelyn Adam, katelynadam1@gmail.com, RGS Up>20
+May-19-2020-18_52_02, Katelyn Adam, katelynadam1@gmail.com, RGS Up>20
+May-19-2020-18_52_25, Katelyn Adam, katelynadam1@gmail.com, RGS Down>20
+May-19-2020-20_18_06, Katelyn Adam, katelynadam1@gmail.com, RGS Fold Down
+May-19-2020-20_18_46, Katelyn Adam, katelynadam1@gmail.com, RGS Fold Up
+May-19-2020-20_29_23, Alejandra Zarate Potes, a.zarate-potes@lancaster.ac.uk, One_C2,4
+May-19-2020-20_35_00, Alejandra Zarate Potes, a.zarate-potes@lancaster.ac.uk, One_C6,9
+May-19-2020-20_41_59, Alejandra Zarate Potes, a.zarate-potes@lancaster.ac.uk, One_C8,7,5,10
+May-19-2020-20_44_46, Alejandra Zarate Potes, a.zarate-potes@lancaster.ac.uk, One_C8
+May-19-2020-22_13_41, Katelyn Adam, katelynadam1@gmail.com, RGS Down
+May-19-2020-22_14_08, Katelyn Adam, katelynadam1@gmail.com, RGS Down
+May-19-2020-22_15_22, Katelyn Adam, katelynadam1@gmail.com, RGS Up
+May-20-2020-00_32_18, Katerina Podshivalova, kpodshivalova@gmail.com, RGS
+May-20-2020-00_33_51, Katerina Podshivalova, kpodshivalova@gmail.com, RGS
+May-20-2020-01_00_30, Hefei Zhang, Hefei.Zhang@umassmed.edu, RGS
+May-20-2020-02_27_11, Katelyn Adam, katelynadam1@gmail.com, RGS Up
+May-20-2020-02_28_52, Katelyn Adam, katelynadam1@gmail.com, RGS Down
+May-20-2020-02_32_48, Katelyn Adam, katelynadam1@gmail.com, RGS Down
+May-20-2020-02_34_56, Katelyn Adam, katelynadam1@gmail.com, RGS up
+May-20-2020-08_05_52, Katja Dierking, kdierking@zoologie.uni-kiel.de, clec4
+May-20-2020-18_23_00, Lesley, macneil@mcmaster.ca, RGS
+May-20-2020-18_34_43, Sonia, sravanel@uni-koeln.de, Only protein regulation
+May-20-2020-18_35_49, Sonia, sravanel@uni-koeln.de, Only protein regulation
+May-20-2020-18_36_44, Sonia, sravanel@uni-koeln.de, Transcript and Protein
+May-20-2020-19_03_53, Lesley, macneil@mcmaster.ca, RGS
+May-20-2020-19_04_47, Lesley, macneil@mcmaster.ca, RGS
+May-20-2020-19_34_02, Lesley, macneil@mcmaster.ca, RGS
+May-20-2020-23_02_45, gfg, gfg@fsf.com, RGS
+May-20-2020-23_03_29, REARQR, RGE@GGR.COMR, RGS
+May-21-2020-02_47_21, Amaresh, amareshbhargav@gmail.com, RGS
+May-21-2020-15_31_11, cdiot, cedric.diot@umassmed.edu, RGS
+May-21-2020-15_32_30, cdiot, cedric.diot@umassmed.edu, RGS
+May-21-2020-15_32_50, cdiot, cedric.diot@umassmed.edu, RGS
+May-21-2020-15_33_31, cdiot, cedric.diot@umassmed.edu, RGS
+May-21-2020-15_36_52, cdiot, cedric.diot@umassmed.edu, RGS
+May-21-2020-17_02_44, Zeinab Yadegari, zyadegar@gmail.com, RGS
+May-21-2020-17_12_07, Zeinab Yadegari, zyadegar@gmail.com, RGS
+May-21-2020-17_27_34, Hefei Zhang, Hefei.Zhang@umassmed.edu, RGS
+May-21-2020-17_38_54, Hefei Zhang, Hefei.Zhang@umassmed.edu, RGS
+May-21-2020-17_39_13, Hefei Zhang, Hefei.Zhang@umassmed.edu, RGS
+May-21-2020-17_59_06, Hefei Zhang, Hefei.Zhang@umassmed.edu, RGS
+May-21-2020-18_11_40, Hefei Zhang, Hefei.Zhang@umassmed.edu, RGS
+May-21-2020-18_14_59, Terrell Beier III, kohlheidi732@gmail.com, Colombia
+May-21-2020-19_34_45, Zeinab Yadegari, zyadegar@gmail.com, RGS
+May-21-2020-22_57_02, Giovanny Wilderman, veda.sargent@yahoo.com, matrix
+May-22-2020-00_03_01, Hefei Zhang, Hefei.Zhang@umassmed.edu, RGS
+May-22-2020-09_42_35, Sonia, sravanel@uni-koeln.de, RGS
+May-22-2020-09_44_37, Sonia, sravanel@uni-koeln.de, RGS
+May-22-2020-09_45_50, Sonia, sravanel@uni-koeln.de, RGS
+May-22-2020-09_47_11, Sonia, sravanel@uni-koeln.de, RGS
+May-22-2020-09_49_08, Sonia, sravanel@uni-koeln.de, RGS
+May-22-2020-10_23_15, Sonia, sravanel@uni-koeln.de, PROT_ivd_up_bcat_down
+May-22-2020-10_24_45, Sonia, sravanel@uni-koeln.de, PROT_ivd_up_bcat_down
+May-22-2020-10_26_30, Sonia, sravanel@uni-koeln.de, PROT_ivd_down_bcat_up
+May-22-2020-10_26_42, Sonia, sravanel@uni-koeln.de, PROT_ivd_down_bcat_up
+May-22-2020-10_34_58, Sonia, sravanel@uni-koeln.de, PROT_ivd_up_bcat_down
+May-22-2020-13_28_37, Sonia, sravanel@uni-koeln.de, RNA_ivd_up_bcat_down
+May-22-2020-13_29_29, Sonia, sravanel@uni-koeln.de, RNA_ivd_down_bcat_up
+May-22-2020-14_48_23, Lesley MacNeil, macneil@mcmaster.ca, RGS
+May-22-2020-14_52_17, Lesley MacNeil, macneil@mcmaster.ca, RGS
+May-22-2020-14_55_22, Lesley MacNeil, macneil@mcmaster.ca, RGS
+May-22-2020-14_58_50, Lesley MacNeil, macneil@mcmaster.ca, RGS
+May-22-2020-17_19_16, Lesley MacNeil, macneil@mcmaster.ca, RGS
+May-22-2020-17_20_58, Lesley MacNeil, macneil@mcmaster.ca, RGS
+May-22-2020-17_22_16, Lesley MacNeil, macneil@mcmaster.ca, RGS
+May-22-2020-17_23_35, Lesley MacNeil, macneil@mcmaster.ca, RGS
+May-22-2020-17_33_09, Lesley MacNeil, macneil@mcmaster.ca, RGS
+May-22-2020-17_34_47, Lesley MacNeil, macneil@mcmaster.ca, RGS
+May-22-2020-18_54_03, K, kwillicott@crimson.ua.edu, RGS
+May-22-2020-18_54_23, K, kwillicott@crimson.ua.edu, RGS
+May-22-2020-18_55_34, K, kwillicott@crimson.ua.edu, RGS
+May-22-2020-23_00_24, Lesley MacNeil, macneil@mcmaster.ca, RGS
+May-23-2020-01_01_17, Lesley MacNeil, macneil@mcmaster.ca, RGS
+May-23-2020-02_54_44, Lesley MacNeil, macneil@mcmaster.ca, RGS
+May-23-2020-03_28_30, Lesley MacNeil, macneil@mcmaster.ca, RGS
+May-23-2020-03_32_08, Lesley MacNeil, macneil@mcmaster.ca, RGS
+May-23-2020-03_40_42, Lesley MacNeil, macneil@mcmaster.ca, RGS
+May-23-2020-21_18_28, Herm-up, dougp66@mac.com, RGS
+May-24-2020-14_21_10, Mrs. Eugenia Bergnaum, austinchargers@comcast.net, Table
+May-25-2020-17_19_23, Kim Pho, phokb@mcmaster.ca, Tau vs Tau - 1A05 UP
+May-25-2020-17_21_00, Kim Pho, phokb@mcmaster.ca, Tau vs Tau - 1A05 DOWN
+May-25-2020-17_21_58, Kim Pho, phokb@mcmaster.ca, Tau vs Tau - 1B06 UP
+May-25-2020-17_22_39, Kim Pho, phokb@mcmaster.ca, Tau vs Tau - 1B06 DOWN
+May-25-2020-17_23_34, Kim Pho, phokb@mcmaster.ca, Tau vs Tau - B1 UP
+May-25-2020-17_24_16, Kim Pho, phokb@mcmaster.ca, Tau vs Tau - B1 DOWN
+May-25-2020-17_25_23, Kim Pho, phokb@mcmaster.ca, Tau vs Tau - 32D9 UP
+May-25-2020-17_26_44, Kim Pho, phokb@mcmaster.ca, Tau vs Tau - 32D9 DOWN
+May-25-2020-21_36_55, Pam Padilla, pamela.padilla@unt.edu, UpRegVitD
+May-25-2020-23_07_16, Pam Padilla, pamela.padilla@unt.edu, VitD DownRegulated
+May-26-2020-02_47_00, Pam Padilla, pamela.padilla@unt.edu, UpReg Vit D
+May-26-2020-03_47_04, Erick Leffler, wimhartenberg@gmail.com, reboot
+May-26-2020-21_38_21, Mary Ellenbecker, mary.ellenbecker@mso.umt.edu, RGS
+May-26-2020-21_46_17, Mary, mary.ellenbecker@mso.umt.edu, RGS
+May-27-2020-11_52_59, Aditya Sethi, adityasethi.28@gmail.com, RGS
+May-27-2020-11_54_56, Aditya Sethi, adityasethi.28@gmail.com, RGS
+May-27-2020-15_44_48, Kim Pho, phokb@mcmaster.ca, Tau vs N2 OP50 UP
+May-27-2020-15_45_01, Kim Pho, phokb@mcmaster.ca, Tau vs N2 OP50 UP
+May-27-2020-15_46_23, Kim Pho, phokb@mcmaster.ca, Tau vs N2 OP50 DOWN
+May-27-2020-15_54_27, Kim Pho, phokb@mcmaster.ca, Tau vs N2 1A05 UP
+May-27-2020-15_55_19, Kim Pho, phokb@mcmaster.ca, Tau vs N2 1A05 DOWN
+May-27-2020-15_56_41, Kim Pho, phokb@mcmaster.ca, Tau vs N2 1B06 UP
+May-27-2020-15_57_53, Kim Pho, phokb@mcmaster.ca, Tau vs N2 1B06 DOWN
+May-27-2020-15_59_11, Kim Pho, phokb@mcmaster.ca, Tau vs N2 B1 UP
+May-27-2020-16_00_08, Kim Pho, phokb@mcmaster.ca, Tau vs N2 B1 DOWN
+May-27-2020-16_01_42, Kim Pho, phokb@mcmaster.ca, Tau vs N2 32D9 UP
+May-27-2020-16_02_29, Kim Pho, phokb@mcmaster.ca, Tau vs N2 32D9 DOWN
+May-27-2020-16_04_33, K, kwillicott@crimson.ua.edu, RGS
+May-27-2020-16_06_54, Charline Roy, charline.roy@univ-lyon1.fr, unc-120 up D1-D6 L4-D6
+May-27-2020-16_09_33, K, kwillicott@crimson.ua.edu, RGS
+May-27-2020-16_10_25, Charline Roy, charline.roy@univ-lyon1.fr, unc-120 down D1-D6 L4-D6
+May-27-2020-16_17_50, Charline Roy, charline.roy@univ-lyon1.fr, unc-120 up L4-D1
+May-27-2020-16_19_18, Charline Roy, charline.roy@univ-lyon1.fr, unc-120 all increases
+May-27-2020-16_28_16, Charline Roy, charline.roy@univ-lyon1.fr, unc-120 down L4-D1
+May-27-2020-16_29_39, Charline Roy, charline.roy@univ-lyon1.fr, unc-120 all decreases
+May-27-2020-19_59_19, Anita, Kumar, RGS
+May-27-2020-22_20_18, Charline Roy, charline.roy@univ-lyon1.fr, unc-120 up age all decrease WT expressed
+May-27-2020-22_43_49, Eric Jones, eric@talkwithwebvisitor.com, RGS
+May-28-2020-08_32_13, Charline Roy, charline.roy@univ-lyon1.fr, daf-16 I lin-53 dec
+May-28-2020-08_37_29, Charline Roy, charline.roy@univ-lyon1.fr, daf-16 I lin-53 inc
+May-28-2020-08_43_46, Charline Roy, charline.roy@univ-lyon1.fr, daf-16 II lin-53 dec
+May-28-2020-08_47_38, Charline Roy, charline.roy@univ-lyon1.fr, daf-16 II lin-53 inc
+May-28-2020-08_51_19, Charline Roy, charline.roy@univ-lyon1.fr, daf-16 II lin-53 dec
+May-28-2020-18_21_05, Jessica Hartman, jessica.h.hartman@duke.edu, RGS
+May-28-2020-18_21_42, Jessica Hartman, jessica.h.hartman@duke.edu, RGS
+May-28-2020-18_22_27, Jessica Hartman, jessica.h.hartman@duke.edu, RGS
+May-28-2020-18_24_38, Jessica Hartman, jessica.h.hartman@duke.edu, RGS
+May-28-2020-18_27_15, Jessica Hartman, jessica.h.hartman@duke.edu, RGS
+May-28-2020-18_27_36, Jessica Hartman, jessica.h.hartman@duke.edu, RGS
+May-28-2020-18_27_58, Jessica Hartman, jessica.h.hartman@duke.edu, RGS
+May-28-2020-19_46_57, xuihang, li, RGS
+May-28-2020-19_48_58, xuhang, li, RGS
+May-28-2020-19_50_00, xuhang, li, RGS
+May-28-2020-19_50_25, xuhang, li, RGS
+May-28-2020-19_51_18, xuhang, li, RGS
+May-28-2020-20_09_00, Jessica Hartman, jessica.h.hartman@duke.edu, RGS
+May-28-2020-20_11_21, Jessica Hartman, jessica.h.hartman@duke.edu, RGS
+May-29-2020-08_52_25, Moises Lesch, lcchen93@hotmail.com, Buckinghamshire
+May-29-2020-11_48_06, Nicholas Peterson, nicholas.peterson@umassmed.edu, RGS
+May-29-2020-14_23_12, Francis Amrit Raj Gandhi Das, francisamrit@pitt.edu, RGS
+May-29-2020-15_03_50, xuhang, li, RGS
+May-29-2020-15_55_50, xuhang, li, RGS
+May-29-2020-15_56_11, x, xuhang.li@umassmed.edu, RGS
+May-29-2020-16_22_28, x, xuhangli@umass.edu, RGS
+May-29-2020-16_22_48, x, x, RGS
+May-29-2020-16_25_08, x, x, RGS
+May-29-2020-16_26_37, x, x, RGS
+May-29-2020-19_06_49, Chung-Chih Liu, chliu@scripps.edu, RGS
+May-29-2020-19_33_45, Chung-Chih Liu, chliu@scripps.edu, RGS
+May-29-2020-19_42_02, Chung-Chih Liu, chliu@scripps.edu, RGS
+May-30-2020-18_53_25, Manuel A Ruiz, ManuelRuiz2@my.unt.edu, RGS
+May-30-2020-18_56_58, Manuel Ruiz, ManuelRuiz2@my.unt.edu, RGS
+May-31-2020-18_56_22, ajay, aj@gmial.com, RGS
+May-31-2020-18_59_45, ajay, aj@gmial.com, RGS
+May-31-2020-19_14_12, b, b@gmail.com, RGS
+May-31-2020-19_20_36, a, a@gmail.com, Sams-1 DEG
+May-31-2020-19_29_13, a, a@gmail.com, FMO-2OE
+May-31-2020-19_29_45, a, a@gmail.com, FMO-2OE
+May-31-2020-19_34_31, a, aa@gmail.com, RGS
+May-31-2020-21_53_23, Mrs. Scotty Marquardt, kyth79@gmail.com, Associate
+Jun-01-2020-07_05_03, Ms. Crystal Veum, stevemiles1@mac.com, Denmark
+Jun-01-2020-13_30_00, Francis Amrit Raj Gandhi Das, francisamrit@pitt.edu, RGS
+Jun-01-2020-13_39_31, Francis Amrit Raj Gandhi Das, francisamrit@pitt.edu, RGS
+Jun-01-2020-13_40_10, Francis Amrit Raj Gandhi Das, francisamrit@pitt.edu, RGS
+Jun-01-2020-14_50_14, Eric Jones, eric@talkwithwebvisitor.com, RGS
+Jun-01-2020-15_43_03, Francis Amrit Raj Gandhi Das, francisamrit@pitt.edu, RGS
+Jun-01-2020-19_26_03, Jessica Weckhorst, weckhors@bcm.edu, RGS
+Jun-01-2020-19_26_17, Jessica Weckhorst, weckhors@bcm.edu, RGS

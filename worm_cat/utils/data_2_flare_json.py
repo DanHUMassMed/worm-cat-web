@@ -1,0 +1,103 @@
+import pandas as pd
+import json
+import os
+
+
+# def create_flare(dir_nm):
+#     try:
+#         file_nm_in = "./static/dynamic/{}/rgs_and_categories.csv".format(dir_nm)
+#         file_nm_out = "./static/dynamic/{}/flare2.json".format(dir_nm)
+#
+#         nodes_dict = read_rgs_and_categories(file_nm_in)
+#
+#         with open(file_nm_out, 'w') as outputfile:
+#             json.dump(nodes_dict, outputfile, indent=4)
+#     except:
+#         print("Error")
+#         pass
+
+def read_rgs_and_categories(file_nm_in):
+    nodes_dict = {}
+    try:
+        df = pd.read_csv(file_nm_in)
+        node1_list= []
+        nodes_dict = {"name":"rgs", "children":node1_list}
+
+        cat3 = df.groupby(["Category.3"]).count()
+
+        cat3_dict={}
+        for cat3_index, row in cat3.iterrows():
+            count = int(row['Wormbase.ID'])
+            cat3_dict[cat3_index] = count
+
+        for key in cat3_dict:
+            components = key.split(':')
+            size = int(cat3_dict[key])
+            #print("key {} size {}".format(key, size))
+            if len(components) == 1:
+                #print("add to node1 {}".format(components[0]))
+                node1_list.append({"name": components[0].strip(), "size": size})
+            elif len(components) == 2:
+                node_list = getChildrenFor(components[0].strip(),nodes_dict)
+                node_list.append({"name": components[1].strip(), "size": size})
+            else:
+                node_list = getChildrenFor2(components[0].strip(),components[1].strip(),nodes_dict)
+                node_list.append({"name": components[2].strip(), "size": size})
+    except:
+        print("Error")
+        pass
+    return nodes_dict
+
+
+def create_flare(dir_nm):
+    file_nm_sunburst_templet = "./static/dynamic/sunburst.templet"
+    file_nm_sunburst_html = "./static/dynamic/{}/sunburst.html".format(dir_nm)
+    file_nm_rgs_and_categories = "./static/dynamic/{}/rgs_and_categories.csv".format(dir_nm)
+    with open(file_nm_sunburst_templet, "r") as file:
+        data = file.readlines()
+
+    with open(file_nm_sunburst_html, "w") as file:
+        for d in data:
+            file.write(d)
+            if "insert json here" in d:
+                json_data = json.dumps(read_rgs_and_categories(file_nm_rgs_and_categories))
+                json_var = "var json_data = {}".format(json_data)
+                file.write(json_var)
+
+
+
+def getChildrenFor(parent, nodes_dict):
+    children = nodes_dict['children']
+    node_list = None
+    for key in children:
+        if parent == key['name']:
+            if 'children' in key:
+                node_list = key['children']
+            break
+
+    if node_list is None:
+        node_list = []
+        children.append({"name":parent, "children":node_list})
+    return node_list
+
+
+def getChildrenFor2(grand_parent, parent, nodes_dict):
+    children = getChildrenFor(grand_parent, nodes_dict)
+    node_list = None
+    for key in children:
+        if parent == key['name']:
+            if 'children' in key:
+                node_list = key['children']
+            break
+
+    if node_list is None:
+        node_list = []
+        children.append({"name":parent, "children":node_list})
+
+    return node_list
+
+
+
+if __name__ == "__main__":
+    print("starting {}".format(os.getcwd()))
+    create_flare('RGS_Feb-14-2020-11_45_54')

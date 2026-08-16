@@ -1,0 +1,308 @@
+{% extends "layout.html" %}
+{% block body %}
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-153057757-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-153057757-1');
+    </script>
+
+
+    <style>
+        .glyphicon-refresh-animate {
+            -animation: spin .7s infinite linear;
+            -webkit-animation: spin2 .7s infinite linear;
+        }
+
+        @-webkit-keyframes spin2 {
+            from { -webkit-transform: rotate(0deg);}
+            to { -webkit-transform: rotate(360deg);}
+        }
+
+        @keyframes spin {
+            from { transform: scale(1) rotate(0deg);}
+            to { transform: scale(1) rotate(360deg);}
+        }
+
+        .droparea {
+            border-style: dashed;
+            border-width: 1px;
+            border-color: grey;
+            line-height: 50px;
+            text-align: center;
+            margin-bottom: 5px;
+        }
+
+        .droppedarea {
+            border-style: solid;
+            border-width: 1px;
+            border-color: gray;
+            line-height: 50px;
+            text-align: center;
+            margin-bottom: 5px;
+        }
+
+
+
+    </style>
+          <div class="container">
+               <div class="row">
+                   <div class="col col-xs-6">
+                          <form id="create-cat-form" name="create-cat-form" role="form" method="post">
+                            {% if error %}<p class=error><strong>Error:</strong> {{ error }}</p>{% endif %}
+                            {{ form.hidden_tag() }}
+
+
+                              <div class="section-title wow fadeInUp" data-wow-delay="0.4s">
+                                   <h3>Process your Regulated Gene Set with WormCat</h3>
+                              </div>
+
+                              <div class="wow fadeInUp" data-wow-delay="0.8s">
+                                   <div class="col-md-6 col-sm-6">
+                                        <label for="name">Name</label>
+                                       {{ form.name(id="name", class="form-control", placeholder="Full Name", size=20) }}
+                                       {% for error in form.name.errors %}
+                                            <span style="color: red;">{{ error }}</span><br/>
+                                        {% endfor %}
+
+                                   </div>
+
+                                   <div class="col-md-6 col-sm-6">
+                                        <label for="email">Email</label>
+                                       {{ form.email(id="email", class="form-control", placeholder="Your Email", size=20) }}
+                                       {% for error in form.email.errors %}
+                                            <span style="color: red;">{{ error }}</span><br/>
+                                        {% endfor %}
+                                   </div>
+
+                                   <div class="col-md-6 col-sm-6">
+                                       <label for="annotation_type">Annotation Type:</label>
+                                       {{ form.annotation_type(id="annotation_type", class="form-control", value=annotation_type) }}
+                                   </div>
+
+                                   <div class="col-md-6 col-sm-6">
+                                       <label for="input_type">Input Type:</label>
+                                       {{ form.input_type(id="input_type", class="form-control", value=input_type) }}
+                                   </div>
+
+                                   <div class="col-md-12 col-sm-12">
+                                        <label for="title">Search Title</label>
+                                       {{ form.title(id="title", class="form-control", placeholder="RGS", value="RGS", size=40) }}
+                                   </div>
+
+                                   <div class="col-md-12 col-sm-12">
+                                        <label for="rgs">Regulated Gene Set</label>
+                                            <div class=" droparea" id="droparea" style="display:block;" >Drop File Here</div>
+                                            <div class=" droppedarea" id="droppedarea" style="display:none;" >File Successfully Uploaded!</div>
+
+
+                                       {{ form.rgs(id="rgs", class="form-control", placeholder="Or Paste Regulated Gene Set", rows="5") }}
+                                        {% for error in form.rgs.errors %}
+                                            <span style="color: red;">{{ error }}</span><br/>
+                                        {% endfor %}
+
+                                   </div>
+
+                                   <div id="submit_btn" style="display:block;" class="col-md-12 col-sm-12">
+                                       <button type="submit" id="cf-submit" class="form-control btn-primary">Submit</button>
+
+                                   </div>
+                                  <div id="processing" style="display:none;" class="col-md-12 col-sm-12">
+                                      <label class="form-control btn btn-sm btn-warning">
+                                          <span class="glyphicon glyphicon-refresh glyphicon-refresh-animate"></span> Processing...</label>
+                                   </div>
+
+                              </div>
+
+                          </form>
+                   </div>
+                   <div class="col col-xs-6">
+                       <img class="img-responsive" height="300" width="800"  src="../static/images/WormCat-Flow.png" alt="" />
+                   </div>
+               </div>
+
+          </div>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+    <script src="../static/js/fileupload.js"></script>
+
+    <script>
+        $('form').submit(function(){
+          $('#processing').toggle();
+          $('#submit_btn').toggle();
+        return true;
+    });
+    </script>
+
+     <!-- ************************************************************************* -->
+     <!-- NEWS DETAIL -->
+     <div id="usage" class="divider"><span></span><span>Usage</span><span></span></div>
+     <section data-stellar-background-ratio="0.5">
+          <div class="container">
+               <div class="row">
+                    <div class="col-md-8 col-sm-7">
+                         <!-- NEWS THUMB -->
+                         <div class="news-detail-thumb">
+                              <h3>Introduction</h3>
+                              <p>WormCat is a tool for annotating and visualizing gene set enrichment data from <i>C.
+                                   elegans</i> microarray, RNA seq or RNAi screen data.
+
+                              <ul style="margin: 10px 0;">
+                                   <li style="margin: 1px 0;">Three <b>Annotation Types</b> are provided
+                                        <ul style="margin: 1px 0;">
+                                            <li style="margin: 1px 0;"><b><i>Whole Genome</i></b> (1): for microarray or RNA seq data.</li>
+                                             <li style="margin: 1px 0;">And <b><i>Orfeome</i></b> (2) or <b><i>Ahringer</i></b> (3)
+                                                 : These are sub-annotation lists and are available for RNAi screen data.</li>
+                                        </ul>
+                                   </li>
+                                   <li style="margin: 1px 0;">Two <b>Input Types</b> are allowed
+                                        <ul style="margin: 1px 0;">
+                                            <li style="margin: 1px 0;"><b><i>Sequence ID</i></b></li>
+                                            <li style="margin: 1px 0;"><b><i>Wormbase ID</i></b></li>
+                                        </ul>
+                                   </li>
+                                   <li style="margin: 1px 0;">Providing a <b>Search Title</b> will help differentiate results
+                                        over multiple runs and enhances the output report.
+                                   </li>
+                                   <li style="margin: 1px 0;">The <b>Regulated Gene Set</b> data can be loaded either by
+                                        <ul style="margin: 1px 0;">
+                                            <li style="margin: 1px 0;">Dropping a file in the <b><i>Drop File Here</i></b> zone</li>
+                                            <li style="margin: 1px 0;">Or pasting data in the <b><i>Input Box</i></b></li>
+                                        </ul>
+                                   </li>
+                                   <li>Provide us an <b>email</b> and click <b>submit</b>.</li>
+                              </ul>
+
+
+                              </p>
+
+                              <p>A sample file for testing is provided <a href="../static/download/sams-1_up.csv"><u>here</u></a>
+                                   with Wormbase ID's.
+                                  (Note: Make sure to select Wormbase ID as the <b>Input Type</b>.)</p>
+
+                             <h5><u>Output</u></h5>
+                              <p>WormCat will provide enrichment data from the nested annotation list with broad
+                                   categories in Category 1 (Cat1) and more specific categories in Cat2 and Cat3.  For
+                                   example, sbp-1 is in Metabolism: lipid: transcriptional regulator. WormCat output
+                                   provides scaled bubble charts with enrichment scores that meet a Bonferroni false
+                                   discovery rate cut off of 0.01 as SGV files.  The download directory includes CSV
+                                   files on the data used for the graph (e.g. rgs_fisher_cat1_apv.csv) (apv is
+                                   appropriate p value).  We also include CSV files with categories that have at least one
+                                   returned gene and p value from Fisher’s exact test (rgs_fisher_cat1.csv).   The
+                                   rgs_and_category.csv file returns the input gene with annotations.</p>
+
+                             <h5><u>Multiple Runs</u></h5>
+                             <p>Once you are comfortable running Wormcat with a single dataset, you may wish to execute
+                                 Wormcat with multiple datasets. Running with multiple datasets is possible by aggregating
+                                 your datasets into a Microsoft Excel File and dropping the file in the <b><i>Drop File Here</i></b> zone.
+                             </p>
+
+                             <p>
+                                 You can download an Example Microsoft Excel file <a href="../static/download/Murphy_TS.xlsx"><u>here</u></a>
+                                 to confirm the required format. Please take care to follow the naming conventions to avoid processing errors.
+                             </p>
+                             <li style="margin: 1px 0;"><b>Required:</b>
+                                <ul style="margin: 1px 0;">
+                                    <li style="margin: 1px 0;">The Spreadsheet Name should <b><i>ONLY</i></b> be composed
+                                        of Letters, Numbers, and Underscores (_) and has an extension .xlsx, .xlt, .xls</li>
+                                    <li style="margin: 1px 0;">The individual Sheet Names (i.e., Tab name) within the spreadsheet
+                                        should <b><i>ONLY</i></b> be composed of Letters, Numbers, and Underscores (_).</li>
+                                    <li style="margin: 1px 0;">Each Sheet requires a column header which <b><i>MUST</i></b>
+                                        be 'Sequence ID' or 'Wormbase ID' (The column header is case sensitive.)</li>
+                                </ul>
+                             </li>
+
+                            <p>
+                                Below is an image of a correctly formatted Excel File.
+                                <img class="img-responsive" src="../static/images/sample_excel.png" alt="" />
+                            </p>
+                            <h5><u>Local Runs</u></h5>
+                             <p>Frequent users might find it useful to install <a href="https://github.com/dphiggs01/Wormcat">WormCat</a> locally.
+                                 When running locally a Python script is available on <a href="https://github.com/dphiggs01/Wormcat_batch">GitHub</a>
+                                 for batching and running WormCat on multiple gene sets. Additionally when running locally,
+                                 the annotation list may be modified to accommodate user specific preferences.</p>
+                             <p>We have provided a number of <a href="/demos">Videos</a> that users may find useful when installing and running Wormcat Locally.</p>
+
+                         </div>
+                    </div>
+                    <div class="col-md-4 col-sm-5">
+                         <div class="news-sidebar">
+                              <div class="news-author">
+                                  Example Results Screen
+                              </div>
+                                <img class="img-responsive" height="300" width="800"  src="../static/images/results_screen.png" alt="" />
+                         </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-5">
+                         <div class="news-sidebar">
+                              <div class="news-author">
+                                  Example Visualization with Category drill down
+                              </div>
+                                <img class="img-responsive" height="300" width="800"  src="../static/images/sunburst.png" alt="" />
+                         </div>
+                    </div>
+
+                    <div class="col-md-8 col-sm-7">
+                         <!-- NEWS THUMB -->
+                         <div class="news-detail-thumb">
+
+                             <h5><u>Working with WormCat SVG files in Adobe Illustrator</u></h5>
+                              <p>The SVG files have layers that can be removed to allow the text and circles to be
+                                   removed for formation of composite WormCat figures.  </p>
+
+                              <ol>
+                                   <li style="margin: 10px 0;">Open SVG files in Adobe Illustrator
+                                        <ul style="list-style-type:square;margin: 0;">
+                                             <li>If there are a large number of categories or the text is long, the
+                                                  image may appear cropped, the following steps will resolve in this issue
+                                             </li>
+                                             <li>Illustrator may say the formatting of Tiny is lost, say OK
+                                             </li>
+                                        </ul>
+                                   </li>
+                                   <li style="margin: 10px 0;">Select all</li>
+                                   <li style="margin: 10px 0;">Remove clipping mask Object: Clipping Mask: Release.  Do this 2X</li>
+                                   <li style="margin: 10px 0;">Individual text or circles should now be able to be selected by clicking directly on them
+                                   </li>
+                                   <li style="margin: 10px 0;">Open a new illustrator file, copy and paste circles/text</li>
+                                   <li style="margin: 10px 0;">At this point, you can arrange the WormCat graphs as best suits your data.  In
+                                        some cases, it’s best to show all the Cat1 data together.  In othere cases, you
+                                        may want to show a specific enrichment category.  Cat2/Cat3 data can also be
+                                        listed under each Cat1. See
+                                        <a href="https://www.genetics.org/content/214/2/279">
+                                             https://www.genetics.org/content/214/2/279</a> for examples.</li>
+                              </ol>
+
+                         </div>
+                    </div>
+
+               </div>
+          </div>
+     </section>
+     <div id="citation" class="divider"><span></span><span>Citation</span><span></span></div>
+     <section data-stellar-background-ratio="0.5">
+          <div class="container">
+               <div class="row">
+                              <h5>If you use WormCat in a published work please cite:</h5>
+                              <blockquote>
+                                        <b>WormCat: an online tool for annotation and visualization of Caenorhabditis
+                                        elegans genome-scale data</b><br/>
+                                   <font size="-1">Amy D Holdorf, Daniel P Higgins, Anne C. Hart,
+                                        Peter R Boag, Gregory Pazour, Albertha J. M. Walhout, Amy Karol Walker
+                                   </font><br/>
+                                        <a href="https://www.genetics.org/content/214/2/279">GENETICS February 1, 2020 vol. 214 no. 2 279-294;</a>
+                              </blockquote>
+               </div>
+          </div>
+
+     </section>
+     <!-- ************************************************************************* -->
+
+{% endblock %}

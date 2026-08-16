@@ -1,0 +1,23 @@
+Procedure for updating Wormcat annotation_file
+
+1. Create new annotation file using the naming convention annotype_mmm-DD-YYYY.csv
+   For example: straight_jul-18-2018.csv or physiology_jul-15-2018.csv
+
+2. Upload the new file to the Wormcat server using secure copy (scp)
+   scp -i "Tomcat-key.pem" physiology_jul-18-2018.csv ubuntu@34.206.176.170:/home/ubuntu/R/x86_64-pc-linux-gnu-library/3.4/wormcat/extdata/physiology_jul-18-2018.csv
+
+3. Updated "active_annotation_file.json" to match the dates of the desired active annotation files.
+   See email attachment for example file.
+    {
+      "straight":"jul-18-2018",
+      "physiology":"jul-18-2018"
+    }
+
+4. Upload the active_annotation_file.json to Wormcat server using secure copy (scp)
+   scp -i "Tomcat-key.pem" active_annotation_file.json ubuntu@34.206.176.170:/home/ubuntu/Applications/worm-cat-web/worm_cat/static/dynamic/active_annotation_file.json
+
+
+
+
+
+
