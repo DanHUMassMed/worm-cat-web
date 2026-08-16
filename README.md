@@ -14,31 +14,12 @@ To install on EC2 follow the below guidelines:
    * `sudo apt-get -y install python3-venv`
    * `pip3 install --upgrade pip setuptools`
 
-3. Create a virtual environment for our project
-   * `mkdir ~/Applications`
-   * `python3 -m venv Applications/python_envs`
-   * `source ~/Applications/python_envs/bin/activate`
-   * `pip install --upgrade pip`
-   * `pip install wheel`
-   * `pip install flask`
-   * `pip install flask-wtf`
-   * `pip install gunicorn`
-   * `pip install gevent`
-   
-    * `pip install pandas`
-    * `pip install werkzeug==0.16.1`
-    * `pip install celery`
-    * `pip install redis`
-    * `pip install redis-py`
-    * `pip install xlrd`
-    * `pip install xlsxwriter`
-
-4. clone project to the EC2 Instance
-   * `cd ~/Applications`
-   * `cd ~/Applications/worm_cat;kill -9 `cat gunicorn.pid`;cd ..;rm -rf worm_cat ` (If you are upgrading; first remove the old instance of wormcat.)
+3. Set up environment and clone project
+   * `curl -LsSf https://astral.sh/uv/install.sh | sh`
    * `git clone https://github.com/dphiggs01/worm-cat-web.git`
-   * `source ~/Applications/python_envs/bin/activate`
-   * `cd worm_cat;nohup ./run.sh &`
+   * `cd worm-cat-web`
+   * `make install`
+   * `make dev`
 
 5. Check the running web app
    * visit http://xxx.xxx.xxx.xxx:9000/ (run.sh defaults to port 9000)

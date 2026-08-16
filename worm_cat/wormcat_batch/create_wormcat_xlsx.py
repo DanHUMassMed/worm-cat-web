@@ -1,8 +1,7 @@
 import pandas as pd
 import logging
 
-logger = logging.getLogger()
-logger.setLevel(logging.DEBUG)
+logger = logging.getLogger(__name__)
 
 # Create summary category column
 def create_category_summary(data, category_name):
@@ -40,18 +39,17 @@ def significant(x):
 
 
 def process_category_files(files_to_process, annotation_file, out_data_xlsx):
+    logger.info("Processing category summary into Excel file: %s", out_data_xlsx)
     data = pd.read_csv(annotation_file)
-    writer = pd.ExcelWriter("{}".format(out_data_xlsx), engine='xlsxwriter')
     sheets = files_to_process['sheet'].unique()
 
-    for sheet_label in sheets:
-        cat_files = files_to_process[files_to_process['sheet'] == sheet_label]
-        label_category = "Category {}".format(cat_files['category'].iloc[0])
-        category_sheet = create_category_summary(data, label_category)
-        for index, row in cat_files.iterrows():
-            category_sheet = process_category_file_row(row, category_sheet)
+    with pd.ExcelWriter("{}".format(out_data_xlsx), engine='xlsxwriter') as writer:
+        for sheet_label in sheets:
+            cat_files = files_to_process[files_to_process['sheet'] == sheet_label]
+            label_category = "Category {}".format(cat_files['category'].iloc[0])
+            category_sheet = create_category_summary(data, label_category)
+            for index, row in cat_files.iterrows():
+                category_sheet = process_category_file_row(row, category_sheet)
 
-        category_sheet.to_excel(writer, sheet_name=sheet_label, index=False)
-
-    writer.save()
+            category_sheet.to_excel(writer, sheet_name=sheet_label, index=False)
 

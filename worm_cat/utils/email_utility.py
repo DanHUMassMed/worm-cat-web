@@ -8,8 +8,7 @@ from email.mime.multipart import MIMEMultipart
 import logging
 import os
 
-logger = logging.getLogger()
-logger.setLevel(logging.DEBUG)
+logger = logging.getLogger(__name__)
 
 SMTP_SERVER = "smtp.gmail.com"
 SMTP_LOGIN = "wormcat.emailer@gmail.com"
@@ -76,14 +75,14 @@ def send_message(sender, receiver, message):
             server.starttls()
             server.login(SMTP_LOGIN, SMTP_PASSWD)
             server.sendmail(sender, receiver, message)
-    except (gaierror, ConnectionRefusedError):
-        logging.debug("Failed to connect to the server. Bad connection settings?")
-    except smtplib.SMTPServerDisconnected:
-        logging.debug("Failed to connect to the server. Wrong user/password?")
+    except (gaierror, ConnectionRefusedError) as e:
+        logger.error("Failed to connect to SMTP server %s: %s", SMTP_SERVER, e)
+    except smtplib.SMTPServerDisconnected as e:
+        logger.error("SMTP server disconnected. Possible authentication issue: %s", e)
     except smtplib.SMTPException as e:
-        logging.debug("SMTP error occurred: {}".format(str(e)))
+        logger.error("SMTP error occurred: %s", e, exc_info=True)
     else:
-        logging.debug("SMTP sent to: {}".format(receiver))
+        logger.info("Email sent successfully to: %s", receiver)
 
 
 def send_message_ssl(sender, receiver, message):
@@ -93,14 +92,14 @@ def send_message_ssl(sender, receiver, message):
         with smtplib.SMTP_SSL(SMTP_SERVER, port, context=context) as server:
             server.login(SMTP_LOGIN, SMTP_PASSWD)
             server.sendmail(sender, receiver, message)
-    except (gaierror, ConnectionRefusedError):
-        logging.debug("Failed to connect to the server. Bad connection settings?")
-    except smtplib.SMTPServerDisconnected:
-        logging.debug("Failed to connect to the server. Wrong user/password?")
+    except (gaierror, ConnectionRefusedError) as e:
+        logger.error("Failed to connect to SSL SMTP server %s: %s", SMTP_SERVER, e)
+    except smtplib.SMTPServerDisconnected as e:
+        logger.error("SMTP server disconnected. Possible authentication issue: %s", e)
     except smtplib.SMTPException as e:
-        logging.debug("SMTP error occurred: {}".format(str(e)))
+        logger.error("SMTP SSL error occurred: %s", e, exc_info=True)
     else:
-        logging.debug("SMTP sent to: {}".format(receiver))
+        logger.info("Email sent successfully via SSL to: %s", receiver)
 
 
 def main():

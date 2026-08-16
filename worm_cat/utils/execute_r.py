@@ -2,8 +2,7 @@ from subprocess import Popen, PIPE
 import sys
 import logging
 
-logger = logging.getLogger()
-logger.setLevel(logging.DEBUG)
+logger = logging.getLogger(__name__)
 
 class ExecuteR(object):
 
@@ -29,11 +28,10 @@ class ExecuteR(object):
             out = str(out, 'utf-8')
             if not out:
                 out = '{}'
-            sys.stderr.write("run: out={} err={}\n".format(out,err))
+            logger.debug("run output: %s, err: %s", out, err)
             return out
         except Exception as e:
-            sys.stderr.write("ERROR: command line error %s\n" % args)
-            sys.stderr.write("ERROR: %s\n" % e)
+            logger.error("Command line error with args %s: %s", args, e, exc_info=True)
             sys.exit(-1)
 
     def process_args(self, arg_tuple, *args):

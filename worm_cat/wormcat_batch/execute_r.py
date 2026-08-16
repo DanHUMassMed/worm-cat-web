@@ -4,8 +4,7 @@ import os
 import platform
 import logging
 
-logger = logging.getLogger()
-logger.setLevel(logging.DEBUG)
+logger = logging.getLogger(__name__)
 
 class ExecuteR(object):
     wormcat_r = '{}{}worm_cat.R'.format(os.path.dirname(__file__),os.path.sep)
@@ -31,9 +30,14 @@ class ExecuteR(object):
         return ret_val
 
     def worm_cat_fun(self, file_name, out_dir, title="rgs", annotation_file="straight", input_type="Sequence ID"):
-        logging.debug("worm_cat_fun: \n \tfile_name {}\n \tout_dir {}\n \ttitle {}\n \tannotation_file {}\n \tinput_type {}\n".format(
-            file_name,out_dir,title,annotation_file, input_type
-        ))
+        logger.info(
+            "Executing worm_cat: file_name=%s, out_dir=%s, title=%s, annotation_file=%s, input_type=%s",
+            file_name,
+            out_dir,
+            title,
+            annotation_file,
+            input_type,
+        )
         ret_val = self.run(self.worm_cat_function, file_name, title, out_dir, annotation_file, input_type)
         return ret_val
 
@@ -48,7 +52,7 @@ class ExecuteR(object):
             #sys.stderr.write("run: out={} err={}\n".format(out,err))
             return out
         except Exception as e:
-            sys.stderr.write("ERROR: in execute_r {}\n".format(e))
+            logger.error("Error in execute_r: %s", e, exc_info=True)
             if "SoftTimeLimitExceeded()" == str(e):
                 raise
 

@@ -1,0 +1,24 @@
+**/.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+**/checkpoints.db*
+freeze.txt
+**/.env
+
+**/redis/redis-stable/
+
+# Virtual Environments
+.venv/
+.uv/
+*.egg-info/
+
+# Runtime & Logs
+.run/
+logs/
+*.pid
+*.log
+
+**/__pycache__
+*.py[cod]

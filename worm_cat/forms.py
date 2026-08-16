@@ -6,10 +6,7 @@ from wtforms.validators import DataRequired, Regexp, Optional
 from decimal import Decimal
 import re
 import string
-import logging
 
-logger = logging.getLogger()
-logger.setLevel(logging.DEBUG)
 
 class WormCatForm(FlaskForm):
     name = StringField('name', validators=[DataRequired("Name is required.")])

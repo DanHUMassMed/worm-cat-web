@@ -10,8 +10,10 @@ NUM_WORKERS=3
 TIMEOUT=120
 PIDFILE="gunicorn.pid"
 
-if [ -d "/home/ec2-user/Applications/python_envs" ]; then
-    source /home/ec2-user/Applications/python_envs/bin/activate
+if [ -d "../.venv" ]; then
+    source ../.venv/bin/activate
+elif [ -d ".venv" ]; then
+    source .venv/bin/activate
 fi
 
 exec gunicorn worm_cat_app:app \

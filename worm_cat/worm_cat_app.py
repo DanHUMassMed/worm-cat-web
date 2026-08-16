@@ -19,22 +19,39 @@ import random
 import time
 import redis
 
-redis_server = redis.Redis(host='localhost', port=6379, db=0)
+REDIS_HOST = os.environ.get('REDIS_HOST', 'localhost')
+REDIS_PORT = int(os.environ.get('REDIS_PORT', 6379))
+REDIS_DB = int(os.environ.get('REDIS_DB', 1))
 
-logger = logging.getLogger()
-logger.setLevel(logging.DEBUG)
+redis_server = redis.Redis(host=REDIS_HOST, port=REDIS_PORT, db=REDIS_DB)
+
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s [%(levelname)s] %(name)s: %(message)s"
+)
+logger = logging.getLogger(__name__)
 
 app = Flask(__name__)  # create the application instance :)
 app.config.from_object(__name__)  # load config from this file
 
-# Celery configuration
-app.config['CELERY_BROKER_URL'] = 'redis://localhost:6379/0'
-app.config['CELERY_RESULT_BACKEND'] = 'redis://localhost:6379/0'
+# Celery configuration with isolated queue, broker, and key prefix
+app.config['CELERY_BROKER_URL'] = os.environ.get(
+    'CELERY_BROKER_URL', f'redis://{REDIS_HOST}:{REDIS_PORT}/{REDIS_DB}'
+)
+app.config['CELERY_RESULT_BACKEND'] = os.environ.get(
+    'CELERY_RESULT_BACKEND', f'redis://{REDIS_HOST}:{REDIS_PORT}/{REDIS_DB}'
+)
 
 # Initialize Celery
 # Used for batch processing Wormcat
 celery = Celery(app.name, broker=app.config['CELERY_BROKER_URL'])
-celery.conf.update(app.config)
+celery.conf.update(
+    broker_url=app.config['CELERY_BROKER_URL'],
+    result_backend=app.config['CELERY_RESULT_BACKEND'],
+    task_default_queue='wormcat_web',
+    broker_transport_options={'global_keyprefix': 'wormcat_web:'},
+    result_backend_transport_options={'global_keyprefix': 'wormcat_web:'},
+)
 
 BASE_DIR = os.getcwd()
 DYNAMIC_DIR = "./static/dynamic"
@@ -120,7 +137,8 @@ def index():
                 base_name = "{}/{}".format(DOWNLOAD_DIR, dir_nm)
                 make_archive(base_name, 'zip', root_dir=root_dir)
 
-        except:
+        except Exception as e:
+            logger.exception("Error processing WormCat run request: %s", e)
             template_to_render = 'wormcat-error.html'
 
         return render_template(template_to_render,
@@ -201,7 +219,6 @@ def send_file():
 
 # Helper function to test if file extension is excel
 def is_excel_file(file_name):
-    logger.debug("file_name={}".format(file_name))
     is_excel_ext = False
     index_of_dot = file_name.rfind('.')
 
@@ -223,7 +240,11 @@ TASK_SOFT_TIME_LIMIT=500
 @celery.task(time_limit=TASK_TIME_LIMIT, soft_time_limit=TASK_SOFT_TIME_LIMIT)
 def send_async_email(params):
     try:
-        print("send_async_email STARTED  !!!!")
+        logger.info(
+            "Starting async batch email processing for user=%s, annotation_file=%s",
+            params.get('batch_user'),
+            params.get('annotation_file'),
+        )
         dir_nm = run_wormcat_batch(params['batch_user'],
                                    params['annotation_file'],
                                    params['xsl_file_nm'],
@@ -233,12 +254,17 @@ def send_async_email(params):
         base_name = "./static/download/{}".format(dir_nm)
         make_archive(base_name, 'zip', root_dir=root_dir)
         zip_file = "{}.zip".format(base_name)
+
+        if params.get('redis_channel'):
+            redis_message = {'name': 'DONE', 'value': dir_nm}
+            redis_server.lpush(params['redis_channel'], json.dumps(redis_message))
+
         email = params['email']
         if email is not None:
             email_results(params['email'], zip_file)
             os.remove(zip_file)
     except SoftTimeLimitExceeded:
-        print("SoftTimeLimitExceeded  !!!! {} XX".format(BASE_DIR))
+        logger.warning("SoftTimeLimitExceeded during async email processing in base dir: %s", BASE_DIR)
         err_file_nm = "{}/static/dynamic/async_email_timeout.txt".format(BASE_DIR)
         with open(err_file_nm, "a+") as err_file:
             err_file.write(
@@ -250,13 +276,18 @@ def send_async_email(params):
             subject = "Error running Wormcat"
             message = construct_message_with_html(subject, sender, receiver, message_text)
             send_message(sender, receiver, message)
+    except Exception as e:
+        logger.exception("Unexpected error in send_async_email: %s", e)
+        if params.get('redis_channel'):
+            redis_message = {'name': 'ERROR', 'value': str(e)}
+            redis_server.lpush(params['redis_channel'], json.dumps(redis_message))
+        raise
 
 
 @app.route('/batch_process', methods=['GET', 'POST'])
 def batch_process():
     error = None
     ui_data = {}
-    logging.debug("request {}".format(request.form))
     if request.method == 'POST':
         if request.form['submit'] == 'Send Email':
             email = session.pop('email')
@@ -317,6 +348,9 @@ def online_progress(self):
             self.update_state(state='PROGRESS',
                               meta={'current': current, 'total': 100, 'status': message['value']})
             time.sleep(1)
+        elif message['name'] == 'ERROR':
+            done = True
+            raise Exception(message.get('value', 'Batch processing failed'))
     return {'current': 100, 'total': 100, 'status': 'Batch completed!', 'result': download_url}
 
 
@@ -330,7 +364,7 @@ def longtask():
 
     task = online_progress.apply_async()
 
-    logging.debug("TASK_ID type {} value {}".format(type(task.id), task.id))
+    logger.info("Enqueued async batch task with task_id=%s", task.id)
     params = {'email': None, 'batch_user': batch_user, 'annotation_file': annotation_file,
               'xsl_file_nm': xsl_file_nm, 'suffix': suffix, 'redis_channel': task.id}
 

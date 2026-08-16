@@ -1,6 +1,9 @@
-import pandas as pd
 import json
+import logging
 import os
+import pandas as pd
+
+logger = logging.getLogger(__name__)
 
 
 # def create_flare(dir_nm):
@@ -43,9 +46,8 @@ def read_rgs_and_categories(file_nm_in):
             else:
                 node_list = getChildrenFor2(components[0].strip(),components[1].strip(),nodes_dict)
                 node_list.append({"name": components[2].strip(), "size": size})
-    except:
-        print("Error")
-        pass
+    except Exception as e:
+        logger.error("Error reading RGS and categories from %s: %s", file_nm_in, e, exc_info=True)
     return nodes_dict
 
 
@@ -99,5 +101,6 @@ def getChildrenFor2(grand_parent, parent, nodes_dict):
 
 
 if __name__ == "__main__":
-    print("starting {}".format(os.getcwd()))
+    logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(name)s: %(message)s")
+    logger.info("Starting flare generation in %s", os.getcwd())
     create_flare('RGS_Feb-14-2020-11_45_54')

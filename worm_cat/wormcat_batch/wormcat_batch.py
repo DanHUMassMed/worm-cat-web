@@ -7,11 +7,13 @@ import logging
 import redis
 import json
 
-redis_server = redis.Redis(host='localhost', port=6379, db=0)
+REDIS_HOST = os.environ.get('REDIS_HOST', 'localhost')
+REDIS_PORT = int(os.environ.get('REDIS_PORT', 6379))
+REDIS_DB = int(os.environ.get('REDIS_DB', 1))
 
+redis_server = redis.Redis(host=REDIS_HOST, port=REDIS_PORT, db=REDIS_DB)
 
-logger = logging.getLogger()
-logger.setLevel(logging.DEBUG)
+logger = logging.getLogger(__name__)
 
 def get_wormcat_lib():
     executeR = ExecuteR()
@@ -20,9 +22,9 @@ def get_wormcat_lib():
         first_quote=path.find('"')
         last_quote=path.rfind('"')
         if last_quote == -1:
-            logging.debug("Wormcat is not installed or cannot be found.")
+            logger.warning("WormCat library is not installed or cannot be found.")
         path = path[first_quote+1:last_quote]
-    logging.debug("get_wormcat_lib {}".format(path))
+    logger.debug("Resolved WormCat library path: %s", path)
     return path
 
 # Call Wormcat once for each sheet (tab) in the spreadsheet
@@ -49,7 +51,7 @@ def process_spreadsheet(xsl_file_nm, output_dir, annotation_file, redis_channel)
         redis_server.lpush(redis_channel, json.dumps(redis_message))
 
     for sheet in xl.sheet_names:
-        logging.debug(sheet)
+        logger.info("Processing spreadsheet sheet: %s", sheet)
         df = xl.parse(sheet)
         if 'Wormbase ID' in df.columns:
             gene_id_all = df['Wormbase ID']
@@ -58,7 +60,7 @@ def process_spreadsheet(xsl_file_nm, output_dir, annotation_file, redis_channel)
             gene_id_all = df['Sequence ID']
             input_type = 'Sequence.ID'
         else:
-            logging.debug("ERROR: You must provide column names with either 'Sequence ID' or 'Wormbase ID")
+            logger.error("Sheet '%s' missing required ID column ('Sequence ID' or 'Wormbase ID')", sheet)
 
         if redis_channel:
             redis_message = {'name': 'MESSAGE', 'value': 'Processing {} data'.format(sheet)}
@@ -70,23 +72,22 @@ def process_spreadsheet(xsl_file_nm, output_dir, annotation_file, redis_channel)
             call_wormcat(sheet, gene_id_all, output_dir, annotation_file, input_type)
 
     if redis_channel:
-        zip_file_nm = output_dir[output_dir.rfind(os.sep)+1:]
-        redis_message = {'name':'DONE','value':zip_file_nm}
+        redis_message = {'name': 'MESSAGE', 'value': 'Compiling Excel category summaries...'}
         redis_server.lpush(redis_channel, json.dumps(redis_message))
 
     os.chdir(current_working_dir)
 
 
 def files_to_process(output_dir):
-    df_process = pd.DataFrame(columns=['sheet', 'category', 'file','label'])
+    rows = []
     for dir_nm in os.listdir(output_dir):
-        if os.path.isdir(os.path.join(output_dir,dir_nm)):
+        full_dir = os.path.join(output_dir, dir_nm)
+        if os.path.isdir(full_dir):
             for cat_num in [1, 2, 3]:
-                rgs_fisher = "{}{}{}{}rgs_fisher_cat{}.csv".format(output_dir,os.path.sep,dir_nm,os.path.sep,cat_num)
-                cat_nm = "Cat{}".format(cat_num)
-                row = {'sheet': cat_nm, 'category': cat_num, 'file': rgs_fisher,'label': dir_nm}
-                df_process = df_process.append(row, ignore_index=True)
-    return df_process
+                rgs_fisher = os.path.join(output_dir, dir_nm, f"rgs_fisher_cat{cat_num}.csv")
+                cat_nm = f"Cat{cat_num}"
+                rows.append({'sheet': cat_nm, 'category': cat_num, 'file': rgs_fisher, 'label': dir_nm})
+    return pd.DataFrame(rows, columns=['sheet', 'category', 'file', 'label'])
 
 def cleanup_output_dir(output_dir):
     files = [f for f in os.listdir(output_dir) if os.path.isfile(os.path.join(output_dir, f))]
@@ -121,13 +122,15 @@ def run_wormcat_batch(batch_user, annotation_file, xsl_file_nm,
         df_process = files_to_process(output_dir_full_path)
         process_category_files(df_process, annotation_file, out_xsl_file_nm)
         cleanup_output_dir(output_dir_full_path)
-    except (OSError, FileNotFoundError)  as e:
-        logging.debug("Error".format(str(e)))
+    except Exception as e:
+        logger.exception("Error executing WormCat batch processing: %s", e)
+        raise
     return output_dir
 
 
 def main():
-    logging.debug("Wormcat Batch")
+    logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(name)s: %(message)s")
+    logger.info("Starting WormCat Batch execution")
     batch_user="Dan Higgins"
     annotation_file = "whole_genome_jul-03-2019.csv"
     xsl_file_nm = "./static/dynamic/Murphy_TS.xlsx"
