@@ -18,10 +18,13 @@ from werkzeug.utils import secure_filename
 import random
 import time
 import redis
+from dotenv import load_dotenv
 
-REDIS_HOST = os.environ.get('REDIS_HOST', 'localhost')
-REDIS_PORT = int(os.environ.get('REDIS_PORT', 6379))
-REDIS_DB = int(os.environ.get('REDIS_DB', 1))
+load_dotenv()
+
+REDIS_HOST: str = os.getenv('REDIS_HOST', 'localhost')
+REDIS_PORT: int = int(os.getenv('REDIS_PORT', '6379'))
+REDIS_DB: int = int(os.getenv('REDIS_DB', '1'))
 
 redis_server = redis.Redis(host=REDIS_HOST, port=REDIS_PORT, db=REDIS_DB)
 
@@ -53,9 +56,10 @@ celery.conf.update(
     result_backend_transport_options={'global_keyprefix': 'wormcat_web:'},
 )
 
-BASE_DIR = os.getcwd()
-DYNAMIC_DIR = "./static/dynamic"
-DOWNLOAD_DIR = "./static/download"
+BASE_DIR: str = os.getcwd()
+DYNAMIC_DIR: str = os.getenv('DYNAMIC_DIR', './static/dynamic')
+DOWNLOAD_DIR: str = os.getenv('DOWNLOAD_DIR', './static/download')
+SMTP_SENDER_EMAIL: str = os.getenv('SMTP_SENDER_EMAIL', 'wormcat@gmail.com')
 
 
 # =============================================================================== #
@@ -161,8 +165,10 @@ def login():
     form = LoginForm()
     error = None
     if form.validate_on_submit():
-        user_name = decode(KEY, "w5TDnMOEw57DkMOZwpI=")
-        passwd = decode(user_name, "wpTCrsKUw5zDl8OGw6DDlcOYw5XDlcOaw5M=")
+        admin_user_encoded: str = os.getenv("ADMIN_USER_ENCODED", "w5TDnMOEw57DkMOZwpI=")
+        admin_pass_encoded: str = os.getenv("ADMIN_PASS_ENCODED", "wpTCrsKUw5zDl8OGw6DDlcOYw5XDlcOaw5M=")
+        user_name = decode(KEY, admin_user_encoded)
+        passwd = decode(user_name, admin_pass_encoded)
 
         if request.form['user_name'] == user_name and request.form['password'] == passwd:
             session['user'] = {"user_name": user_name}
@@ -234,8 +240,8 @@ def is_excel_file(file_name):
 
 # wormcat-batch.html function update_progress(status_url, status_div, loop_limit)
 # loop_limit must also be in sync with TASK_TIME_LIMIT
-TASK_TIME_LIMIT=510
-TASK_SOFT_TIME_LIMIT=500
+TASK_TIME_LIMIT: int = int(os.getenv("CELERY_TASK_TIME_LIMIT", "510"))
+TASK_SOFT_TIME_LIMIT: int = int(os.getenv("CELERY_TASK_SOFT_TIME_LIMIT", "500"))
 
 @celery.task(time_limit=TASK_TIME_LIMIT, soft_time_limit=TASK_SOFT_TIME_LIMIT)
 def send_async_email(params):
@@ -251,7 +257,7 @@ def send_async_email(params):
                                    redis_channel=params['redis_channel'],
                                    suffix=params['suffix'])
         root_dir = "{}/{}".format(DYNAMIC_DIR, dir_nm)
-        base_name = "./static/download/{}".format(dir_nm)
+        base_name = "{}/{}".format(DOWNLOAD_DIR, dir_nm)
         make_archive(base_name, 'zip', root_dir=root_dir)
         zip_file = "{}.zip".format(base_name)
 
@@ -265,13 +271,13 @@ def send_async_email(params):
             os.remove(zip_file)
     except SoftTimeLimitExceeded:
         logger.warning("SoftTimeLimitExceeded during async email processing in base dir: %s", BASE_DIR)
-        err_file_nm = "{}/static/dynamic/async_email_timeout.txt".format(BASE_DIR)
+        err_file_nm = "{}/async_email_timeout.txt".format(DYNAMIC_DIR)
         with open(err_file_nm, "a+") as err_file:
             err_file.write(
                 "{}, {}, {}\n".format(params['email'], params['xsl_file_nm'], params['redis_channel']))
         receiver = params['email']
         if receiver is not None:
-            sender = "wormcat@gmail.com"
+            sender = SMTP_SENDER_EMAIL
             message_text = "Sorry an Error occurred during processing of your batch file.\nPlease try again later."
             subject = "Error running Wormcat"
             message = construct_message_with_html(subject, sender, receiver, message_text)
@@ -335,7 +341,7 @@ def online_progress(self):
     while not done:
         message = get_message(self.request.id)
         if message['name'] == 'DONE':
-            download_url = "./static/download/{}.zip".format(message['value'])
+            download_url = "{}/{}.zip".format(DOWNLOAD_DIR, message['value'])
             done = True
         elif message['name'] == 'SHEETS':
             current += increment
@@ -427,12 +433,14 @@ def internal_error(error):
     return render_template('500.html'), 500
 
 
-# Load default config and override config from an environment variable
-app.debug = True
+# Load default config and override config from environment variables
+app.debug = os.getenv("FLASK_DEBUG", "True").lower() in ("true", "1", "t")
 app.config.update(dict(
-    SECRET_KEY='secret key',
-    WTF_CSRF_ENABLED=True,
+    SECRET_KEY=os.getenv("FLASK_SECRET_KEY", "secret key"),
+    WTF_CSRF_ENABLED=os.getenv("WTF_CSRF_ENABLED", "True").lower() in ("true", "1", "t"),
 ))
 
 if __name__ == "__main__":
-    app.run(host='0.0.0.0', port=9000)
+    host: str = os.getenv("FLASK_HOST", "0.0.0.0")
+    port: int = int(os.getenv("FLASK_PORT", "9000"))
+    app.run(host=host, port=port)

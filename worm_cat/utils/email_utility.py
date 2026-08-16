@@ -1,26 +1,32 @@
+import logging
+import os
 import smtplib
-from socket import gaierror
-from email.mime.text import MIMEText
 import ssl
 from email import encoders
 from email.mime.base import MIMEBase
 from email.mime.multipart import MIMEMultipart
-import logging
-import os
+from email.mime.text import MIMEText
+from socket import gaierror
+
+from dotenv import load_dotenv
+
+load_dotenv()
 
 logger = logging.getLogger(__name__)
 
-SMTP_SERVER = "smtp.gmail.com"
-SMTP_LOGIN = "wormcat.emailer@gmail.com"
-SMTP_PASSWD = "irimdclrzuytkpja"  # App Password
+SMTP_SERVER: str = os.getenv("SMTP_SERVER", "smtp.gmail.com")
+SMTP_PORT: int = int(os.getenv("SMTP_PORT", 587))
+SMTP_SSL_PORT: int = int(os.getenv("SMTP_SSL_PORT", 465))
+SMTP_LOGIN: str = os.getenv("SMTP_LOGIN", "wormcat.emailer@gmail.com")
+SMTP_PASSWD: str = os.getenv("SMTP_PASSWD", "")
+SMTP_SENDER_EMAIL: str = os.getenv("SMTP_SENDER_EMAIL", "wormcat@gmail.com")
 
 
-def email_results(receiver, the_file):
+def email_results(receiver: str, the_file: str, sender: str = SMTP_SENDER_EMAIL) -> None:
     index_of_sep = the_file.rfind(os.path.sep)
     filename = the_file[index_of_sep + 1:-4]
 
     subject = 'Wormcat Results for {}'.format(filename)
-    sender = "wormcat@gmail.com"
     message_text = """
     Please find attached the results of your run.
 
@@ -67,9 +73,8 @@ def construct_message_with_attachment(subject, sender, receiver, message_text, t
     return the_message.as_string()
 
 
-def send_message(sender, receiver, message):
+def send_message(sender: str, receiver: str, message: str, port: int = SMTP_PORT) -> None:
     try:
-        port = 587
         with smtplib.SMTP(SMTP_SERVER, port) as server:
             server.ehlo()
             server.starttls()
@@ -85,9 +90,8 @@ def send_message(sender, receiver, message):
         logger.info("Email sent successfully to: %s", receiver)
 
 
-def send_message_ssl(sender, receiver, message):
+def send_message_ssl(sender: str, receiver: str, message: str, port: int = SMTP_SSL_PORT) -> None:
     try:
-        port = 465
         context = ssl.create_default_context()
         with smtplib.SMTP_SSL(SMTP_SERVER, port, context=context) as server:
             server.login(SMTP_LOGIN, SMTP_PASSWD)
@@ -102,21 +106,4 @@ def send_message_ssl(sender, receiver, message):
         logger.info("Email sent successfully via SSL to: %s", receiver)
 
 
-def main():
-    sender = "wormcat@gmail.com"
-    receiver = "daniel.higgins@yahoo.com"
-    the_file = "README.md.zip"
-    html = """<html> <body> <p>Hi,<br> Check out our new search engine:</p> 
-    <p><a href="http://google.com">Google</a></p> 
-    <p> Feel free to <strong>let us</strong> know if you like it!</p> </body> </html> """
 
-    message = construct_message_with_html(subject="Hello Subject!",
-                                          sender=sender,
-                                          receiver=receiver,
-                                          message_text="This is a test!!",
-                                          message_html=html)
-    send_message_ssl(sender, receiver, message)
-
-
-if __name__ == "__main__":
-    main()

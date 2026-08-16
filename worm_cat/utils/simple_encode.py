@@ -1,6 +1,10 @@
 import base64
+import os
+from dotenv import load_dotenv
 
-KEY="secret key"
+load_dotenv()
+
+KEY: str = os.getenv("SECURITY_KEY", "secret key")
 def encode(key, clear):
     enc = []
     for i in range(len(clear)):

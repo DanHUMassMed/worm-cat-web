@@ -22,3 +22,5 @@ logs/
 
 **/__pycache__
 *.py[cod]
+
+worm_cat/static/dynamic/Dan_Higgins*

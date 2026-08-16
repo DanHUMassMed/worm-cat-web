@@ -3,32 +3,25 @@ import logging
 import os
 import pandas as pd
 
+from dotenv import load_dotenv
+
+load_dotenv()
+
 logger = logging.getLogger(__name__)
 
+DYNAMIC_DIR: str = os.getenv('DYNAMIC_DIR', './static/dynamic')
 
-# def create_flare(dir_nm):
-#     try:
-#         file_nm_in = "./static/dynamic/{}/rgs_and_categories.csv".format(dir_nm)
-#         file_nm_out = "./static/dynamic/{}/flare2.json".format(dir_nm)
-#
-#         nodes_dict = read_rgs_and_categories(file_nm_in)
-#
-#         with open(file_nm_out, 'w') as outputfile:
-#             json.dump(nodes_dict, outputfile, indent=4)
-#     except:
-#         print("Error")
-#         pass
 
 def read_rgs_and_categories(file_nm_in):
     nodes_dict = {}
     try:
         df = pd.read_csv(file_nm_in)
-        node1_list= []
-        nodes_dict = {"name":"rgs", "children":node1_list}
+        node1_list = []
+        nodes_dict = {"name": "rgs", "children": node1_list}
 
         cat3 = df.groupby(["Category.3"]).count()
 
-        cat3_dict={}
+        cat3_dict = {}
         for cat3_index, row in cat3.iterrows():
             count = int(row['Wormbase.ID'])
             cat3_dict[cat3_index] = count
@@ -36,25 +29,23 @@ def read_rgs_and_categories(file_nm_in):
         for key in cat3_dict:
             components = key.split(':')
             size = int(cat3_dict[key])
-            #print("key {} size {}".format(key, size))
             if len(components) == 1:
-                #print("add to node1 {}".format(components[0]))
                 node1_list.append({"name": components[0].strip(), "size": size})
             elif len(components) == 2:
-                node_list = getChildrenFor(components[0].strip(),nodes_dict)
+                node_list = getChildrenFor(components[0].strip(), nodes_dict)
                 node_list.append({"name": components[1].strip(), "size": size})
             else:
-                node_list = getChildrenFor2(components[0].strip(),components[1].strip(),nodes_dict)
+                node_list = getChildrenFor2(components[0].strip(), components[1].strip(), nodes_dict)
                 node_list.append({"name": components[2].strip(), "size": size})
     except Exception as e:
         logger.error("Error reading RGS and categories from %s: %s", file_nm_in, e, exc_info=True)
     return nodes_dict
 
 
-def create_flare(dir_nm):
-    file_nm_sunburst_templet = "./static/dynamic/sunburst.templet"
-    file_nm_sunburst_html = "./static/dynamic/{}/sunburst.html".format(dir_nm)
-    file_nm_rgs_and_categories = "./static/dynamic/{}/rgs_and_categories.csv".format(dir_nm)
+def create_flare(dir_nm: str) -> None:
+    file_nm_sunburst_templet = f"{DYNAMIC_DIR}/sunburst.templet"
+    file_nm_sunburst_html = f"{DYNAMIC_DIR}/{dir_nm}/sunburst.html"
+    file_nm_rgs_and_categories = f"{DYNAMIC_DIR}/{dir_nm}/rgs_and_categories.csv"
     with open(file_nm_sunburst_templet, "r") as file:
         data = file.readlines()
 

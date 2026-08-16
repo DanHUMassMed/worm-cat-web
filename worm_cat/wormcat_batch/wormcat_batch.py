@@ -97,8 +97,11 @@ def cleanup_output_dir(output_dir):
         if extension in ['.zip', '.csv', '.pdf']:
             os.remove(os.path.join(output_dir, file))
 
+DYNAMIC_DIR: str = os.getenv('DYNAMIC_DIR', './static/dynamic')
+
+
 def run_wormcat_batch(batch_user, annotation_file, xsl_file_nm,
-                      redis_channel=None, suffix=None, output_dir_base="./static/dynamic"):
+                      redis_channel=None, suffix=None, output_dir_base=DYNAMIC_DIR):
     wormcat_r_path = get_wormcat_lib()
     extdata_path = "{}{}extdata".format(wormcat_r_path, os.path.sep)
 
