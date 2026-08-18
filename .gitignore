@@ -23,4 +23,6 @@ logs/
 **/__pycache__
 *.py[cod]
 
-worm_cat/static/dynamic/Dan_Higgins*
+**/dynamic/Dan_Higgins*
+**/dynamic/RGS_*
+**/download/*.zip
